@@ -1,0 +1,37 @@
+19:31:46 (parteklm) (@parteklm-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+19:31:46 (parteklm) (@parteklm-SLOG@) Time: Wed Apr 01 2015 19:31:46 Eastern Daylight Time
+19:31:46 (parteklm) (@parteklm-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:31:46 (parteklm) (@parteklm-SLOG@) 00000047 ms at 17:22:39(4/1/2015),#7,(4528K),(fufaagd,DKPX1R500PC4,276)
+19:31:46 (parteklm) (@parteklm-SLOG@) 00000031 ms at  1:21:07(4/1/2015),#4,(3616K),(mandala2,nidcr30-1896494,548)
+19:31:46 (parteklm) (@parteklm-SLOG@) 00000016 ms at 16:31:36(4/1/2015),#8,(3588K),(mandala2,nidcr30-1896494,548)
+19:31:46 (parteklm) (@parteklm-SLOG@) 00000016 ms at 16:19:43(4/1/2015),#7,(3588K),(schwartzd4,NIAMS01677384M,568)
+19:31:46 (parteklm) (@parteklm-SLOG@) 00000016 ms at 16:05:19(4/1/2015),#8,(3588K),(luichunk,NICHDWBARLAB1,560)
+19:31:46 (parteklm) (@parteklm-SLOG@) 00000016 ms at  2:51:49(4/1/2015),#4,(3616K),(weipingchen,DK8R1A11PC31,560)
+19:31:46 (parteklm) (@parteklm-SLOG@) 00000016 ms at  6:43:37(4/1/2015),#4,(3616K),(mandala2,nidcr30-1896494,548)
+19:31:46 (parteklm) (@parteklm-SLOG@) 00000016 ms at  7:24:50(4/1/2015),#4,(3616K),(weipingchen,DK8R1A11PC31,560)
+19:31:46 (parteklm) (@parteklm-SLOG@) 00000016 ms at 10:01:37(4/1/2015),#4,(3616K),(mandala2,nidcr30-1896494,548)
+19:31:46 (parteklm) (@parteklm-SLOG@) 00000016 ms at 17:18:06(4/1/2015),#7,(3680K),(mandala2,nidcr30-1896494,548)
+19:31:46 (parteklm) (@parteklm-SLOG@)
+19:31:46 (parteklm) (@parteklm-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+19:31:46 (parteklm) (@parteklm-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+19:31:46 (parteklm) (@parteklm-SLOG@) Time: Wed Apr 01 2015 19:31:46 Eastern Daylight Time
+19:31:46 (parteklm) (@parteklm-SLOG@) In-house operation time, when, #concurrent clients
+19:31:46 (parteklm) (@parteklm-SLOG@) 00006365 ms at 23:00:34(4/1/2015),#4,(3680K),(,,0)
+19:31:46 (parteklm) (@parteklm-SLOG@)
+19:31:46 (parteklm) (@parteklm-SLOG@) === Active Connections Info ===
+19:31:46 (parteklm) (@parteklm-SLOG@) Peak active connections #9 attempted at Fri Mar 27 2015 16:17:46 Eastern Daylight Time
+19:31:46 (parteklm) (@parteklm-SLOG@)
+19:31:46 (parteklm) (@parteklm-SLOG@) === Memory Usage Info ===
+19:31:46 (parteklm) (@parteklm-SLOG@) Peak private bytes 4540K attempted at Mon Mar 30 2015 13:16:08 Eastern Daylight Time
+19:31:46 (parteklm) (@parteklm-SLOG@) ===============================================
+21:31:51 (lmgrd) TIMESTAMP 4/1/2015
+22:12:00 (parteklm) OUT: "base" dzutseva@FR-N-S077649
+22:12:00 (parteklm) OUT: "matk" dzutseva@FR-N-S077649
+23:07:10 (parteklm) OUT: "infr" dzutseva@FR-N-S077649
+23:08:22 (parteklm) OUT: "base" dzutseva@FR-N-S077649
+23:08:22 (parteklm) OUT: "matk" dzutseva@FR-N-S077649
+23:09:35 (parteklm) IN: "base" dzutseva@FR-N-S077649
+23:09:35 (parteklm) IN: "infr" dzutseva@FR-N-S077649
+23:09:35 (parteklm) IN: "matk" dzutseva@FR-N-S077649
+ 0:31:30 (parteklm) IN: "base" dzutseva@FR-N-S077649
+ 0:31:30 (parteklm) IN: "matk" dzutseva@FR-N-S077649
