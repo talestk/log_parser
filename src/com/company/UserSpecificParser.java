@@ -50,28 +50,13 @@ public class UserSpecificParser {
 		// 1:32:49 (parteklm) IN: "base" mikamiy@NIAMS01677357M
 		// unfortunately we have to deal with situations like the above where the date changes but we dont get the regular log message
 		if (line.contains("TIMESTAMP") && line.contains("parteklm")) {
-			datePieces = getDatePiecesFromTimeStamp(line);
+			datePieces = ParserHelper.getDatePiecesFromTimeStamp(line);
 		}
 
 		// now we can start parsing
 		if (line.contains("parteklm") && line.contains("base")) {
 			formatDateAndPrintLine(line, registrars, duplicateRegistries, datePieces, writer, lineIndex, allLines);
 		}
-		return datePieces;
-	}
-
-	private static String[] getDatePiecesFromTimeStamp(String line) throws ParseException {
-		String time;
-		String[] datePieces;
-		String[] lineSplit = line.split(" ");
-		String timeStamp = lineSplit[lineSplit.length - 1].trim();
-		Date newDate = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss").parse(timeStamp + " " + lineSplit[0].trim());
-		// new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
-		// Wed Jan 28 09:31:36 CST 2015 <- Date formats this way so we have to convert to the log standards above
-		String[] splitFormattedDate = newDate.toString().split(" ");
-		time = splitFormattedDate[0] + " " + splitFormattedDate[1] + " " + splitFormattedDate[2] + " " +
-				splitFormattedDate[5] + " " + splitFormattedDate[3];
-		datePieces = time.split(" ");
 		return datePieces;
 	}
 

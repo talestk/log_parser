@@ -8,8 +8,24 @@ import java.text.ParseException;
 
 public class DayByDayParserTest {
 	@Test
-	public void testOverallParser() throws IOException, ParseException {
+	public void testOverallParser_log1() throws IOException, ParseException {
 		Main.main(new String[]{"-a", "logfile.log"});
+	}
+
+	@Test
+	public void testOverallParser_log2() throws IOException, ParseException {
+		Main.main(new String[]{"-a", "logfile2.log"});
+	}
+
+	@Test
+	public void testOverallParser_overlapDates() throws IOException, ParseException {
+		Main.main(new String[]{"-a", "logfile_overlapDates.log"});
+	}
+
+	@Test
+	public void testOverallParser_manyFiles() throws IOException, ParseException {
+		// TODO: read many files
+		Main.main(new String[]{"-f", "logfile"});
 	}
 
 	@Test

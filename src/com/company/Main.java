@@ -1,5 +1,6 @@
 package com.company;
 
+import java.io.File;
 import java.io.IOException;
 import java.text.ParseException;
 
@@ -12,7 +13,13 @@ public class Main {
 			System.out.println("<commands>");
 			System.out.println("\t-a\tOverall daily parser, will print a daily resume");
 			System.out.println("\t-u\tUser specific parser, will print a resume based on user usage");
+//			System.out.println("\t-f\tRead all files that starts with the given pattern");
 			return;
+		}
+
+		// TODO: read many files on a single run
+		if (args[0].equals("-f")) {
+			ParserHelper.listFilesForFolder(new File("."), args[1]);
 		}
 
 		if (args[0].equals("-a")) {

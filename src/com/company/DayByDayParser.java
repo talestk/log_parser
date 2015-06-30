@@ -5,6 +5,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -41,7 +44,7 @@ import java.util.List;
  * ============================
  */
 public class DayByDayParser {
-	public static void parse(String filePath) throws IOException {
+	public static void parse(String filePath) throws IOException, ParseException {
 		// initialize variables
 		List<String> allLines = ParserHelper.getAllLinesFromFile(filePath);
 		String currentDay = "";
@@ -54,6 +57,9 @@ public class DayByDayParser {
 
 			writer.write("Date\tCheckout count\tDenied count\n");
 			String time = "";
+			String[] datePieces;
+			Date currentDate = new Date(0);
+			Date newDate;
 			// here we loop through all the lines in the file
 			for (String line : allLines) {
 				line = line.trim();
@@ -61,10 +67,29 @@ public class DayByDayParser {
 
 				if (line.contains("Time:")) {
 					time = line.split("Time:")[1].trim();
-					String[] datePieces = time.split(" ");
+					datePieces = time.split(" ");
 					String weekDay = datePieces[0];
-
-					if (!weekDay.equals(currentDay)) {
+					newDate = new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+							.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
+					if (!weekDay.equals(currentDay) && newDate.getTime() > currentDate.getTime()) {
+						currentDate = new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+								.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
+						currentDay = getNewDay(counterHelper, firstLoop, writer, time, datePieces, weekDay);
+					}
+				}
+				// 23:32:26 (parteklm) (@parteklm-SLOG@) Time: Tue Apr 07 2015 23:32:26 Eastern Daylight Time
+				// 1:17:41 (parteklm) TIMESTAMP 4/8/2015
+				// 1:32:49 (parteklm) IN: "base" mikamiy@NIAMS01677357M
+				// unfortunately we have to deal with situations like the above where the date changes but we dont get the regular log message
+				if (line.contains("TIMESTAMP") && line.contains("parteklm")) {
+					datePieces = ParserHelper.getDatePiecesFromTimeStamp(line);
+					time = ParserHelper.strJoin(datePieces, " ");
+					String weekDay = datePieces[0];
+					newDate = new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+							.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
+					if (!weekDay.equals(currentDay) && newDate.getTime() > currentDate.getTime()) {
+						currentDate = new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+								.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
 						currentDay = getNewDay(counterHelper, firstLoop, writer, time, datePieces, weekDay);
 					}
 				}
