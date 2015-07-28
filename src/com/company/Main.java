@@ -13,20 +13,43 @@ public class Main {
 			System.out.println("<commands>");
 			System.out.println("\t-a\tOverall daily parser, will print a daily resume");
 			System.out.println("\t-u\tUser specific parser, will print a resume based on user usage");
-//			System.out.println("\t-f\tRead all files that starts with the given pattern");
+			System.out.println("\t-fo\tParse output files provided by this program");
+			System.out.println("\t-fa\tRead all files that starts with the given pattern, overall parser");
+			System.out.println("\t-fu\tRead all files that starts with the given pattern, user specific parser");
 			return;
 		}
 
-		// TODO: read many files on a single run
-		if (args[0].equals("-f")) {
-			ParserHelper.listFilesForFolder(new File("."), args[1]);
+		System.out.printf("Starting parse for ");
+		if (args[0].equals("-fa")) {
+			System.out.println("files that starts with: "+args[1]);
+			File tempFile = ParserHelper.concatAllFilesWhichStartsWith(new File("."), args[1]);
+			if (tempFile.exists()) {
+				DayByDayParser.parse(tempFile.getAbsolutePath());
+				tempFile.delete();
+			}
+		}
+
+		if (args[0].equals("-fu")) {
+			System.out.println("files that starts with: "+args[1]);
+			File tempFile = ParserHelper.concatAllFilesWhichStartsWith(new File("."), args[1]);
+			if (tempFile.exists()) {
+				UserSpecificParser.parse(tempFile.getAbsolutePath());
+				tempFile.delete();
+			}
 		}
 
 		if (args[0].equals("-a")) {
+			System.out.println("file: "+args[1]);
 			DayByDayParser.parse(args[1]);
 		}
 
 		if (args[0].equals("-u")) {
+			System.out.println("file: "+args[1]);
+			UserSpecificParser.parse(args[1]);
+		}
+
+		if (args[0].equals("-fo")) {
+			System.out.println("file: "+args[1]);
 			UserSpecificParser.parse(args[1]);
 		}
 

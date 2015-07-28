@@ -1,6 +1,7 @@
 package com.company;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -44,7 +45,10 @@ import java.util.List;
  * ============================
  */
 public class DayByDayParser {
+
 	public static void parse(String filePath) throws IOException, ParseException {
+		System.out.println("Starting overall parser ...");
+
 		// initialize variables
 		List<String> allLines = ParserHelper.getAllLinesFromFile(filePath);
 		String currentDay = "";
@@ -52,31 +56,53 @@ public class DayByDayParser {
 
 		boolean firstLoop = true;
 
+		String outputFileName = "output";
+		// check for file name existence
+		if (new File(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION).exists()) {
+			outputFileName = outputFileName + "_" + System.currentTimeMillis();
+		}
 		try (Writer writer = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream("output.csv"), "utf-8"))) {
+				new FileOutputStream(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION), "utf-8"))) {
 
 			writer.write("Date\tCheckout count\tDenied count\n");
 			String time = "";
 			String[] datePieces;
 			Date currentDate = new Date(0);
-			Date newDate;
+			Date newDate = null;
 			// here we loop through all the lines in the file
 			for (String line : allLines) {
 				line = line.trim();
 				// lets get the date
+				// this case is only if the first log file does not contain any of the other time patterns
+				if (line.contains("(lmgrd) FLEXnet Licensing")) {
+					//12:41:24 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on ors-dlssrv1.ors.nih.gov (IBM PC) (11/7/2014)
+					String[] lineSplit = line.split(" ");
+					String timeStamp = lineSplit[lineSplit.length - 1].trim().replace("(", "").replace(")", "");
+					newDate = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss").parse(timeStamp + " " + lineSplit[0].trim());
+					datePieces = newDate.toString().split(" ");
+					String weekDay = datePieces[0];
+					if (!weekDay.equals(currentDay) && newDate.getTime() > currentDate.getTime()) {
+						time = datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[5] + " " + datePieces[3];
+						currentDate = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN).parse(time);
+						datePieces = time.split(" ");
+						currentDay = getNewDay(counterHelper, firstLoop, writer, time, datePieces, weekDay);
+					}
+				}
 
+				// 23:32:26 (parteklm) (@parteklm-SLOG@) Time: Tue Apr 07 2015 23:32:26 Eastern Daylight Time
 				if (line.contains("Time:")) {
 					time = line.split("Time:")[1].trim();
 					datePieces = time.split(" ");
 					String weekDay = datePieces[0];
-					newDate = new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+					newDate = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 							.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
-					if (!weekDay.equals(currentDay) && newDate.getTime() > currentDate.getTime()) {
-						currentDate = new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+					if (!weekDay.equals(currentDay) && newDate != null && newDate.getTime() > currentDate.getTime()) {
+						currentDate = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 								.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
 						currentDay = getNewDay(counterHelper, firstLoop, writer, time, datePieces, weekDay);
 					}
 				}
+
 				// 23:32:26 (parteklm) (@parteklm-SLOG@) Time: Tue Apr 07 2015 23:32:26 Eastern Daylight Time
 				// 1:17:41 (parteklm) TIMESTAMP 4/8/2015
 				// 1:32:49 (parteklm) IN: "base" mikamiy@NIAMS01677357M
@@ -85,17 +111,17 @@ public class DayByDayParser {
 					datePieces = ParserHelper.getDatePiecesFromTimeStamp(line);
 					time = ParserHelper.strJoin(datePieces, " ");
 					String weekDay = datePieces[0];
-					newDate = new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+					newDate = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 							.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
 					if (!weekDay.equals(currentDay) && newDate.getTime() > currentDate.getTime()) {
-						currentDate = new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+						currentDate = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 								.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
 						currentDay = getNewDay(counterHelper, firstLoop, writer, time, datePieces, weekDay);
 					}
 				}
 
 				// if it is from the license we want we start counting the features checked out and denied
-				if (line.contains("parteklm") && line.contains("base")) {
+				if (line.contains("parteklm") && line.contains("base") && newDate != null && newDate.getTime() > currentDate.getTime()) {
 					firstLoop = featureLineFound(counterHelper, time, line);
 				}
 			}
@@ -106,6 +132,7 @@ public class DayByDayParser {
 		ParserHelper.printResume(counterHelper.getWeekDaysOnLog(), counterHelper.getCheckoutCountTotal(),
 				counterHelper.getDeniedCountTotal(), counterHelper.getWeekendCheckOuts(),
 				counterHelper.getWeekendDenies(), counterHelper.getWeekendDaysOnLog());
+		System.out.println("Done!");
 	}
 
 	private static boolean featureLineFound(CounterHelper counterHelper, String time, String line) {

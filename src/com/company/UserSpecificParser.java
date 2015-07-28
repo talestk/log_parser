@@ -13,33 +13,45 @@ import java.util.Date;
 import java.util.List;
 
 public class UserSpecificParser {
-	private static int LINE_COUNTER_LIMIT = 0;
 
 	public static void parse(String filePath) throws IOException, ParseException {
+		System.out.println("Starting user specific parser ...");
 		List<String> allLines = ParserHelper.getAllLinesFromFile(filePath);
-		String outputFileName = "output.csv";
+		String outputFileName = "output";
 		// check for file name existence
-		if (new File(outputFileName).exists()) {
+		if (new File(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION).exists()) {
 			outputFileName = outputFileName + "_" + System.currentTimeMillis();
 		}
 		try (Writer writer = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream(outputFileName), "utf-8"))) {
+				new FileOutputStream(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION), "utf-8"))) {
 			String[] datePieces = {};
 			writer.write("Date\tUser\tTime using license\n");
 			List<LicenseRegistrar> registrars = new ArrayList<>();
 			List<LicenseRegistrar> duplicateRegistry = new ArrayList<>();
 			// here we loop through all the lines in the file
 			for (String line : allLines) {
-				datePieces = parseLine(writer, datePieces, registrars, duplicateRegistry, line, allLines.indexOf(line)-1, allLines);
+				datePieces = parseLine(writer, datePieces, registrars, duplicateRegistry, line);
 			}
 		}
+		System.out.println("Done!");
 	}
 
 	private static String[] parseLine(Writer writer, String[] datePieces, List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries,
-									  String line, int lineIndex, List<String> allLines) throws ParseException, IOException {
+									  String line) throws ParseException, IOException {
 		String time;
 		line = line.trim();
 		// lets get the date
+		// this case is only if the first log file does not contain any of the other time patterns
+		if (line.contains("(lmgrd) FLEXnet Licensing")) {
+			//12:41:24 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on ors-dlssrv1.ors.nih.gov (IBM PC) (11/7/2014)
+			String[] lineSplit = line.split(" ");
+			String timeStamp = lineSplit[lineSplit.length - 1].trim().replace("(", "").replace(")", "");
+			Date newDate = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss").parse(timeStamp + " " + lineSplit[0].trim());
+			datePieces = newDate.toString().split(" ");
+			time = datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[5] + " " + datePieces[3];
+			datePieces = time.split(" ");
+		}
+
 		// 23:32:37 (parteklm) (@parteklm-SLOG@) Time: Sat Apr 11 2015 23:32:37 Eastern Daylight Time
 		if (line.contains("Time:")) {
 			time = line.split("Time:")[1].trim();
@@ -55,36 +67,41 @@ public class UserSpecificParser {
 
 		// now we can start parsing
 		if (line.contains("parteklm") && line.contains("base")) {
-			formatDateAndPrintLine(line, registrars, duplicateRegistries, datePieces, writer, lineIndex, allLines);
+			formatDateAndPrintLine(line, registrars, duplicateRegistries, datePieces, writer);
 		}
 		return datePieces;
 	}
 
 	private static void formatDateAndPrintLine(String line, List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries,
-											   String[] datePieces, Writer writer, int lineIndex, List<String> allLines) throws ParseException, IOException {
+											   String[] datePieces, Writer writer) throws ParseException, IOException {
 		String[] wordsInLine = line.split(" ");
 		if (line.contains("OUT:")) {
 			addCheckOutToRegistry(registrars, duplicateRegistries, datePieces, wordsInLine);
 		}
 		if (line.contains("IN:")) {
-			removeRegistry(line, registrars, duplicateRegistries, datePieces, writer, lineIndex, allLines, wordsInLine);
+			removeRegistry(registrars, duplicateRegistries, datePieces, writer, wordsInLine);
 		}
 	}
 
-	private static void removeRegistry(String line, List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries,
-									   String[] datePieces, Writer writer, int lineIndex, List<String> allLines, String[] wordsInLine) throws ParseException, IOException {
-		String[] userHost = wordsInLine[wordsInLine.length - 1].split("@");
-		Date dateCheckIn = new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+	private static void removeRegistry(List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries,
+									   String[] datePieces, Writer writer, String[] wordsInLine) throws ParseException, IOException {
+		String lastWord = wordsInLine[wordsInLine.length - 1];
+		if (!lastWord.contains("@")) {
+			//  6:20:35 (parteklm) IN: "base" weipingchen@DK8R1A11PC31  (SHUTDOWN)
+			lastWord = wordsInLine[wordsInLine.length - 3];
+		}
+		String[] userHost = lastWord.split("@");
+		Date dateCheckIn = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 				.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + wordsInLine[0] + "\t");
 		LicenseRegistrar newCheckIn = new LicenseRegistrar(dateCheckIn, userHost[0], userHost[1]);
 		if (duplicateRegistries.contains(newCheckIn)) {
 			duplicateRegistries.remove(newCheckIn);
 		} else if (registrars.contains(newCheckIn)) {
-			removeFromRegistry(line, registrars, duplicateRegistries, datePieces, writer, lineIndex, allLines, userHost[0], newCheckIn);
+			removeFromRegistry(registrars, datePieces, writer, userHost[0], newCheckIn);
 		}
 	}
 
-	private static void removeFromRegistry(String line, List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries, String[] datePieces, Writer writer, int lineIndex, List<String> allLines, String user, LicenseRegistrar newCheckIn) throws IOException, ParseException {
+	private static void removeFromRegistry(List<LicenseRegistrar> registrars, String[] datePieces, Writer writer, String user, LicenseRegistrar newCheckIn) throws IOException, ParseException {
 		writer.write(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + "\t");
 		writer.write(user + "\t");
 		long total = newCheckIn.getCheckOutTime().getTime() - registrars.get(registrars.indexOf(newCheckIn)).getCheckOutTime().getTime();
@@ -99,7 +116,7 @@ public class UserSpecificParser {
 	private static void addCheckOutToRegistry(List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries, String[] datePieces, String[] wordsInLine) throws ParseException {
 		// we separate the user from the host tales@superPC
 		String[] userHost = wordsInLine[wordsInLine.length - 1].split("@");
-		Date dateCheckOut = new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+		Date dateCheckOut = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 				.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + wordsInLine[0]);
 		LicenseRegistrar newRegistry = new LicenseRegistrar(dateCheckOut, userHost[0], userHost[1]);
 		checkForDuplicateEntry(registrars, duplicateRegistries, newRegistry);

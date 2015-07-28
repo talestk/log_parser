@@ -23,9 +23,13 @@ public class DayByDayParserTest {
 	}
 
 	@Test
-	public void testOverallParser_manyFiles() throws IOException, ParseException {
-		// TODO: read many files
-		Main.main(new String[]{"-f", "logfile"});
+	public void testOverallParser_manyFiles_overall() throws IOException, ParseException {
+		Main.main(new String[]{"-fa", "logfile"});
+	}
+
+	@Test
+	public void testOverallParser_manyFiles_userSpecific() throws IOException, ParseException {
+		Main.main(new String[]{"-fu", "logfile"});
 	}
 
 	@Test

@@ -3,7 +3,9 @@ package com.company;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.nio.file.StandardOpenOption;
 import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -12,6 +14,8 @@ import java.util.Date;
 import java.util.List;
 
 public class ParserHelper {
+	public static final String OUTPUT_FILE_EXTENSION = ".csv";
+	public static final String DATE_AND_TIME_PATTERN = "E MMM dd yyyy HH:mm:ss";
 
 	public static List<String> getAllLinesFromFile(String arg) {
 		File logFile = new File(arg);
@@ -50,12 +54,20 @@ public class ParserHelper {
 		System.out.println("============================");
 	}
 
-	public static void listFilesForFolder(final File folder, String filenamePattern) {
-		for (final File fileEntry : folder.listFiles()) {
+	public static File concatAllFilesWhichStartsWith(final File folder, String filenamePattern) throws IOException {
+		System.out.println("Concatenating and parsing all files...");
+		File[] allFolderFiles = folder.listFiles();
+		assert allFolderFiles != null;
+		Charset charset = StandardCharsets.UTF_8;
+		List<String> allContent = new ArrayList<>();
+		File tempFile = new File("tempFile"+System.currentTimeMillis());
+		for (final File fileEntry : allFolderFiles) {
 			if (fileEntry.getName().startsWith(filenamePattern)) {
-				System.out.println(fileEntry.getName());
+				allContent.addAll(Files.readAllLines(fileEntry.toPath(), charset));
 			}
 		}
+		Files.write(tempFile.toPath(), allContent, charset, StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+		return tempFile;
 	}
 
 	// http://stackoverflow.com/questions/1978933/a-quick-and-easy-way-to-join-array-elements-with-a-separator-the-opposite-of-sp
