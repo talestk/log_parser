@@ -33,9 +33,19 @@ public class ParserHelper {
 		return allLines;
 	}
 
-	public static void printResume(int weekDaysOnLog, int checkoutCountTotal, int deniedCountTotal, int weekendCheckOuts, int weekendDenies, int weekendDaysOnLog) {
+	public static void printResume(CounterHelper counterHelper) {
+
+		int weekDaysOnLog = counterHelper.weekDaysOnLog.get();
 		if (weekDaysOnLog == 0) { weekDaysOnLog = 1; }
+		int weekendDaysOnLog = counterHelper.weekendDaysOnLog.get();
 		if (weekendDaysOnLog == 0) { weekendDaysOnLog = 1; }
+		int checkoutCountTotal = counterHelper.checkoutCountTotal.get();
+		int deniedCountTotal = counterHelper.deniedCountTotal.get();
+		int weekendCheckOuts = counterHelper.weekendCheckOuts.get();
+		int weekendDenies = counterHelper.weekendDenies.get();
+		int weekDaysLicenseChecked = counterHelper.weekDaysLicenseChecked.get();
+		int weekendDaysLicenseChecked = counterHelper.weekendDaysLicenseChecked.get();
+
 		System.out.println("========== Totals ==========");
 		System.out.println(" weekday checkouts: " + checkoutCountTotal);
 		System.out.println(" weekday denies: " + deniedCountTotal);
@@ -44,13 +54,14 @@ public class ParserHelper {
 		System.out.println(" weekend denies: " + weekendDenies);
 		System.out.println(" weekend days: " + weekendDaysOnLog);
 		System.out.println(" days on log: " + (weekDaysOnLog + weekendDaysOnLog));
+		System.out.println(" days that licenses were used: " + (weekDaysLicenseChecked + weekendDaysLicenseChecked));
 		System.out.println("============================");
 		DecimalFormat df = new DecimalFormat("0.0");
 		System.out.println("========= Averages =========");
-		System.out.println(" weekday checkouts: " + df.format(Float.valueOf(checkoutCountTotal) / weekDaysOnLog));
-		System.out.println(" weekday denied: " + df.format(Float.valueOf(deniedCountTotal)	 / weekDaysOnLog));
-		System.out.println(" weekend checkouts: " + df.format(Float.valueOf(weekendCheckOuts) / weekendDaysOnLog));
-		System.out.println(" weekend denies: " + df.format(Float.valueOf(weekendDenies) / weekendDaysOnLog));
+		System.out.println(" weekday checkouts: " + df.format((float) checkoutCountTotal / weekDaysLicenseChecked));
+		System.out.println(" weekday denied: " + df.format((float) deniedCountTotal / weekDaysOnLog));
+		System.out.println(" weekend checkouts: " + df.format((float) weekendCheckOuts / weekendDaysLicenseChecked));
+		System.out.println(" weekend denies: " + df.format((float) weekendDenies / weekendDaysOnLog));
 		System.out.println("============================");
 	}
 

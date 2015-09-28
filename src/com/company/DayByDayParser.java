@@ -69,6 +69,8 @@ public class DayByDayParser {
 			String[] datePieces;
 			Date currentDate = new Date(0);
 			Date newDate = null;
+			boolean isNewDay = false;
+
 			// here we loop through all the lines in the file
 			for (String line : allLines) {
 				line = line.trim();
@@ -86,6 +88,7 @@ public class DayByDayParser {
 						currentDate = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN).parse(time);
 						datePieces = time.split(" ");
 						currentDay = getNewDay(counterHelper, firstLoop, writer, time, datePieces, weekDay);
+						isNewDay = true;
 					}
 				}
 
@@ -100,6 +103,7 @@ public class DayByDayParser {
 						currentDate = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 								.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
 						currentDay = getNewDay(counterHelper, firstLoop, writer, time, datePieces, weekDay);
+						isNewDay = true;
 					}
 				}
 
@@ -117,43 +121,54 @@ public class DayByDayParser {
 						currentDate = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 								.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
 						currentDay = getNewDay(counterHelper, firstLoop, writer, time, datePieces, weekDay);
+						isNewDay = true;
 					}
 				}
 
 				// if it is from the license we want we start counting the features checked out and denied
 				if (line.contains("parteklm") && line.contains("base") && newDate != null && newDate.getTime() > currentDate.getTime()) {
+					isNewDay = incrementCountersForNewDay(counterHelper, time, isNewDay);
 					firstLoop = featureLineFound(counterHelper, time, line);
 				}
 			}
 			// last print of the counts
-			writer.write("\t" + counterHelper.getCheckoutCount() + "\t" + counterHelper.getDeniedCount() + "\n");
+			writer.write("\t" + counterHelper.checkoutCount.get() + "\t" + counterHelper.deniedCount.get() + "\n");
 		}
 
-		ParserHelper.printResume(counterHelper.getWeekDaysOnLog(), counterHelper.getCheckoutCountTotal(),
-				counterHelper.getDeniedCountTotal(), counterHelper.getWeekendCheckOuts(),
-				counterHelper.getWeekendDenies(), counterHelper.getWeekendDaysOnLog());
+		ParserHelper.printResume(counterHelper);
 		System.out.println("Done!");
+	}
+
+	private static boolean incrementCountersForNewDay(CounterHelper counterHelper, String time, boolean isNewDay) {
+		if (isNewDay) {
+			if (time.startsWith("Sat") || time.startsWith("Sun")) {
+				counterHelper.weekendDaysLicenseChecked.incrementAndGet();
+			} else {
+				counterHelper.weekDaysLicenseChecked.incrementAndGet();
+			}
+		}
+		return false;
 	}
 
 	private static boolean featureLineFound(CounterHelper counterHelper, String time, String line) {
 		// here we separate weekends from weekdays
 		if (time.startsWith("Sat") || time.startsWith("Sun")) {
 			if (line.contains("OUT:")) {
-				counterHelper.incrementCheckoutCount();
-				counterHelper.incrementWeekendCheckOuts();
+				counterHelper.checkoutCount.incrementAndGet();
+				counterHelper.weekendCheckOuts.incrementAndGet();
 			}
 			if (line.contains("DENIED:")) {
-				counterHelper.incrementDeniedCount();
-				counterHelper.incrementWeekendDenies();
+				counterHelper.deniedCount.incrementAndGet();
+				counterHelper.weekendDenies.incrementAndGet();
 			}
 		} else {
 			if (line.contains("OUT:")) {
-				counterHelper.incrementCheckoutCount();
-				counterHelper.incrementCheckoutCountTotal();
+				counterHelper.checkoutCount.incrementAndGet();
+				counterHelper.checkoutCountTotal.incrementAndGet();
 			}
 			if (line.contains("DENIED:")) {
-				counterHelper.incrementDeniedCount();
-				counterHelper.incrementDeniedCountTotal();
+				counterHelper.deniedCount.incrementAndGet();
+				counterHelper.deniedCountTotal.incrementAndGet();
 			}
 		}
 		return false;
@@ -162,19 +177,19 @@ public class DayByDayParser {
 	private static String getNewDay(CounterHelper counterHelper, boolean firstLoop, Writer writer, String time, String[] datePieces, String weekDay) throws IOException {
 		String currentDay;
 		if (time.startsWith("Sat") || time.startsWith("Sun")) {
-			counterHelper.incrementWeekendDaysOnLog();
+			counterHelper.weekendDaysOnLog.incrementAndGet();
 		} else {
-			counterHelper.incrementWeekDaysOnLog();
+			counterHelper.weekDaysOnLog.incrementAndGet();
 		}
 		// for formatting purposes we skip the first loop for the counts
 		if (!firstLoop) {
-			writer.write("\t" + counterHelper.getCheckoutCount() + "\t" + counterHelper.getDeniedCount() + "\n");
+			writer.write("\t" + counterHelper.checkoutCount.get() + "\t" + counterHelper.deniedCount.get() + "\n");
 		}
 		// but still prints the date
 		writer.write(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + "\t");
 		currentDay = weekDay;
-		counterHelper.resetCheckoutCount();
-		counterHelper.resetDeniedCount();
+		counterHelper.checkoutCount.set(0);
+		counterHelper.deniedCount.set(0);
 		return currentDay;
 	}
 }
