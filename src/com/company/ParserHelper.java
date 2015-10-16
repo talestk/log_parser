@@ -44,7 +44,9 @@ public class ParserHelper {
 		int weekendCheckOuts = counterHelper.weekendCheckOuts.get();
 		int weekendDenies = counterHelper.weekendDenies.get();
 		int weekDaysLicenseChecked = counterHelper.weekDaysLicenseChecked.get();
+		if (weekDaysLicenseChecked == 0) { weekDaysLicenseChecked = 1; }
 		int weekendDaysLicenseChecked = counterHelper.weekendDaysLicenseChecked.get();
+		if (weekendDaysLicenseChecked == 0) { weekendDaysLicenseChecked = 1; }
 
 		System.out.println("========== Totals ==========");
 		System.out.println(" weekday checkouts: " + checkoutCountTotal);
