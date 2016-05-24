@@ -1,0 +1,1039 @@
+20:40:34 (lmgrd) -----------------------------------------------
+20:40:34 (lmgrd)   Please Note:
+20:40:34 (lmgrd)
+20:40:34 (lmgrd)   This log is intended for debug purposes only.
+20:40:34 (lmgrd)   In order to capture accurate license
+20:40:34 (lmgrd)   usage data into an organized repository,
+20:40:34 (lmgrd)   please enable report logging. Use Macrovision's
+20:40:34 (lmgrd)   software license administration  solution,
+20:40:34 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+20:40:34 (lmgrd)   into license usage data and to create
+20:40:34 (lmgrd)   insightful reports on critical information like
+20:40:34 (lmgrd)   license availability and usage. FLEXnet Manager
+20:40:34 (lmgrd)   can be fully automated to run these reports on
+20:40:34 (lmgrd)   schedule and can be used to track license
+20:40:34 (lmgrd)   servers and usage across a heterogeneous
+20:40:34 (lmgrd)   network of servers including Windows NT, Linux
+20:40:34 (lmgrd)   and UNIX. Contact Macrovision at
+20:40:34 (lmgrd)   www.macrovision.com for more details on how to
+20:40:34 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+20:40:34 (lmgrd)   for your enterprise.
+20:40:34 (lmgrd)
+20:40:34 (lmgrd) -----------------------------------------------
+20:40:34 (lmgrd)
+20:40:34 (lmgrd)
+20:40:34 (lmgrd) pid 1460
+20:40:34 (lmgrd) Detecting other license server manager (lmgrd) processes...
+20:40:34 (lmgrd) Done rereading
+20:40:34 (lmgrd) FLEXnet Licensing (v11.4.100.0 build 50818 i86_n3) started on nci6116-as89-v (IBM PC) (11/21/2015)
+20:40:34 (lmgrd) Copyright (c) 1988-2007 Macrovision Europe Ltd. and/or Macrovision Corporation. All Rights Reserved.
+20:40:34 (lmgrd) US Patents 5,390,297 and 5,671,412.
+20:40:34 (lmgrd) World Wide Web:  http://www.macrovision.com
+20:40:34 (lmgrd) License file(s): C:\FlexLM\Partek 6_4\license.dat
+20:40:34 (lmgrd) lmgrd tcp-port 27001
+20:40:34 (lmgrd) Starting vendor daemons ...
+20:40:34 (lmgrd) Started parteklm (pid 1484)
+20:40:34 (parteklm) FLEXnet Licensing version v11.4.100.0 build 50818 i86_n3
+20:40:34 (parteklm) Server started on nci6116-as89-v for:
+20:40:34 (parteklm) disc
+20:40:34 (parteklm) cnct
+20:40:34 (parteklm) EXTERNAL FILTERS are OFF
+20:40:34 (lmgrd) parteklm using TCP-port 1075
+20:40:18 (parteklm) TCP_NODELAY NOT enabled
+20:40:18 (parteklm) OUT: "base" zhangs9@NCI-01990683
+20:40:18 (parteklm) OUT: "matk" zhangs9@NCI-01990683
+22:26:20 (parteklm) OUT: "base" huangdawei@NCI-01940612-L
+22:26:21 (parteklm) OUT: "matk" huangdawei@NCI-01940612-L
+22:33:02 (parteklm) IN: "base" huangdawei@NCI-01940612-L
+22:33:02 (parteklm) IN: "matk" huangdawei@NCI-01940612-L
+22:33:10 (parteklm) OUT: "base" huangdawei@NCI-01940612-L
+22:33:10 (parteklm) OUT: "matk" huangdawei@NCI-01940612-L
+22:36:46 (parteklm) IN: "base" huangdawei@NCI-01940612-L
+22:36:46 (parteklm) IN: "matk" huangdawei@NCI-01940612-L
+22:36:53 (parteklm) OUT: "base" huangdawei@NCI-01940612-L
+22:36:53 (parteklm) OUT: "matk" huangdawei@NCI-01940612-L
+22:59:55 (parteklm) IN: "base" huangdawei@NCI-01940612-L
+22:59:55 (parteklm) IN: "matk" huangdawei@NCI-01940612-L
+ 0:00:52 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 2:40:36 (lmgrd) TIMESTAMP 11/22/2015
+ 8:40:37 (lmgrd) TIMESTAMP 11/22/2015
+ 8:40:49 (parteklm) IN: "base" zhangs9@NCI-01990683
+ 8:40:49 (parteklm) IN: "matk" zhangs9@NCI-01990683
+ 8:42:12 (parteklm) OUT: "base" zhangs9@NCI-01990683
+ 8:42:12 (parteklm) OUT: "matk" zhangs9@NCI-01990683
+14:40:38 (lmgrd) TIMESTAMP 11/22/2015
+16:24:46 (parteklm) OUT: "base" xial2@fr-w-s076064
+16:24:47 (parteklm) OUT: "matk" xial2@fr-w-s076064
+17:58:27 (parteklm) OUT: "infr" xial2@fr-w-s076064
+20:40:39 (lmgrd) TIMESTAMP 11/22/2015
+20:40:48 (parteklm) IN: "base" zhangs9@NCI-01990683
+20:40:48 (parteklm) IN: "matk" zhangs9@NCI-01990683
+20:42:14 (parteklm) OUT: "base" zhangs9@NCI-01990683
+20:42:14 (parteklm) OUT: "matk" zhangs9@NCI-01990683
+ 0:00:20 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 2:40:40 (lmgrd) TIMESTAMP 11/23/2015
+ 8:40:40 (lmgrd) TIMESTAMP 11/23/2015
+ 9:06:52 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 9:06:52 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 9:44:15 (parteklm) OUT: "base" zhaoj9@FR-W-S078501
+ 9:44:15 (parteklm) OUT: "matk" zhaoj9@FR-W-S078501
+ 9:50:42 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+ 9:50:42 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+10:13:37 (parteklm) IN: "base" wangyong@NCI-01782472-M
+10:13:37 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+10:27:17 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+10:27:17 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+10:43:45 (parteklm) OUT: "base" merchantas@FR-N-S084169
+10:43:45 (parteklm) OUT: "matk" merchantas@FR-N-S084169
+10:44:56 (parteklm) OUT: "base" merchantas@NCI-01870675-M
+10:44:56 (parteklm) OUT: "matk" merchantas@NCI-01870675-M
+10:53:37 (parteklm) OUT: "base" shernjf@NCI-01938722
+10:53:38 (parteklm) OUT: "matk" shernjf@NCI-01938722
+10:58:55 (parteklm) OUT: "base" haznadarm@NCI-01962493
+10:58:55 (parteklm) OUT: "matk" haznadarm@NCI-01962493
+11:01:11 (parteklm) IN: "base" haznadarm@NCI-01962493
+11:01:11 (parteklm) IN: "matk" haznadarm@NCI-01962493
+11:03:03 (parteklm) OUT: "infr" merchantas@NCI-01870675-M
+11:07:49 (parteklm) OUT: "disc" shernjf@NCI-01938722
+11:11:32 (parteklm) IN: "base" shernjf@NCI-01938722
+11:11:32 (parteklm) IN: "disc" shernjf@NCI-01938722
+11:11:32 (parteklm) IN: "matk" shernjf@NCI-01938722
+11:12:30 (parteklm) OUT: "base" shernjf@NCI-01938722
+11:12:30 (parteklm) OUT: "matk" shernjf@NCI-01938722
+11:12:48 (parteklm) OUT: "disc" shernjf@NCI-01938722
+11:13:45 (parteklm) IN: "base" shernjf@NCI-01938722
+11:13:45 (parteklm) IN: "disc" shernjf@NCI-01938722
+11:13:45 (parteklm) IN: "matk" shernjf@NCI-01938722
+11:16:42 (parteklm) OUT: "base" shernjf@NCI-01938722
+11:16:42 (parteklm) OUT: "matk" shernjf@NCI-01938722
+11:17:27 (parteklm) OUT: "disc" shernjf@NCI-01938722
+12:04:49 (parteklm) OUT: "base" zhaoj9@FR-W-S078501
+12:04:49 (parteklm) OUT: "matk" zhaoj9@FR-W-S078501
+12:48:31 (parteklm) IN: "base" zhaoj9@FR-W-S078501
+12:48:31 (parteklm) IN: "matk" zhaoj9@FR-W-S078501
+13:07:08 (parteklm) OUT: "base" huangdawei@NCI-01940612-L
+13:07:08 (parteklm) OUT: "matk" huangdawei@NCI-01940612-L
+13:17:05 (parteklm) IN: "base" huangdawei@NCI-01940612-L
+13:17:05 (parteklm) IN: "matk" huangdawei@NCI-01940612-L
+13:21:26 (parteklm) OUT: "infr" merchantas@FR-N-S084169
+13:33:43 (parteklm) OUT: "base" roblesa@NCI-01804471-M
+13:33:44 (parteklm) OUT: "matk" roblesa@NCI-01804471-M
+13:48:49 (parteklm) IN: "base" zhaoj9@FR-W-S078501
+13:48:49 (parteklm) IN: "matk" zhaoj9@FR-W-S078501
+13:51:06 (parteklm) IN: "base" merchantas@FR-N-S084169
+13:51:06 (parteklm) IN: "infr" merchantas@FR-N-S084169
+13:51:06 (parteklm) IN: "matk" merchantas@FR-N-S084169
+13:54:58 (parteklm) IN: "base" merchantas@NCI-01870675-M
+13:54:58 (parteklm) IN: "infr" merchantas@NCI-01870675-M
+13:54:58 (parteklm) IN: "matk" merchantas@NCI-01870675-M
+14:00:48 (parteklm) IN: "base" shernjf@NCI-01938722
+14:00:48 (parteklm) IN: "disc" shernjf@NCI-01938722
+14:00:48 (parteklm) IN: "matk" shernjf@NCI-01938722
+14:01:52 (parteklm) OUT: "base" merchantas@NCI-01870675-M
+14:01:52 (parteklm) OUT: "matk" merchantas@NCI-01870675-M
+14:12:07 (parteklm) IN: "base" wangyong@NCI-01782472-M
+14:12:07 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+14:32:49 (parteklm) OUT: "infr" merchantas@NCI-01870675-M
+14:37:28 (parteklm) OUT: "disc" roblesa@NCI-01804471-M
+14:40:41 (lmgrd) TIMESTAMP 11/23/2015
+14:48:30 (parteklm) OUT: "base" agarwals3@NCI-01962324
+14:48:31 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+14:48:32 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+14:49:16 (parteklm) OUT: "matk" agarwals3@NCI-01962324
+14:49:57 (parteklm) IN: "base" agarwals3@NCI-01962324
+14:49:57 (parteklm) IN: "matk" agarwals3@NCI-01962324
+14:50:28 (parteklm) OUT: "base" agarwals3@NCI-01962324
+14:50:29 (parteklm) OUT: "matk" agarwals3@NCI-01962324
+14:51:23 (parteklm) IN: "base" agarwals3@NCI-01962324
+14:51:23 (parteklm) IN: "matk" agarwals3@NCI-01962324
+15:09:55 (parteklm) OUT: "base" huangdawei@NCI-01940612-L
+15:09:55 (parteklm) OUT: "matk" huangdawei@NCI-01940612-L
+15:15:54 (parteklm) IN: "base" huangdawei@NCI-01940612-L
+15:15:54 (parteklm) IN: "matk" huangdawei@NCI-01940612-L
+15:16:22 (parteklm) OUT: "base" huangdawei@NCI-01940612-L
+15:16:22 (parteklm) OUT: "matk" huangdawei@NCI-01940612-L
+15:18:06 (parteklm) IN: "base" roblesa@NCI-01804471-M
+15:18:06 (parteklm) IN: "disc" roblesa@NCI-01804471-M
+15:18:06 (parteklm) IN: "matk" roblesa@NCI-01804471-M
+15:21:08 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+15:21:08 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+15:43:31 (parteklm) IN: "base" wangyong@NCI-01782472-M
+15:43:31 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+16:09:08 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+16:09:08 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+16:09:50 (parteklm) IN: "base" wangyong@NCI-01782472-M
+16:09:50 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+16:10:15 (parteklm) IN: "base" merchantas@NCI-01870675-M
+16:10:15 (parteklm) IN: "infr" merchantas@NCI-01870675-M
+16:10:15 (parteklm) IN: "matk" merchantas@NCI-01870675-M
+16:22:43 (parteklm) IN: "base" xial2@fr-w-s076064
+16:22:43 (parteklm) IN: "infr" xial2@fr-w-s076064
+16:22:43 (parteklm) IN: "matk" xial2@fr-w-s076064
+16:39:35 (parteklm) OUT: "base" baeh@FR-W-S081357
+16:39:35 (parteklm) OUT: "matk" baeh@FR-W-S081357
+16:48:05 (parteklm) OUT: "infr" baeh@FR-W-S081357
+17:43:29 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+17:43:29 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+20:40:43 (lmgrd) TIMESTAMP 11/23/2015
+23:42:04 (parteklm) IN: "base" huangdawei@NCI-01940612-L
+23:42:04 (parteklm) IN: "matk" huangdawei@NCI-01940612-L
+ 0:00:17 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 0:06:00 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 0:06:00 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 0:07:20 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 0:07:20 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 2:07:25 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 2:07:25 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 2:40:43 (lmgrd) TIMESTAMP 11/24/2015
+ 4:08:18 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 4:08:18 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 6:08:45 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 6:08:45 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 8:09:53 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 8:09:53 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 8:40:44 (lmgrd) TIMESTAMP 11/24/2015
+ 8:44:46 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+ 8:44:46 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+ 9:02:42 (parteklm) IN: "base" wangyong@NCI-01782472-M
+ 9:02:42 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+ 9:21:32 (parteklm) OUT: "base" kennedymw@FR-N-S071431
+ 9:21:32 (parteklm) OUT: "matk" kennedymw@FR-N-S071431
+ 9:23:00 (parteklm) OUT: "base" chalamalasettyr@FR-N-S085058
+ 9:23:00 (parteklm) OUT: "matk" chalamalasettyr@FR-N-S085058
+ 9:23:20 (parteklm) IN: "base" chalamalasettyr@FR-N-S085058
+ 9:23:20 (parteklm) IN: "matk" chalamalasettyr@FR-N-S085058
+ 9:23:54 (parteklm) OUT: "base" leesun@NCI-01904779-ML
+ 9:23:54 (parteklm) OUT: "matk" leesun@NCI-01904779-ML
+ 9:23:54 (parteklm) IN: "base" kennedymw@FR-N-S071431
+ 9:23:54 (parteklm) IN: "matk" kennedymw@FR-N-S071431
+ 9:37:27 (parteklm) OUT: "base" xial2@fr-w-s076064
+ 9:37:27 (parteklm) OUT: "matk" xial2@fr-w-s076064
+ 9:52:43 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+ 9:52:43 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+ 9:59:36 (parteklm) IN: "base" wangyong@NCI-01782472-M
+ 9:59:36 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+10:01:39 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+10:01:39 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+10:24:51 (parteklm) IN: "base" wangyong@NCI-01782472-M
+10:24:51 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+10:39:39 (parteklm) OUT: "base" tangw3@NCI-01940109
+10:39:40 (parteklm) OUT: "matk" tangw3@NCI-01940109
+10:40:18 (parteklm) IN: "base" tangw3@NCI-01940109
+10:40:18 (parteklm) IN: "matk" tangw3@NCI-01940109
+11:25:10 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+11:25:10 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+11:37:35 (parteklm) OUT: "base" xiongy3@NCI-01987185
+11:37:35 (parteklm) OUT: "matk" xiongy3@NCI-01987185
+11:38:39 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+11:38:39 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+11:45:22 (parteklm) OUT: "base" shernjf@NCI-01996028-M
+11:45:22 (parteklm) OUT: "matk" shernjf@NCI-01996028-M
+11:46:23 (parteklm) OUT: "disc" shernjf@NCI-01996028-M
+11:51:40 (parteklm) IN: "base" xial2@fr-w-s076064
+11:51:40 (parteklm) IN: "matk" xial2@fr-w-s076064
+11:59:56 (parteklm) IN: "base" xiongy3@NCI-01987185
+11:59:56 (parteklm) IN: "matk" xiongy3@NCI-01987185
+12:10:08 (parteklm) OUT: "base" roblesa@NCI-01804471-M
+12:10:08 (parteklm) OUT: "matk" roblesa@NCI-01804471-M
+12:21:03 (parteklm) IN: "base" leesun@NCI-01904779-ML
+12:21:03 (parteklm) IN: "matk" leesun@NCI-01904779-ML
+13:24:47 (parteklm) IN: "base" shernjf@NCI-01996028-M
+13:24:47 (parteklm) IN: "disc" shernjf@NCI-01996028-M
+13:24:47 (parteklm) IN: "matk" shernjf@NCI-01996028-M
+13:32:39 (parteklm) OUT: "base" kennedymw@FR-N-S071431
+13:32:39 (parteklm) OUT: "matk" kennedymw@FR-N-S071431
+13:34:50 (parteklm) OUT: "base" kumara@FR-N-S080242
+13:34:50 (parteklm) OUT: "matk" kumara@FR-N-S080242
+13:44:42 (parteklm) IN: "base" kennedymw@FR-N-S071431
+13:44:42 (parteklm) IN: "matk" kennedymw@FR-N-S071431
+13:46:43 (parteklm) OUT: "base" kennedymw@FR-N-S071431
+13:46:43 (parteklm) OUT: "matk" kennedymw@FR-N-S071431
+13:47:57 (parteklm) IN: "base" kennedymw@FR-N-S071431
+13:47:57 (parteklm) IN: "matk" kennedymw@FR-N-S071431
+13:51:03 (parteklm) OUT: "base" merchantas@FR-N-S084169
+13:51:03 (parteklm) OUT: "matk" merchantas@FR-N-S084169
+14:27:52 (parteklm) IN: "base" wangyong@NCI-01782472-M
+14:27:52 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+14:40:47 (lmgrd) TIMESTAMP 11/24/2015
+14:44:21 (parteklm) OUT: "base" jailwalapa@FR-N-S084376
+14:44:21 (parteklm) OUT: "matk" jailwalapa@FR-N-S084376
+15:21:08 (parteklm) IN: "base" kumara@FR-N-S080242
+15:21:08 (parteklm) IN: "matk" kumara@FR-N-S080242
+15:40:54 (parteklm) IN: "base" merchantas@FR-N-S084169
+15:40:54 (parteklm) IN: "matk" merchantas@FR-N-S084169
+15:49:33 (parteklm) IN: "base" roblesa@NCI-01804471-M
+15:49:33 (parteklm) IN: "matk" roblesa@NCI-01804471-M
+16:00:06 (parteklm) IN: "base" jailwalapa@FR-N-S084376
+16:00:06 (parteklm) IN: "matk" jailwalapa@FR-N-S084376
+16:16:43 (parteklm) OUT: "base" dengt@NCI-01902650
+16:16:43 (parteklm) OUT: "matk" dengt@NCI-01902650
+17:06:04 (parteklm) IN: "base" metenous@NCI-01995193-M
+17:06:04 (parteklm) IN: "matk" metenous@NCI-01995193-M
+17:27:31 (parteklm) OUT: "base" xiongy3@NCI-01987185
+17:27:31 (parteklm) OUT: "matk" xiongy3@NCI-01987185
+17:41:17 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+17:41:17 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+19:00:43 (parteklm) IN: "base" xiongy3@NCI-01987185
+19:00:43 (parteklm) IN: "matk" xiongy3@NCI-01987185
+19:06:56 (parteklm) OUT: "base" metenous@NCI-01995193-M
+19:06:56 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+19:54:15 (parteklm) IN: "base" dengt@NCI-01902650
+19:54:15 (parteklm) IN: "matk" dengt@NCI-01902650
+20:27:03 (parteklm) OUT: "base" mitchellkh@NCI-01888914
+20:27:03 (parteklm) OUT: "matk" mitchellkh@NCI-01888914
+20:29:41 (parteklm) OUT: "infr" mitchellkh@NCI-01888914
+20:36:55 (parteklm) IN: "base" mitchellkh@NCI-01888914
+20:36:55 (parteklm) IN: "infr" mitchellkh@NCI-01888914
+20:36:55 (parteklm) IN: "matk" mitchellkh@NCI-01888914
+20:40:48 (lmgrd) TIMESTAMP 11/24/2015
+23:36:10 (parteklm) IN: "base" metenous@NCI-01995193-M
+23:36:10 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 0:00:34 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 1:37:43 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 1:37:43 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 2:40:49 (lmgrd) TIMESTAMP 11/25/2015
+ 3:37:49 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 3:37:49 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 5:39:19 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 5:39:19 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 8:40:53 (lmgrd) TIMESTAMP 11/25/2015
+ 9:39:56 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 9:39:56 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 9:41:08 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 9:41:08 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 9:44:46 (parteklm) OUT: "base" kumara@FR-N-S080242
+ 9:44:46 (parteklm) OUT: "matk" kumara@FR-N-S080242
+10:20:00 (parteklm) OUT: "base" knightev2@NCI-01856549-L
+10:20:00 (parteklm) OUT: "matk" knightev2@NCI-01856549-L
+10:20:24 (parteklm) IN: "base" knightev2@NCI-01856549-L
+10:20:24 (parteklm) IN: "matk" knightev2@NCI-01856549-L
+10:22:17 (parteklm) OUT: "base" dengt@NCI-01902650
+10:22:17 (parteklm) OUT: "matk" dengt@NCI-01902650
+11:44:56 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+11:44:56 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+11:49:09 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+11:49:09 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+11:49:12 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+11:49:13 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+12:52:33 (parteklm) OUT: "base" kumara@FR-N-S080242
+12:52:34 (parteklm) OUT: "matk" kumara@FR-N-S080242
+12:54:50 (parteklm) IN: "base" baeh@FR-W-S081357
+12:54:50 (parteklm) IN: "infr" baeh@FR-W-S081357
+12:54:50 (parteklm) IN: "matk" baeh@FR-W-S081357
+12:59:19 (parteklm) IN: "base" metenous@NCI-01995193-M
+12:59:19 (parteklm) IN: "matk" metenous@NCI-01995193-M
+13:18:28 (parteklm) OUT: "base" metenous@NCI-01995193-M
+13:18:28 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+13:41:49 (parteklm) IN: "base" kumara@FR-N-S080242
+13:41:49 (parteklm) IN: "matk" kumara@FR-N-S080242
+13:49:14 (parteklm) OUT: "infr" kumara@FR-N-S080242
+14:13:19 (parteklm) OUT: "base" castron2@FR-W-S074278
+14:13:19 (parteklm) OUT: "matk" castron2@FR-W-S074278
+14:13:35 (parteklm) IN: "base" castron2@FR-W-S074278
+14:13:35 (parteklm) IN: "matk" castron2@FR-W-S074278
+14:21:37 (parteklm) UNSUPPORTED: "pathway_base" (PORT_AT_HOST_PLUS   ) kumara@FR-N-S080242  (License server system does not support this feature. (-18,327))
+14:21:37 (parteklm) UNSUPPORTED: "pathway_base" (PORT_AT_HOST_PLUS   ) kumara@FR-N-S080242  (License server system does not support this feature. (-18,327))
+14:21:37 (parteklm) UNSUPPORTED: "pathway_base" (PORT_AT_HOST_PLUS   ) kumara@FR-N-S080242  (License server system does not support this feature. (-18,327))
+14:40:57 (lmgrd) TIMESTAMP 11/25/2015
+15:03:17 (parteklm) OUT: "base" salcedor@FR-W-S064530
+15:03:17 (parteklm) OUT: "matk" salcedor@FR-W-S064530
+15:13:38 (parteklm) OUT: "base" kumara@FR-N-S080242
+15:13:38 (parteklm) OUT: "matk" kumara@FR-N-S080242
+15:13:38 (parteklm) OUT: "infr" kumara@FR-N-S080242
+15:15:37 (parteklm) OUT: "infr" salcedor@FR-W-S064530
+15:18:34 (parteklm) IN: "base" metenous@NCI-01995193-M
+15:18:34 (parteklm) IN: "matk" metenous@NCI-01995193-M
+15:28:19 (parteklm) UNSUPPORTED: "pathway_base" (PORT_AT_HOST_PLUS   ) salcedor@FR-W-S064530  (License server system does not support this feature. (-18,327:10054 ""))
+16:29:52 (parteklm) OUT: "base" mitchellkh@NCI-01888914
+16:29:52 (parteklm) OUT: "matk" mitchellkh@NCI-01888914
+17:10:38 (parteklm) IN: "base" kumara@FR-N-S080242
+17:10:38 (parteklm) IN: "infr" kumara@FR-N-S080242
+17:10:38 (parteklm) IN: "matk" kumara@FR-N-S080242
+17:17:56 (parteklm) IN: "base" salcedor@FR-W-S064530
+17:17:56 (parteklm) IN: "infr" salcedor@FR-W-S064530
+17:17:56 (parteklm) IN: "matk" salcedor@FR-W-S064530
+17:20:04 (parteklm) OUT: "base" metenous@NCI-01995193-M
+17:20:04 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+17:29:28 (parteklm) IN: "base" mitchellkh@NCI-01888914
+17:29:28 (parteklm) IN: "matk" mitchellkh@NCI-01888914
+17:48:33 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+17:48:33 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+20:03:06 (parteklm) OUT: "base" dzutseva@FR-N-S077649
+20:03:06 (parteklm) OUT: "matk" dzutseva@FR-N-S077649
+20:28:50 (parteklm) IN: "base" metenous@NCI-01995193-M
+20:28:50 (parteklm) IN: "matk" metenous@NCI-01995193-M
+20:30:11 (parteklm) OUT: "base" metenous@NCI-01995193-M
+20:30:11 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+20:41:01 (lmgrd) TIMESTAMP 11/25/2015
+22:30:16 (parteklm) IN: "base" metenous@NCI-01995193-M
+22:30:16 (parteklm) IN: "matk" metenous@NCI-01995193-M
+22:37:44 (parteklm) IN: "base" kumara@FR-N-S080242
+22:37:44 (parteklm) IN: "infr" kumara@FR-N-S080242
+22:37:44 (parteklm) IN: "matk" kumara@FR-N-S080242
+22:46:41 (parteklm) IN: "base" dzutseva@FR-N-S077649
+22:46:41 (parteklm) IN: "matk" dzutseva@FR-N-S077649
+ 0:00:51 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 0:31:03 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 0:31:03 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 2:31:08 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 2:31:08 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 2:41:01 (lmgrd) TIMESTAMP 11/26/2015
+ 3:44:14 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 3:44:14 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 5:44:18 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 5:44:18 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 5:45:26 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 5:45:26 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 8:41:04 (lmgrd) TIMESTAMP 11/26/2015
+ 9:52:56 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 9:52:56 (parteklm) IN: "matk" metenous@NCI-01995193-M
+10:31:59 (parteklm) OUT: "base" metenous@NCI-01995193-M
+10:31:59 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+12:05:28 (parteklm) OUT: "base" kumara@FR-N-S080242
+12:05:28 (parteklm) OUT: "matk" kumara@FR-N-S080242
+12:05:29 (parteklm) OUT: "infr" kumara@FR-N-S080242
+13:14:54 (parteklm) IN: "base" dengt@NCI-01902650
+13:14:54 (parteklm) IN: "matk" dengt@NCI-01902650
+14:41:04 (lmgrd) TIMESTAMP 11/26/2015
+15:49:05 (parteklm) IN: "base" kumara@FR-N-S080242
+15:49:05 (parteklm) IN: "infr" kumara@FR-N-S080242
+15:49:05 (parteklm) IN: "matk" kumara@FR-N-S080242
+18:00:41 (parteklm) IN: "base" metenous@NCI-01995193-M
+18:00:41 (parteklm) IN: "matk" metenous@NCI-01995193-M
+19:32:50 (parteklm) OUT: "base" metenous@NCI-01995193-M
+19:32:50 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+20:41:04 (lmgrd) TIMESTAMP 11/26/2015
+21:33:07 (parteklm) IN: "base" metenous@NCI-01995193-M
+21:33:07 (parteklm) IN: "matk" metenous@NCI-01995193-M
+21:51:46 (parteklm) OUT: "base" metenous@NCI-01995193-M
+21:51:46 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+23:51:51 (parteklm) IN: "base" metenous@NCI-01995193-M
+23:51:51 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 0:00:15 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 1:53:06 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 1:53:06 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 2:41:04 (lmgrd) TIMESTAMP 11/27/2015
+ 5:39:30 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 5:39:30 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 7:40:49 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 7:40:49 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 8:25:26 (parteklm) OUT: "base" chenx3@S062839
+ 8:25:26 (parteklm) OUT: "matk" chenx3@S062839
+ 8:37:27 (parteklm) OUT: "infr" chenx3@S062839
+ 8:41:04 (lmgrd) TIMESTAMP 11/27/2015
+ 9:06:25 (parteklm) OUT: "base" kumara@FR-N-S080242
+ 9:06:25 (parteklm) OUT: "matk" kumara@FR-N-S080242
+ 9:06:25 (parteklm) OUT: "infr" kumara@FR-N-S080242
+ 9:19:58 (parteklm) IN: "base" chenx3@S062839
+ 9:19:58 (parteklm) IN: "infr" chenx3@S062839
+ 9:19:58 (parteklm) IN: "matk" chenx3@S062839
+ 9:40:54 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 9:40:54 (parteklm) IN: "matk" metenous@NCI-01995193-M
+10:07:01 (parteklm) OUT: "base" metenous@NCI-01995193-M
+10:07:01 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+11:03:47 (parteklm) OUT: "base" dengt@NCI-01902650
+11:03:47 (parteklm) OUT: "matk" dengt@NCI-01902650
+13:11:27 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+13:11:27 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+13:15:31 (parteklm) IN: "base" kumara@FR-N-S080242
+13:15:31 (parteklm) IN: "infr" kumara@FR-N-S080242
+13:15:31 (parteklm) IN: "matk" kumara@FR-N-S080242
+13:45:21 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+13:45:21 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+13:45:25 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+13:45:25 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+14:05:24 (parteklm) IN: "base" dengt@NCI-01902650
+14:05:24 (parteklm) IN: "matk" dengt@NCI-01902650
+14:38:54 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+14:38:54 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+14:41:04 (lmgrd) TIMESTAMP 11/27/2015
+14:41:53 (parteklm) IN: "base" metenous@NCI-01995193-M
+14:41:53 (parteklm) IN: "matk" metenous@NCI-01995193-M
+14:57:02 (parteklm) OUT: "base" xiongy3@NCI-01987185
+14:57:02 (parteklm) OUT: "matk" xiongy3@NCI-01987185
+15:32:12 (parteklm) OUT: "base" chenx3@S062839
+15:32:12 (parteklm) OUT: "matk" chenx3@S062839
+15:36:03 (parteklm) IN: "base" chenx3@S062839
+15:36:03 (parteklm) IN: "matk" chenx3@S062839
+16:43:11 (parteklm) OUT: "base" metenous@NCI-01995193-M
+16:43:11 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+16:54:35 (parteklm) IN: "base" xiongy3@NCI-01987185
+16:54:35 (parteklm) IN: "matk" xiongy3@NCI-01987185
+18:43:16 (parteklm) IN: "base" metenous@NCI-01995193-M
+18:43:16 (parteklm) IN: "matk" metenous@NCI-01995193-M
+20:41:05 (lmgrd) TIMESTAMP 11/27/2015
+22:22:28 (parteklm) OUT: "base" metenous@NCI-01995193-M
+22:22:28 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 0:00:55 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 1:21:26 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 1:21:26 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 2:41:09 (lmgrd) TIMESTAMP 11/28/2015
+ 3:12:34 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 3:12:34 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 5:12:40 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 5:12:40 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 6:55:53 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 6:55:53 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 8:41:09 (lmgrd) TIMESTAMP 11/28/2015
+ 8:55:59 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 8:55:59 (parteklm) IN: "matk" metenous@NCI-01995193-M
+10:06:43 (parteklm) OUT: "base" metenous@NCI-01995193-M
+10:06:43 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+11:36:46 (parteklm) OUT: "base" zhaoj9@FR-W-S078501
+11:36:47 (parteklm) OUT: "matk" zhaoj9@FR-W-S078501
+14:15:38 (parteklm) IN: "base" metenous@NCI-01995193-M
+14:15:38 (parteklm) IN: "matk" metenous@NCI-01995193-M
+14:34:31 (parteklm) OUT: "base" metenous@NCI-01995193-M
+14:34:31 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+14:41:10 (lmgrd) TIMESTAMP 11/28/2015
+15:00:47 (parteklm) IN: "base" zhaoj9@FR-W-S078501
+15:00:47 (parteklm) IN: "matk" zhaoj9@FR-W-S078501
+16:21:06 (parteklm) OUT: "base" xiongy3@NCI-01987185
+16:21:06 (parteklm) OUT: "matk" xiongy3@NCI-01987185
+16:34:35 (parteklm) IN: "base" metenous@NCI-01995193-M
+16:34:35 (parteklm) IN: "matk" metenous@NCI-01995193-M
+17:47:19 (parteklm) IN: "base" xiongy3@NCI-01987185
+17:47:19 (parteklm) IN: "matk" xiongy3@NCI-01987185
+18:09:57 (parteklm) OUT: "base" zhaoj9@FR-W-S078501
+18:09:57 (parteklm) OUT: "matk" zhaoj9@FR-W-S078501
+18:36:00 (parteklm) OUT: "base" metenous@NCI-01995193-M
+18:36:00 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+19:28:03 (parteklm) OUT: "base" kumara@FR-N-S080242
+19:28:03 (parteklm) OUT: "matk" kumara@FR-N-S080242
+19:28:04 (parteklm) OUT: "infr" kumara@FR-N-S080242
+20:36:05 (parteklm) IN: "base" metenous@NCI-01995193-M
+20:36:05 (parteklm) IN: "matk" metenous@NCI-01995193-M
+20:41:12 (lmgrd) TIMESTAMP 11/28/2015
+21:08:33 (parteklm) IN: "base" zhaoj9@FR-W-S078501
+21:08:33 (parteklm) IN: "matk" zhaoj9@FR-W-S078501
+22:34:10 (parteklm) IN: "base" kumara@FR-N-S080242
+22:34:10 (parteklm) IN: "infr" kumara@FR-N-S080242
+22:34:10 (parteklm) IN: "matk" kumara@FR-N-S080242
+22:37:28 (parteklm) OUT: "base" metenous@NCI-01995193-M
+22:37:28 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 0:00:25 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 0:37:33 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 0:37:33 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 2:38:52 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 2:38:52 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 2:41:14 (lmgrd) TIMESTAMP 11/29/2015
+ 3:12:28 (parteklm) OUT: "base" zhaoj9@FR-W-S078501
+ 3:12:28 (parteklm) OUT: "matk" zhaoj9@FR-W-S078501
+ 4:38:57 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 4:38:57 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 4:51:35 (parteklm) OUT: "base" zhaoj9@FR-W-S078501
+ 4:51:35 (parteklm) OUT: "matk" zhaoj9@FR-W-S078501
+ 6:11:03 (parteklm) IN: "base" zhaoj9@FR-W-S078501
+ 6:11:03 (parteklm) IN: "matk" zhaoj9@FR-W-S078501
+ 6:40:44 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 6:40:44 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 7:51:42 (parteklm) IN: "base" zhaoj9@FR-W-S078501
+ 7:51:42 (parteklm) IN: "matk" zhaoj9@FR-W-S078501
+ 8:32:53 (parteklm) OUT: "base" zhaoj9@FR-W-S078501
+ 8:32:54 (parteklm) OUT: "matk" zhaoj9@FR-W-S078501
+ 8:40:49 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 8:40:49 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 8:41:16 (lmgrd) TIMESTAMP 11/29/2015
+ 9:27:52 (parteklm) IN: "base" zhaoj9@FR-W-S078501
+ 9:27:52 (parteklm) IN: "matk" zhaoj9@FR-W-S078501
+10:06:31 (parteklm) OUT: "base" metenous@NCI-01995193-M
+10:06:31 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+12:06:36 (parteklm) IN: "base" metenous@NCI-01995193-M
+12:06:36 (parteklm) IN: "matk" metenous@NCI-01995193-M
+12:54:55 (parteklm) OUT: "base" zhangs9@NCI-01990683
+12:54:55 (parteklm) OUT: "matk" zhangs9@NCI-01990683
+13:39:55 (parteklm) OUT: "base" zhangs9@NCI-01990683
+13:39:55 (parteklm) OUT: "matk" zhangs9@NCI-01990683
+14:08:20 (parteklm) OUT: "base" metenous@NCI-01995193-M
+14:08:20 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+14:41:20 (lmgrd) TIMESTAMP 11/29/2015
+14:53:30 (parteklm) IN: "base" zhangs9@NCI-01990683
+14:53:30 (parteklm) IN: "matk" zhangs9@NCI-01990683
+15:37:00 (parteklm) IN: "base" zhangs9@NCI-01990683
+15:37:00 (parteklm) IN: "matk" zhangs9@NCI-01990683
+16:08:25 (parteklm) IN: "base" metenous@NCI-01995193-M
+16:08:25 (parteklm) IN: "matk" metenous@NCI-01995193-M
+16:09:19 (parteklm) OUT: "base" metenous@NCI-01995193-M
+16:09:19 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+16:27:23 (parteklm) OUT: "base" baeh@FR-W-S081357
+16:27:24 (parteklm) OUT: "matk" baeh@FR-W-S081357
+18:09:24 (parteklm) IN: "base" metenous@NCI-01995193-M
+18:09:24 (parteklm) IN: "matk" metenous@NCI-01995193-M
+18:54:36 (parteklm) OUT: "infr" baeh@FR-W-S081357
+19:09:39 (parteklm) IN: "base" baeh@FR-W-S081357
+19:09:39 (parteklm) IN: "infr" baeh@FR-W-S081357
+19:09:39 (parteklm) IN: "matk" baeh@FR-W-S081357
+19:09:41 (parteklm) OUT: "base" baeh@FR-W-S081357
+19:09:42 (parteklm) OUT: "matk" baeh@FR-W-S081357
+19:10:21 (parteklm) OUT: "infr" baeh@FR-W-S081357
+19:39:56 (parteklm) IN: "base" baeh@FR-W-S081357
+19:39:56 (parteklm) IN: "infr" baeh@FR-W-S081357
+19:39:56 (parteklm) IN: "matk" baeh@FR-W-S081357
+19:47:29 (parteklm) OUT: "base" baeh@FR-W-S081357
+19:47:29 (parteklm) OUT: "matk" baeh@FR-W-S081357
+19:58:30 (parteklm) IN: "base" baeh@FR-W-S081357
+19:58:30 (parteklm) IN: "matk" baeh@FR-W-S081357
+20:10:23 (parteklm) OUT: "base" metenous@NCI-01995193-M
+20:10:23 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+20:41:20 (lmgrd) TIMESTAMP 11/29/2015
+22:10:28 (parteklm) IN: "base" metenous@NCI-01995193-M
+22:10:28 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 0:00:46 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 0:11:56 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 0:11:56 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 2:12:01 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 2:12:01 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 2:41:21 (lmgrd) TIMESTAMP 11/30/2015
+ 4:13:36 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 4:13:36 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 6:13:41 (parteklm) IN: "base" metenous@NCI-01995193-M
+ 6:13:41 (parteklm) IN: "matk" metenous@NCI-01995193-M
+ 8:14:53 (parteklm) OUT: "base" metenous@NCI-01995193-M
+ 8:14:53 (parteklm) OUT: "matk" metenous@NCI-01995193-M
+ 8:28:56 (parteklm) OUT: "base" shanj@fr-s-isp-partek.ncifcrf.gov
+ 8:28:56 (parteklm) OUT: "matk" shanj@fr-s-isp-partek.ncifcrf.gov
+ 8:41:21 (lmgrd) TIMESTAMP 11/30/2015
+ 8:49:20 (parteklm) IN: "base" shanj@fr-s-isp-partek.ncifcrf.gov
+ 8:49:20 (parteklm) IN: "matk" shanj@fr-s-isp-partek.ncifcrf.gov
+ 9:24:11 (parteklm) OUT: "base" ciuccit@NCI-01978755-ML
+ 9:24:11 (parteklm) OUT: "matk" ciuccit@NCI-01978755-ML
+ 9:29:28 (parteklm) IN: "base" ciuccit@NCI-01978755-ML
+ 9:29:28 (parteklm) IN: "matk" ciuccit@NCI-01978755-ML
+ 9:46:04 (parteklm) OUT: "base" dengt@NCI-01902650
+ 9:46:05 (parteklm) OUT: "matk" dengt@NCI-01902650
+10:17:08 (parteklm) OUT: "base" baeh@FR-W-S081357
+10:17:09 (parteklm) OUT: "matk" baeh@FR-W-S081357
+10:19:38 (parteklm) IN: "base" baeh@FR-W-S081357
+10:19:38 (parteklm) IN: "matk" baeh@FR-W-S081357
+10:19:40 (parteklm) OUT: "base" baeh@FR-W-S081357
+10:19:41 (parteklm) OUT: "matk" baeh@FR-W-S081357
+10:23:21 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+10:23:21 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+10:33:52 (parteklm) OUT: "base" xiongy3@NCI-01987185
+10:33:52 (parteklm) OUT: "matk" xiongy3@NCI-01987185
+10:41:45 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+10:41:45 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+10:41:48 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+10:41:48 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+10:45:38 (parteklm) IN: "base" xiongy3@NCI-01987185
+10:45:38 (parteklm) IN: "matk" xiongy3@NCI-01987185
+11:52:31 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+11:52:31 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+12:01:44 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+12:01:44 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+12:24:56 (parteklm) OUT: "infr" baeh@FR-W-S081357
+13:44:17 (parteklm) OUT: "base" chalamalasettyr@FR-N-S085058
+13:44:17 (parteklm) OUT: "matk" chalamalasettyr@FR-N-S085058
+13:44:29 (parteklm) IN: "base" chalamalasettyr@FR-N-S085058
+13:44:29 (parteklm) IN: "matk" chalamalasettyr@FR-N-S085058
+14:06:11 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+14:06:11 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+14:41:21 (lmgrd) TIMESTAMP 11/30/2015
+14:50:14 (parteklm) OUT: "base" salcedor@FR-W-S064530
+14:50:14 (parteklm) OUT: "matk" salcedor@FR-W-S064530
+14:50:31 (parteklm) IN: "base" salcedor@FR-W-S064530
+14:50:31 (parteklm) IN: "matk" salcedor@FR-W-S064530
+14:52:09 (parteklm) OUT: "base" salcedor@FR-W-S064530
+14:52:10 (parteklm) OUT: "matk" salcedor@FR-W-S064530
+14:54:39 (parteklm) IN: "base" salcedor@FR-W-S064530
+14:54:39 (parteklm) IN: "matk" salcedor@FR-W-S064530
+15:23:02 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+15:23:02 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+16:56:31 (parteklm) IN: "base" baeh@FR-W-S081357
+16:56:31 (parteklm) IN: "infr" baeh@FR-W-S081357
+16:56:31 (parteklm) IN: "matk" baeh@FR-W-S081357
+18:08:05 (parteklm) OUT: "base" chalamalasettyr@FR-N-S085058
+18:08:05 (parteklm) OUT: "matk" chalamalasettyr@FR-N-S085058
+19:50:42 (parteklm) IN: "base" dengt@NCI-01902650
+19:50:42 (parteklm) IN: "matk" dengt@NCI-01902650
+20:11:08 (parteklm) IN: "base" chalamalasettyr@FR-N-S085058
+20:11:08 (parteklm) IN: "matk" chalamalasettyr@FR-N-S085058
+20:41:21 (lmgrd) TIMESTAMP 11/30/2015
+ 0:00:47 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 2:41:23 (lmgrd) TIMESTAMP 12/1/2015
+ 8:19:24 (parteklm) OUT: "base" shanj@fr-s-isp-partek.ncifcrf.gov
+ 8:19:24 (parteklm) OUT: "matk" shanj@fr-s-isp-partek.ncifcrf.gov
+ 8:41:24 (lmgrd) TIMESTAMP 12/1/2015
+ 8:45:55 (parteklm) IN: "base" shanj@fr-s-isp-partek.ncifcrf.gov
+ 8:45:55 (parteklm) IN: "matk" shanj@fr-s-isp-partek.ncifcrf.gov
+ 8:51:20 (parteklm) OUT: "base" shanj@fr-s-isp-partek.ncifcrf.gov
+ 8:51:20 (parteklm) OUT: "matk" shanj@fr-s-isp-partek.ncifcrf.gov
+ 9:13:14 (parteklm) OUT: "base" zhanghu@NCI-01888727-M
+ 9:13:14 (parteklm) OUT: "matk" zhanghu@NCI-01888727-M
+ 9:48:33 (parteklm) OUT: "base" chalamalasettyr@FR-N-S085058
+ 9:48:33 (parteklm) OUT: "matk" chalamalasettyr@FR-N-S085058
+ 9:54:25 (parteklm) OUT: "base" dengt@NCI-01902650
+ 9:54:25 (parteklm) OUT: "matk" dengt@NCI-01902650
+11:19:57 (parteklm) IN: "base" zhangs9@NCI-01990683
+11:19:57 (parteklm) IN: "matk" zhangs9@NCI-01990683
+11:20:16 (parteklm) OUT: "base" zhangs9@NCI-01990683
+11:20:16 (parteklm) OUT: "matk" zhangs9@NCI-01990683
+11:39:26 (parteklm) IN: "base" zhanghu@NCI-01888727-M
+11:39:26 (parteklm) IN: "matk" zhanghu@NCI-01888727-M
+11:48:27 (parteklm) OUT: "base" merchantas@FR-N-S084169
+11:48:27 (parteklm) OUT: "matk" merchantas@FR-N-S084169
+12:19:17 (parteklm) OUT: "base" takahashis@NCI-02016922
+12:19:18 (parteklm) OUT: "matk" takahashis@NCI-02016922
+12:19:41 (parteklm) IN: "base" takahashis@NCI-02016922
+12:19:41 (parteklm) IN: "matk" takahashis@NCI-02016922
+12:36:54 (parteklm) OUT: "base" yangs7@NCI-02015278
+12:36:55 (parteklm) OUT: "matk" yangs7@NCI-02015278
+13:06:48 (parteklm) OUT: "base" dengt@NCI-01902650
+13:06:48 (parteklm) OUT: "matk" dengt@NCI-01902650
+13:21:16 (parteklm) OUT: "base" chalamalasettyr@FR-N-S085058
+13:21:16 (parteklm) OUT: "matk" chalamalasettyr@FR-N-S085058
+13:43:59 (parteklm) IN: "base" chalamalasettyr@FR-N-S085058
+13:43:59 (parteklm) IN: "matk" chalamalasettyr@FR-N-S085058
+13:48:05 (parteklm) IN: "base" merchantas@FR-N-S084169
+13:48:05 (parteklm) IN: "matk" merchantas@FR-N-S084169
+13:48:48 (parteklm) OUT: "base" xis@NCI-01987186
+13:48:48 (parteklm) OUT: "matk" xis@NCI-01987186
+14:02:43 (parteklm) IN: "base" xis@NCI-01987186
+14:02:43 (parteklm) IN: "matk" xis@NCI-01987186
+14:33:32 (parteklm) IN: "base" dengt@NCI-01902650
+14:33:32 (parteklm) IN: "matk" dengt@NCI-01902650
+14:41:26 (lmgrd) TIMESTAMP 12/1/2015
+14:55:55 (parteklm) OUT: "base" zhouw@NCI-01979657-L
+14:55:56 (parteklm) OUT: "matk" zhouw@NCI-01979657-L
+14:58:36 (parteklm) IN: "base" shanj@fr-s-isp-partek.ncifcrf.gov
+14:58:36 (parteklm) IN: "matk" shanj@fr-s-isp-partek.ncifcrf.gov
+15:11:56 (parteklm) OUT: "base" baeh@FR-W-S081357
+15:11:57 (parteklm) OUT: "matk" baeh@FR-W-S081357
+16:12:56 (parteklm) IN: "base" zhouw@NCI-01979657-L
+16:12:56 (parteklm) IN: "matk" zhouw@NCI-01979657-L
+16:13:00 (parteklm) OUT: "base" zhouw@NCI-01979657-L
+16:13:00 (parteklm) OUT: "matk" zhouw@NCI-01979657-L
+16:27:53 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+16:27:53 (parteklm) OUT: "matk" gibadullinr@FR-W-S076148
+16:40:38 (parteklm) IN: "base" baeh@FR-W-S081357
+16:40:38 (parteklm) IN: "matk" baeh@FR-W-S081357
+16:41:21 (parteklm) OUT: "base" baeh@FR-W-S081357
+16:41:21 (parteklm) OUT: "matk" baeh@FR-W-S081357
+16:58:43 (parteklm) OUT: "base" xiongy3@NCI-01987185
+16:58:44 (parteklm) OUT: "matk" xiongy3@NCI-01987185
+17:01:57 (parteklm) OUT: "infr" chaisaingmongj@NCI-01820516
+17:26:35 (parteklm) IN: "base" xiongy3@NCI-01987185
+17:26:35 (parteklm) IN: "matk" xiongy3@NCI-01987185
+17:35:18 (parteklm) IN: "base" gibadullinr@FR-W-S076148
+17:35:18 (parteklm) IN: "matk" gibadullinr@FR-W-S076148
+17:52:21 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+17:52:21 (parteklm) IN: "infr" chaisaingmongj@NCI-01820516
+17:52:21 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+17:58:09 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+17:58:09 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+17:58:21 (parteklm) OUT: "base" xiongy3@NCI-01987185
+17:58:21 (parteklm) OUT: "matk" xiongy3@NCI-01987185
+18:12:06 (parteklm) IN: "base" chalamalasettyr@FR-N-S085058
+18:12:06 (parteklm) IN: "matk" chalamalasettyr@FR-N-S085058
+18:15:51 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+18:15:51 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+18:28:08 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+18:28:08 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+18:30:52 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+18:30:52 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+18:37:25 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+18:37:26 (parteklm) OUT: "matk" gibadullinr@FR-W-S076148
+18:39:35 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+18:39:35 (parteklm) OUT: "matk" gibadullinr@FR-W-S076148
+18:39:45 (parteklm) IN: "base" gibadullinr@FR-W-S076148
+18:39:45 (parteklm) IN: "matk" gibadullinr@FR-W-S076148
+18:40:10 (parteklm) IN: "base" gibadullinr@FR-W-S076148
+18:40:10 (parteklm) IN: "matk" gibadullinr@FR-W-S076148
+18:44:27 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+18:44:28 (parteklm) OUT: "matk" gibadullinr@FR-W-S076148
+19:14:54 (parteklm) OUT: "base" salcedor@FR-W-S064530
+19:14:54 (parteklm) OUT: "matk" salcedor@FR-W-S064530
+19:28:00 (parteklm) OUT: "base" salcedor@FR-W-S064530
+19:28:00 (parteklm) OUT: "matk" salcedor@FR-W-S064530
+19:41:47 (parteklm) IN: "base" salcedor@FR-W-S064530
+19:41:47 (parteklm) IN: "matk" salcedor@FR-W-S064530
+19:42:15 (parteklm) IN: "base" salcedor@FR-W-S064530
+19:42:15 (parteklm) IN: "matk" salcedor@FR-W-S064530
+19:42:53 (parteklm) IN: "base" dengt@NCI-01902650
+19:42:53 (parteklm) IN: "matk" dengt@NCI-01902650
+19:48:55 (parteklm) IN: "base" baeh@FR-W-S081357
+19:48:55 (parteklm) IN: "matk" baeh@FR-W-S081357
+20:41:28 (lmgrd) TIMESTAMP 12/1/2015
+20:42:56 (parteklm) IN: "base" xiongy3@NCI-01987185
+20:42:56 (parteklm) IN: "matk" xiongy3@NCI-01987185
+22:11:24 (parteklm) OUT: "base" baeh@FR-W-S081357
+22:11:24 (parteklm) OUT: "matk" baeh@FR-W-S081357
+22:41:32 (parteklm) IN: "base" gibadullinr@FR-W-S076148
+22:41:32 (parteklm) IN: "matk" gibadullinr@FR-W-S076148
+ 0:00:39 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 0:34:54 (parteklm) OUT: "base" baeh@FR-W-S081357
+ 0:34:54 (parteklm) OUT: "matk" baeh@FR-W-S081357
+ 1:08:30 (parteklm) IN: "base" baeh@FR-W-S081357
+ 1:08:30 (parteklm) IN: "matk" baeh@FR-W-S081357
+ 2:41:30 (lmgrd) TIMESTAMP 12/2/2015
+ 3:32:00 (parteklm) IN: "base" baeh@FR-W-S081357
+ 3:32:00 (parteklm) IN: "matk" baeh@FR-W-S081357
+ 7:50:02 (parteklm) OUT: "base" baeh@FR-W-S081357
+ 7:50:02 (parteklm) OUT: "matk" baeh@FR-W-S081357
+ 8:02:37 (parteklm) OUT: "base" ciuccit@NCI-01978755-ML
+ 8:02:37 (parteklm) OUT: "matk" ciuccit@NCI-01978755-ML
+ 8:08:05 (parteklm) IN: "base" ciuccit@NCI-01978755-ML
+ 8:08:05 (parteklm) IN: "matk" ciuccit@NCI-01978755-ML
+ 8:09:22 (parteklm) OUT: "base" ciuccit@NCI-01978755-ML
+ 8:09:22 (parteklm) OUT: "matk" ciuccit@NCI-01978755-ML
+ 8:14:38 (parteklm) OUT: "infr" ciuccit@NCI-01978755-ML
+ 8:41:30 (lmgrd) TIMESTAMP 12/2/2015
+ 8:47:29 (parteklm) OUT: "base" chalamalasettyr@FR-N-S085058
+ 8:47:29 (parteklm) OUT: "matk" chalamalasettyr@FR-N-S085058
+ 9:09:46 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+ 9:09:46 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+ 9:22:22 (parteklm) OUT: "base" baeh@FR-W-S081357
+ 9:22:22 (parteklm) OUT: "matk" baeh@FR-W-S081357
+ 9:25:41 (parteklm) OUT: "base" xial2@fr-w-s076064
+ 9:25:41 (parteklm) OUT: "matk" xial2@fr-w-s076064
+ 9:26:56 (parteklm) OUT: "infr" xial2@fr-w-s076064
+ 9:29:50 (parteklm) OUT: "base" dengt@NCI-01902650
+ 9:29:50 (parteklm) OUT: "matk" dengt@NCI-01902650
+10:15:05 (parteklm) OUT: "base" xis@NCI-01987186
+10:15:05 (parteklm) OUT: "matk" xis@NCI-01987186
+10:22:50 (parteklm) OUT: "base" carpenterac@NCI-01962118-ML
+10:22:50 (parteklm) OUT: "matk" carpenterac@NCI-01962118-ML
+10:27:14 (parteklm) OUT: "disc" xis@NCI-01987186
+10:36:22 (parteklm) IN: "base" xis@NCI-01987186
+10:36:22 (parteklm) IN: "disc" xis@NCI-01987186
+10:36:22 (parteklm) IN: "matk" xis@NCI-01987186
+10:36:25 (parteklm) OUT: "base" xis@NCI-01987186
+10:36:25 (parteklm) OUT: "matk" xis@NCI-01987186
+10:37:20 (parteklm) OUT: "infr" baeh@FR-W-S081357
+10:47:07 (parteklm) IN: "base" baeh@FR-W-S081357
+10:47:07 (parteklm) IN: "matk" baeh@FR-W-S081357
+10:48:25 (parteklm) OUT: "base" dengt@NCI-01902650
+10:48:26 (parteklm) OUT: "matk" dengt@NCI-01902650
+10:55:48 (parteklm) OUT: "base" merchantas@FR-N-S084169
+10:55:48 (parteklm) OUT: "matk" merchantas@FR-N-S084169
+11:00:19 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+11:00:19 (parteklm) OUT: "matk" gibadullinr@FR-W-S076148
+11:03:19 (parteklm) IN: "base" merchantas@FR-N-S084169
+11:03:19 (parteklm) IN: "matk" merchantas@FR-N-S084169
+11:08:20 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+11:08:20 (parteklm) OUT: "matk" gibadullinr@FR-W-S076148
+11:09:03 (parteklm) IN: "base" gibadullinr@FR-W-S076148
+11:09:03 (parteklm) IN: "matk" gibadullinr@FR-W-S076148
+11:09:18 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+11:09:18 (parteklm) OUT: "matk" gibadullinr@FR-W-S076148
+11:12:37 (parteklm) IN: "base" gibadullinr@FR-W-S076148
+11:12:37 (parteklm) IN: "matk" gibadullinr@FR-W-S076148
+11:14:51 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+11:14:51 (parteklm) OUT: "matk" gibadullinr@FR-W-S076148
+11:53:14 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342))
+11:53:14 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:53:14 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:53:14 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:54:44 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:54:44 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:54:44 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:54:44 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:54:44 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:54:44 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:54:44 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:56:14 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:56:14 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:56:14 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:56:14 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:56:14 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:56:14 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:56:14 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:56:14 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:57:45 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:57:45 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:57:45 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:57:45 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:57:45 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:57:45 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:57:45 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:57:45 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:59:15 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:59:15 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:59:15 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:59:15 (parteklm) DENIED: "base" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:59:15 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:59:15 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:59:15 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+11:59:15 (parteklm) DENIED: "matk" xis@NCI-01987186  (Licensed number of users already reached. (-4,342:10054 ""))
+12:17:30 (parteklm) IN: "base" zhouw@NCI-01979657-L
+12:17:30 (parteklm) IN: "matk" zhouw@NCI-01979657-L
+12:31:25 (parteklm) IN: "base" dengt@NCI-01902650
+12:31:25 (parteklm) IN: "matk" dengt@NCI-01902650
+12:32:11 (parteklm) OUT: "base" patelsj@NCI-01876293
+12:32:11 (parteklm) OUT: "matk" patelsj@NCI-01876293
+12:39:21 (parteklm) IN: "base" patelsj@NCI-01876293
+12:39:21 (parteklm) IN: "matk" patelsj@NCI-01876293
+13:04:39 (parteklm) OUT: "base" localadmin@NCI-01996067-M.local
+13:04:39 (parteklm) OUT: "matk" localadmin@NCI-01996067-M.local
+13:05:18 (parteklm) IN: "base" localadmin@NCI-01996067-M.local
+13:05:18 (parteklm) IN: "matk" localadmin@NCI-01996067-M.local
+13:23:35 (parteklm) IN: "base" yangs7@NCI-02015278
+13:23:35 (parteklm) IN: "matk" yangs7@NCI-02015278
+13:26:44 (parteklm) OUT: "base" dengt@NCI-01902650
+13:26:44 (parteklm) OUT: "matk" dengt@NCI-01902650
+13:47:41 (parteklm) OUT: "base" xis@NCI-01987186
+13:47:41 (parteklm) OUT: "matk" xis@NCI-01987186
+13:50:00 (parteklm) IN: "base" xis@NCI-01987186
+13:50:00 (parteklm) IN: "matk" xis@NCI-01987186
+14:11:39 (parteklm) IN: "base" wangyong@NCI-01782472-M
+14:11:39 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+14:24:40 (parteklm) OUT: "base" kumarr2@FR-W-S079818
+14:24:40 (parteklm) OUT: "matk" kumarr2@FR-W-S079818
+14:30:41 (parteklm) OUT: "base" xial2@fr-w-s076064
+14:30:42 (parteklm) OUT: "matk" xial2@fr-w-s076064
+14:30:42 (parteklm) OUT: "infr" xial2@fr-w-s076064
+14:35:06 (parteklm) OUT: "base" merchantas@FR-N-S084169
+14:35:06 (parteklm) OUT: "matk" merchantas@FR-N-S084169
+14:41:30 (lmgrd) TIMESTAMP 12/2/2015
+14:44:46 (parteklm) IN: "base" xial2@fr-w-s076064
+14:44:46 (parteklm) IN: "infr" xial2@fr-w-s076064
+14:44:46 (parteklm) IN: "matk" xial2@fr-w-s076064
+14:53:31 (parteklm) OUT: "base" yangs7@NCI-01978478-L
+14:53:32 (parteklm) OUT: "matk" yangs7@NCI-01978478-L
+15:11:37 (parteklm) DENIED: "base" chatterb@NCI-01996063-M  (Licensed number of users already reached. (-4,342))
+15:11:51 (parteklm) DENIED: "base" yangs7@NCI-01978478-L  (Licensed number of users already reached. (-4,342))
+15:13:34 (parteklm) DENIED: "base" chatterb@NCI-01996063-M  (Licensed number of users already reached. (-4,342:10054 ""))
+15:23:01 (parteklm) IN: "base" dengt@NCI-01902650
+15:23:01 (parteklm) IN: "matk" dengt@NCI-01902650
+15:28:27 (parteklm) UNSUPPORTED: "pathway_base" (PORT_AT_HOST_PLUS   ) kumarr2@FR-W-S079818  (License server system does not support this feature. (-18,327:10054 ""))
+15:34:26 (parteklm) OUT: "infr" kumarr2@FR-W-S079818
+15:38:13 (parteklm) OUT: "base" fitzgepe@NCI-01888182-ML
+15:38:13 (parteklm) OUT: "matk" fitzgepe@NCI-01888182-ML
+15:48:15 (parteklm) IN: "base" xial2@fr-w-s076064
+15:48:15 (parteklm) IN: "infr" xial2@fr-w-s076064
+15:48:15 (parteklm) IN: "matk" xial2@fr-w-s076064
+16:02:43 (parteklm) OUT: "infr" yangs7@NCI-01978478-L
+16:10:56 (parteklm) IN: "base" fitzgepe@NCI-01888182-ML
+16:10:56 (parteklm) IN: "matk" fitzgepe@NCI-01888182-ML
+16:11:48 (parteklm) IN: "base" merchantas@FR-N-S084169
+16:11:48 (parteklm) IN: "matk" merchantas@FR-N-S084169
+16:19:32 (parteklm) OUT: "base" zhouw@NCI-01979657-L
+16:19:32 (parteklm) OUT: "matk" zhouw@NCI-01979657-L
+16:20:48 (parteklm) IN: "base" yangs7@NCI-01978478-L
+16:20:48 (parteklm) IN: "infr" yangs7@NCI-01978478-L
+16:20:48 (parteklm) IN: "matk" yangs7@NCI-01978478-L
+17:10:18 (parteklm) OUT: "base" sanchezmartind@NCI-01979429
+17:10:19 (parteklm) OUT: "matk" sanchezmartind@NCI-01979429
+17:10:26 (parteklm) IN: "base" sanchezmartind@NCI-01979429
+17:10:26 (parteklm) IN: "matk" sanchezmartind@NCI-01979429
+17:10:45 (parteklm) OUT: "base" sanchezmartind@NCI-01979429
+17:10:46 (parteklm) OUT: "matk" sanchezmartind@NCI-01979429
+17:18:37 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+17:18:37 (parteklm) OUT: "matk" gibadullinr@FR-W-S076148
+17:21:53 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+17:21:53 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+17:25:55 (parteklm) IN: "base" zhouw@NCI-01979657-L
+17:25:55 (parteklm) IN: "matk" zhouw@NCI-01979657-L
+17:46:32 (parteklm) IN: "base" xis@NCI-01987186
+17:46:32 (parteklm) IN: "matk" xis@NCI-01987186
+17:47:39 (parteklm) OUT: "infr" sanchezmartind@NCI-01979429
+17:48:14 (parteklm) IN: "base" chaisaingmongj@NCI-01820516
+17:48:14 (parteklm) IN: "matk" chaisaingmongj@NCI-01820516
+18:04:44 (parteklm) IN: "base" carpenterac@NCI-01962118-ML
+18:04:44 (parteklm) IN: "matk" carpenterac@NCI-01962118-ML
+18:04:44 (parteklm) OUT: "base" carpenterac@NCI-01962118-ML
+18:04:44 (parteklm) OUT: "matk" carpenterac@NCI-01962118-ML
+18:06:50 (parteklm) IN: "base" carpenterac@NCI-01962118-ML
+18:06:50 (parteklm) IN: "matk" carpenterac@NCI-01962118-ML
+18:06:58 (parteklm) IN: "base" chalamalasettyr@FR-N-S085058
+18:06:58 (parteklm) IN: "matk" chalamalasettyr@FR-N-S085058
+19:13:54 (parteklm) IN: "base" kumarr2@FR-W-S079818
+19:13:54 (parteklm) IN: "infr" kumarr2@FR-W-S079818
+19:13:54 (parteklm) IN: "matk" kumarr2@FR-W-S079818
+19:25:59 (parteklm) IN: "base" ciuccit@NCI-01978755-ML
+19:25:59 (parteklm) IN: "infr" ciuccit@NCI-01978755-ML
+19:25:59 (parteklm) IN: "matk" ciuccit@NCI-01978755-ML
+19:40:19 (parteklm) IN: "base" dengt@NCI-01902650
+19:40:19 (parteklm) IN: "matk" dengt@NCI-01902650
+20:27:16 (parteklm) OUT: "base" ciuccit@NCI-01978755-ML
+20:27:16 (parteklm) OUT: "matk" ciuccit@NCI-01978755-ML
+20:27:16 (parteklm) OUT: "infr" ciuccit@NCI-01978755-ML
+20:41:33 (lmgrd) TIMESTAMP 12/2/2015
+21:16:14 (parteklm) OUT: "base" kumarr2@FR-W-S079818
+21:16:14 (parteklm) OUT: "matk" kumarr2@FR-W-S079818
+21:16:14 (parteklm) OUT: "infr" kumarr2@FR-W-S079818
+22:27:22 (parteklm) IN: "base" ciuccit@NCI-01978755-ML
+22:27:22 (parteklm) IN: "infr" ciuccit@NCI-01978755-ML
+22:27:22 (parteklm) IN: "matk" ciuccit@NCI-01978755-ML
+22:28:27 (parteklm) OUT: "base" ciuccit@NCI-01978755-ML
+22:28:27 (parteklm) OUT: "matk" ciuccit@NCI-01978755-ML
+22:28:27 (parteklm) OUT: "infr" ciuccit@NCI-01978755-ML
+23:01:27 (parteklm) IN: "base" gibadullinr@FR-W-S076148
+23:01:27 (parteklm) IN: "matk" gibadullinr@FR-W-S076148
+23:01:57 (parteklm) IN: "base" gibadullinr@FR-W-S076148
+23:01:57 (parteklm) IN: "matk" gibadullinr@FR-W-S076148
+23:02:11 (parteklm) IN: "base" gibadullinr@FR-W-S076148
+23:02:11 (parteklm) IN: "matk" gibadullinr@FR-W-S076148
+23:16:19 (parteklm) IN: "base" kumarr2@FR-W-S079818
+23:16:19 (parteklm) IN: "infr" kumarr2@FR-W-S079818
+23:16:19 (parteklm) IN: "matk" kumarr2@FR-W-S079818
+ 0:00:21 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 1:17:45 (parteklm) OUT: "base" kumarr2@FR-W-S079818
+ 1:17:45 (parteklm) OUT: "matk" kumarr2@FR-W-S079818
+ 1:17:45 (parteklm) OUT: "infr" kumarr2@FR-W-S079818
+ 2:31:41 (parteklm) IN: "base" ciuccit@NCI-01978755-ML
+ 2:31:41 (parteklm) IN: "infr" ciuccit@NCI-01978755-ML
+ 2:31:41 (parteklm) IN: "matk" ciuccit@NCI-01978755-ML
+ 2:41:34 (lmgrd) TIMESTAMP 12/3/2015
+ 3:17:50 (parteklm) IN: "base" kumarr2@FR-W-S079818
+ 3:17:50 (parteklm) IN: "infr" kumarr2@FR-W-S079818
+ 3:17:50 (parteklm) IN: "matk" kumarr2@FR-W-S079818
+ 3:18:42 (parteklm) OUT: "base" kumarr2@FR-W-S079818
+ 3:18:42 (parteklm) OUT: "matk" kumarr2@FR-W-S079818
+ 3:18:42 (parteklm) OUT: "infr" kumarr2@FR-W-S079818
+ 5:18:46 (parteklm) IN: "base" kumarr2@FR-W-S079818
+ 5:18:46 (parteklm) IN: "infr" kumarr2@FR-W-S079818
+ 5:18:46 (parteklm) IN: "matk" kumarr2@FR-W-S079818
+ 7:20:40 (parteklm) OUT: "base" kumarr2@FR-W-S079818
+ 7:20:40 (parteklm) OUT: "matk" kumarr2@FR-W-S079818
+ 7:20:40 (parteklm) OUT: "infr" kumarr2@FR-W-S079818
+ 7:28:53 (parteklm) OUT: "base" carpenterac@NCI-01962118-ML
+ 7:28:53 (parteklm) OUT: "matk" carpenterac@NCI-01962118-ML
+ 7:34:58 (parteklm) OUT: "base" ciuccit@NCI-01978755-ML
+ 7:34:58 (parteklm) OUT: "matk" ciuccit@NCI-01978755-ML
+ 7:50:09 (parteklm) IN: "base" ciuccit@NCI-01978755-ML
+ 7:50:09 (parteklm) IN: "matk" ciuccit@NCI-01978755-ML
+ 7:50:11 (parteklm) OUT: "base" ciuccit@NCI-01978755-ML
+ 7:50:11 (parteklm) OUT: "matk" ciuccit@NCI-01978755-ML
+ 7:55:33 (parteklm) IN: "base" carpenterac@NCI-01962118-ML
+ 7:55:33 (parteklm) IN: "matk" carpenterac@NCI-01962118-ML
+ 8:03:55 (parteklm) IN: "base" ciuccit@NCI-01978755-ML
+ 8:03:55 (parteklm) IN: "matk" ciuccit@NCI-01978755-ML
+ 8:04:45 (parteklm) OUT: "base" ciuccit@NCI-01978755-ML
+ 8:04:45 (parteklm) OUT: "matk" ciuccit@NCI-01978755-ML
+ 8:13:01 (parteklm) OUT: "base" shanj@fr-s-isp-partek.ncifcrf.gov
+ 8:13:01 (parteklm) OUT: "matk" shanj@fr-s-isp-partek.ncifcrf.gov
+ 8:41:37 (lmgrd) TIMESTAMP 12/3/2015
+ 9:33:03 (parteklm) OUT: "base" dengt@NCI-01902650
+ 9:33:03 (parteklm) OUT: "matk" dengt@NCI-01902650
+ 9:53:43 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+ 9:53:43 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+ 9:55:35 (parteklm) IN: "base" wangyong@NCI-01782472-M
+ 9:55:35 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+ 9:56:35 (parteklm) OUT: "base" chaisaingmongj@NCI-01820516
+ 9:56:36 (parteklm) OUT: "matk" chaisaingmongj@NCI-01820516
+10:10:49 (parteklm) OUT: "base" yiming@FR-W-S070926
+10:10:49 (parteklm) OUT: "matk" yiming@FR-W-S070926
+10:13:21 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+10:13:21 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+10:25:08 (parteklm) IN: "base" wangyong@NCI-01782472-M
+10:25:08 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+10:32:56 (parteklm) OUT: "base" wangyong@NCI-01782472-M
+10:32:56 (parteklm) OUT: "matk" wangyong@NCI-01782472-M
+10:38:51 (parteklm) OUT: "base" yanghow@NCI-01962315
+10:38:52 (parteklm) OUT: "matk" yanghow@NCI-01962315
+10:46:32 (parteklm) IN: "base" wangyong@NCI-01782472-M
+10:46:32 (parteklm) IN: "matk" wangyong@NCI-01782472-M
+10:47:33 (parteklm) IN: "base" yanghow@NCI-01962315
+10:47:33 (parteklm) IN: "matk" yanghow@NCI-01962315
+11:17:05 (parteklm) IN: "base" baeh@FR-W-S081357
+11:17:05 (parteklm) IN: "infr" baeh@FR-W-S081357
+11:17:05 (parteklm) IN: "matk" baeh@FR-W-S081357
+11:17:09 (parteklm) OUT: "base" baeh@FR-W-S081357
+11:17:09 (parteklm) OUT: "matk" baeh@FR-W-S081357
+11:22:33 (parteklm) OUT: "base" monksa@FR-N-S083513
+11:22:33 (parteklm) OUT: "matk" monksa@FR-N-S083513
+11:44:21 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+11:44:21 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+11:44:21 (parteklm) OUT: "base" gibadullinr@FR-W-S076148
+11:44:21 (parteklm) OUT: "matk" gibadullinr@FR-W-S076148

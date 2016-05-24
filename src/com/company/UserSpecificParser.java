@@ -61,7 +61,7 @@ public class UserSpecificParser {
 		// 1:17:41 (parteklm) TIMESTAMP 4/8/2015
 		// 1:32:49 (parteklm) IN: "base" mikamiy@NIAMS01677357M
 		// unfortunately we have to deal with situations like the above where the date changes but we dont get the regular log message
-		if (line.contains("TIMESTAMP") && line.contains("parteklm")) {
+		if (line.contains("TIMESTAMP") && line.contains("lmgrd")) {
 			datePieces = ParserHelper.getDatePiecesFromTimeStamp(line);
 		}
 

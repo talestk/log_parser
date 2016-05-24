@@ -53,5 +53,10 @@ public class Main {
 			UserSpecificParser.parse(args[1]);
 		}
 
+		if (args[0].equals("-s")) {
+			System.out.println("file: "+args[1]);
+			SimpleUserActionsCounter.parse(args[1]);
+		}
+
 	}
 }

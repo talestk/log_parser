@@ -9,12 +9,12 @@ import java.text.ParseException;
 public class DayByDayParserTest {
 	@Test
 	public void testOverallParser_log1() throws IOException, ParseException {
-		Main.main(new String[]{"-a", "logfile.log"});
+		Main.main(new String[]{"-a", "logfileNCI.log"});
 	}
 
 	@Test
 	public void testOverallParser_log2() throws IOException, ParseException {
-		Main.main(new String[]{"-a", "logfile2.log"});
+		Main.main(new String[]{"-a", "logfile.log"});
 	}
 
 	@Test
@@ -45,6 +45,11 @@ public class DayByDayParserTest {
 	@Test
 	public void testUserSpecificParser() throws IOException, ParseException {
 		Main.main(new String[]{"-u", "logfile.log"});
+	}
+
+	@Test
+	public void testSimpleUserActions() throws IOException, ParseException {
+		Main.main(new String[]{"-s", "logfile.log"});
 	}
 
 	// TODO make tests for averages and total
