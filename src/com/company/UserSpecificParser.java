@@ -9,12 +9,12 @@ import java.io.Writer;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 
-public class UserSpecificParser {
-
-	public static void parse(String filePath) throws IOException, ParseException {
+class UserSpecificParser {
+	static void parse(String filePath) throws IOException, ParseException {
 		System.out.println("Starting user specific parser ...");
 		List<String> allLines = ParserHelper.getAllLinesFromFile(filePath);
 		String outputFileName = "output";
@@ -66,10 +66,33 @@ public class UserSpecificParser {
 		}
 
 		// now we can start parsing
-		if (line.contains("parteklm") && line.contains("base")) {
-			formatDateAndPrintLine(line, registrars, duplicateRegistries, datePieces, writer);
+		if (line.contains("parteklm") &&
+				(line.contains("\"flow") || line.contains("base\"") || line.contains("infr\"") || line.contains("pathway_base\""))) {
+			if (!line.contains("DENIED")) {
+				formatDateAndPrintLine(line, registrars, duplicateRegistries, datePieces, writer);
+			}
+		}
+
+		if (line.contains("parteklm exited with status")) {
+			clearAllRegistrars(registrars, writer);
 		}
 		return datePieces;
+	}
+
+	private static void clearAllRegistrars(Collection<LicenseRegistrar> registrars, Writer writer) throws IOException {
+		for (LicenseRegistrar license : registrars) {
+			// new SimpleDateFormat("E MMM dd yyyy HH:mm:ss")
+			// Wed Jan 28 09:31:36 CST 2015 <- Date formats this way so we have to convert to the log standards above
+			String[] splitFormattedDate = license.getCheckOutTime().toString().split(" ");
+			String time = splitFormattedDate[0] + " " + splitFormattedDate[1] + " " + splitFormattedDate[2] + " " +
+					splitFormattedDate[5] + " " + splitFormattedDate[3];
+			String[] datePieces = time.split(" ");
+			writer.write(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + "\t");
+			writer.write(license.getUser() + "\t");
+			long total = 0;
+			printTotalUsageString(total, writer);
+		}
+		registrars.clear();
 	}
 
 	private static void formatDateAndPrintLine(String line, List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries,
@@ -83,8 +106,8 @@ public class UserSpecificParser {
 		}
 	}
 
-	private static void removeRegistry(List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries,
-									   String[] datePieces, Writer writer, String[] wordsInLine) throws ParseException, IOException {
+	private static void removeRegistry(List<LicenseRegistrar> registrars, Collection<LicenseRegistrar> duplicateRegistries,
+	                                   String[] datePieces, Writer writer, String[] wordsInLine) throws ParseException, IOException {
 		String lastWord = wordsInLine[wordsInLine.length - 1];
 		if (!lastWord.contains("@")) {
 			//  6:20:35 (parteklm) IN: "base" weipingchen@DK8R1A11PC31  (SHUTDOWN)
@@ -93,7 +116,7 @@ public class UserSpecificParser {
 		String[] userHost = lastWord.split("@");
 		Date dateCheckIn = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 				.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + wordsInLine[0] + "\t");
-		LicenseRegistrar newCheckIn = new LicenseRegistrar(dateCheckIn, userHost[0], userHost[1]);
+		LicenseRegistrar newCheckIn = new LicenseRegistrar(dateCheckIn, userHost[0], userHost[1], wordsInLine[3]);
 		if (duplicateRegistries.contains(newCheckIn)) {
 			duplicateRegistries.remove(newCheckIn);
 		} else if (registrars.contains(newCheckIn)) {
@@ -118,7 +141,7 @@ public class UserSpecificParser {
 		String[] userHost = wordsInLine[wordsInLine.length - 1].split("@");
 		Date dateCheckOut = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 				.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + wordsInLine[0]);
-		LicenseRegistrar newRegistry = new LicenseRegistrar(dateCheckOut, userHost[0], userHost[1]);
+		LicenseRegistrar newRegistry = new LicenseRegistrar(dateCheckOut, userHost[0], userHost[1], wordsInLine[3]);
 		checkForDuplicateEntry(registrars, duplicateRegistries, newRegistry);
 	}
 

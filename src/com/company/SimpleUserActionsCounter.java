@@ -23,8 +23,8 @@ import java.util.*;
  * Total Denies:<br/>
  * Total Unsupported:<br/>
  */
-public class SimpleUserActionsCounter {
-    public static void parse(String filePath) throws IOException, ParseException {
+class SimpleUserActionsCounter {
+    static void parse(String filePath) throws IOException, ParseException {
         System.out.println("Starting overall parser ...");
 
         // initialize variables
@@ -37,7 +37,7 @@ public class SimpleUserActionsCounter {
         try (Writer writer = new BufferedWriter(new OutputStreamWriter(
                 new FileOutputStream(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION), "utf-8"))) {
             // print the header
-            writer.write("Date\tCheckout\tCheckins\tDenies\tUnsupported\n");
+            writer.write("User\tCheckout\tCheckins\tDenies\tUnsupported\n");
 
             // this set will hold all the users on the log
             HashSet<Object> userSet = new HashSet<>();
@@ -54,17 +54,21 @@ public class SimpleUserActionsCounter {
         }
     }
 
-    private static void parseLine(HashSet<Object> userSet, List<UserActions> simpleUserActionsCounterList, String string) {
+    private static void parseLine(Collection<Object> userSet, Collection<UserActions> simpleUserActionsCounterList, String string) {
         string = string.trim();
 
         // lets find only the lines we are interested on
         if (string.contains("parteklm") &&
-                (string.contains("\"base\"") || string.contains("\"infr\"") || string.contains("\"pathway_base\"") || string.contains("\"matk\""))) {
+                (string.contains("\"flow") || string.contains("base\"") || string.contains("infr\"") || string.contains("pathway_base\""))) {
             String[] user = string.split(" ");
 
             // 10:41:30 (parteklm) OUT: "base" tangw3@NCI-02034032-ML
+	        // WARNING: sometimes it can have spaces on the user such as "Jacky Wong@JackyWong-PC"
             // the user is the fourth piece after splitting
             String newUser = user[4];
+            if (!newUser.contains("@")) {
+            	newUser = user[4] + user[5];
+            }
 
             // lets make sure it is a user
             if (newUser.contains("@")) {
@@ -84,7 +88,7 @@ public class SimpleUserActionsCounter {
         }
     }
 
-    private static void writeAndPrintOutput(Writer writer, HashSet<Object> userSet, List<UserActions> simpleUserActionsCounterList) throws IOException {
+    private static void writeAndPrintOutput(Writer writer, Collection<Object> userSet, Collection<UserActions> simpleUserActionsCounterList) throws IOException {
         // these will help us keep a total count
         int totalOut = 0;
         int totalIn = 0;

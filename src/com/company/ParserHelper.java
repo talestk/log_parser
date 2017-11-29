@@ -13,11 +13,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class ParserHelper {
-	public static final String OUTPUT_FILE_EXTENSION = ".csv";
-	public static final String DATE_AND_TIME_PATTERN = "E MMM dd yyyy HH:mm:ss";
+class ParserHelper {
+	static final String OUTPUT_FILE_EXTENSION = ".csv";
+	static final String DATE_AND_TIME_PATTERN = "E MMM dd yyyy HH:mm:ss";
 
-	public static List<String> getAllLinesFromFile(String arg) {
+	static List<String> getAllLinesFromFile(String arg) {
 		File logFile = new File(arg);
 		List<String> allLines = new ArrayList<>();
 		if (logFile.canRead()) {
@@ -33,7 +33,7 @@ public class ParserHelper {
 		return allLines;
 	}
 
-	public static void printResume(CounterHelper counterHelper) {
+	static void printResume(CounterHelper counterHelper) {
 
 		int weekDaysOnLog = counterHelper.weekDaysOnLog.get();
 		if (weekDaysOnLog == 0) { weekDaysOnLog = 1; }
@@ -49,25 +49,25 @@ public class ParserHelper {
 		if (weekendDaysLicenseChecked == 0) { weekendDaysLicenseChecked = 1; }
 
 		System.out.println("========== Totals ==========");
-		System.out.println(" weekday checkouts: " + checkoutCountTotal);
-		System.out.println(" weekday denies: " + deniedCountTotal);
-		System.out.println(" weekdays: " + weekDaysOnLog);
-		System.out.println(" weekend checkouts: " + weekendCheckOuts);
-		System.out.println(" weekend denies: " + weekendDenies);
-		System.out.println(" weekend days: " + weekendDaysOnLog);
-		System.out.println(" days on log: " + (weekDaysOnLog + weekendDaysOnLog));
-		System.out.println(" days that licenses were used: " + (weekDaysLicenseChecked + weekendDaysLicenseChecked));
+		System.out.println(" Weekday checkouts: " + checkoutCountTotal);
+		System.out.println(" Weekday denies: " + deniedCountTotal);
+		System.out.println(" Weekdays: " + weekDaysOnLog);
+		System.out.println(" Weekend checkouts: " + weekendCheckOuts);
+		System.out.println(" Weekend denies: " + weekendDenies);
+		System.out.println(" Weekend days: " + weekendDaysOnLog);
+		System.out.println(" Days on log: " + (weekDaysOnLog + weekendDaysOnLog));
+		System.out.println(" Days that licenses were used: " + (weekDaysLicenseChecked + weekendDaysLicenseChecked));
 		System.out.println("============================");
 		DecimalFormat df = new DecimalFormat("0.0");
 		System.out.println("========= Averages =========");
-		System.out.println(" weekday checkouts: " + df.format((float) checkoutCountTotal / weekDaysLicenseChecked));
-		System.out.println(" weekday denied: " + df.format((float) deniedCountTotal / weekDaysOnLog));
-		System.out.println(" weekend checkouts: " + df.format((float) weekendCheckOuts / weekendDaysLicenseChecked));
-		System.out.println(" weekend denies: " + df.format((float) weekendDenies / weekendDaysOnLog));
+		System.out.println(" Weekday checkouts: " + df.format((float) checkoutCountTotal / weekDaysLicenseChecked));
+		System.out.println(" Weekday denied: " + df.format((float) deniedCountTotal / weekDaysOnLog));
+		System.out.println(" Weekend checkouts: " + df.format((float) weekendCheckOuts / weekendDaysLicenseChecked));
+		System.out.println(" Weekend denies: " + df.format((float) weekendDenies / weekendDaysOnLog));
 		System.out.println("============================");
 	}
 
-	public static File concatAllFilesWhichStartsWith(final File folder, String filenamePattern) throws IOException {
+	static File concatAllFilesWhichStartsWith(final File folder, String filenamePattern) throws IOException {
 		System.out.println("Concatenating and parsing all files...");
 		File[] allFolderFiles = folder.listFiles();
 		assert allFolderFiles != null;
@@ -84,7 +84,7 @@ public class ParserHelper {
 	}
 
 	// http://stackoverflow.com/questions/1978933/a-quick-and-easy-way-to-join-array-elements-with-a-separator-the-opposite-of-sp
-	public static String strJoin(String[] aArr, String sSep) {
+	static String strJoin(String[] aArr, String sSep) {
 		StringBuilder sbStr = new StringBuilder();
 		for (int i = 0, il = aArr.length; i < il; i++) {
 			if (i > 0)
@@ -94,7 +94,7 @@ public class ParserHelper {
 		return sbStr.toString();
 	}
 
-	public static String[] getDatePiecesFromTimeStamp(String line) throws ParseException {
+	static String[] getDatePiecesFromTimeStamp(String line) throws ParseException {
 		String time;
 		String[] datePieces;
 		String[] lineSplit = line.split(" ");

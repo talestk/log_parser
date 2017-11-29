@@ -44,9 +44,9 @@ import java.util.List;
  *  weekend denies: 0
  * ============================
  */
-public class DayByDayParser {
+class DayByDayParser {
 
-	public static void parse(String filePath) throws IOException, ParseException {
+	static void parse(String filePath) throws IOException, ParseException {
 		System.out.println("Starting overall parser ...");
 
 		// initialize variables
@@ -111,7 +111,7 @@ public class DayByDayParser {
 				// 1:17:41 (parteklm) TIMESTAMP 4/8/2015
 				// 1:32:49 (parteklm) IN: "base" mikamiy@NIAMS01677357M
 				// unfortunately we have to deal with situations like the above where the date changes but we dont get the regular log message
-				if (line.contains("TIMESTAMP") && line.contains("parteklm")) {
+				if (line.contains("TIMESTAMP") && (line.contains("parteklm") || line.contains("lmgrd") || line.contains("infr\"") || line.contains("pathway_base\""))) {
 					datePieces = ParserHelper.getDatePiecesFromTimeStamp(line);
 					time = ParserHelper.strJoin(datePieces, " ");
 					String weekDay = datePieces[0];
@@ -126,7 +126,8 @@ public class DayByDayParser {
 				}
 
 				// if it is from the license we want we start counting the features checked out and denied
-				if (line.contains("parteklm") && line.contains("base") && newDate != null && newDate.getTime() > currentDate.getTime()) {
+				if (line.contains("parteklm") && newDate != null && newDate.getTime() > currentDate.getTime() &&
+						(line.contains("base")  || line.contains("infr") || line.contains("pathway_base"))) {
 					isNewDay = incrementCountersForNewDay(counterHelper, time, isNewDay);
 					firstLoop = featureLineFound(counterHelper, time, line);
 				}

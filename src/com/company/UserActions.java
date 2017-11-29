@@ -6,7 +6,7 @@ package com.company;
 public class UserActions {
     private final String type;
     private final String user;
-    public UserActions(String type,String user) {
+    UserActions(String type, String user) {
         this.type = type;
         this.user = user;
     }
@@ -14,7 +14,7 @@ public class UserActions {
     public String getUser() {
         return this.user;
     }
-    public String getType() {
+    private String getType() {
         return this.type;
     }
 

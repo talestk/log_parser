@@ -1,0 +1,3193 @@
+ 4:30:58 (lmgrd) TIMESTAMP 9/24/2014
+ 6:00:54 (parteklm) TIMESTAMP 9/24/2014
+10:20:53 (parteklm) OUT: "base" Joey@Joey-PC  
+10:20:53 (parteklm) OUT: "matk" Joey@Joey-PC  
+10:21:14 (parteklm) IN: "base" Joey@Joey-PC  
+10:21:14 (parteklm) IN: "matk" Joey@Joey-PC  
+10:30:59 (lmgrd) TIMESTAMP 9/24/2014
+10:58:40 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+10:58:42 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+12:05:58 (parteklm) TIMESTAMP 9/24/2014
+14:51:18 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+14:51:18 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+16:30:59 (lmgrd) TIMESTAMP 9/24/2014
+18:10:59 (parteklm) TIMESTAMP 9/24/2014
+22:31:00 (lmgrd) TIMESTAMP 9/24/2014
+ 0:00:11 (parteklm) base expired -- rereading to update
+ 0:00:11 (parteklm) Rereading license file...
+ 0:00:11 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:11 (parteklm) disc		pred		infr		
+ 0:00:11 (parteklm) cnct		matk		
+ 0:00:11 (parteklm) Updating feature base
+ 0:00:11 (parteklm) Updating feature disc
+ 0:00:11 (parteklm) Updating feature pred
+ 0:00:11 (parteklm) Updating feature infr
+ 0:00:11 (parteklm) Updating feature cnct
+ 0:00:11 (parteklm) Updating feature matk
+ 0:00:11 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:11 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:11 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:11 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:11 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:11 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:11 (parteklm) Rereading options file...
+ 0:00:11 (parteklm) ...Finished rereading
+ 0:16:01 (parteklm) TIMESTAMP 9/25/2014
+ 4:31:00 (lmgrd) TIMESTAMP 9/25/2014
+ 6:21:02 (parteklm) TIMESTAMP 9/25/2014
+10:31:00 (lmgrd) TIMESTAMP 9/25/2014
+12:26:03 (parteklm) TIMESTAMP 9/25/2014
+16:31:02 (lmgrd) TIMESTAMP 9/25/2014
+18:31:07 (parteklm) TIMESTAMP 9/25/2014
+22:31:06 (lmgrd) TIMESTAMP 9/25/2014
+ 0:00:47 (parteklm) base expired -- rereading to update
+ 0:00:47 (parteklm) Rereading license file...
+ 0:00:47 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:47 (parteklm) disc		pred		infr		
+ 0:00:47 (parteklm) cnct		matk		
+ 0:00:47 (parteklm) Updating feature base
+ 0:00:47 (parteklm) Updating feature disc
+ 0:00:47 (parteklm) Updating feature pred
+ 0:00:47 (parteklm) Updating feature infr
+ 0:00:47 (parteklm) Updating feature cnct
+ 0:00:47 (parteklm) Updating feature matk
+ 0:00:47 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:47 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:47 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:47 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:47 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:47 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:47 (parteklm) Rereading options file...
+ 0:00:47 (parteklm) ...Finished rereading
+ 0:36:07 (parteklm) TIMESTAMP 9/26/2014
+ 4:31:07 (lmgrd) TIMESTAMP 9/26/2014
+ 6:41:09 (parteklm) TIMESTAMP 9/26/2014
+10:31:11 (lmgrd) TIMESTAMP 9/26/2014
+12:46:13 (parteklm) TIMESTAMP 9/26/2014
+16:31:14 (lmgrd) TIMESTAMP 9/26/2014
+18:51:14 (parteklm) TIMESTAMP 9/26/2014
+22:31:18 (lmgrd) TIMESTAMP 9/26/2014
+ 0:00:32 (parteklm) base expired -- rereading to update
+ 0:00:32 (parteklm) Rereading license file...
+ 0:00:32 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:32 (parteklm) disc		pred		infr		
+ 0:00:32 (parteklm) cnct		matk		
+ 0:00:32 (parteklm) Updating feature base
+ 0:00:32 (parteklm) Updating feature disc
+ 0:00:32 (parteklm) Updating feature pred
+ 0:00:32 (parteklm) Updating feature infr
+ 0:00:32 (parteklm) Updating feature cnct
+ 0:00:32 (parteklm) Updating feature matk
+ 0:00:32 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:32 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:32 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:32 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:32 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:32 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:32 (parteklm) Rereading options file...
+ 0:00:32 (parteklm) ...Finished rereading
+ 0:56:17 (parteklm) TIMESTAMP 9/27/2014
+ 4:31:21 (lmgrd) TIMESTAMP 9/27/2014
+ 7:01:21 (parteklm) TIMESTAMP 9/27/2014
+10:31:23 (lmgrd) TIMESTAMP 9/27/2014
+13:06:23 (parteklm) TIMESTAMP 9/27/2014
+16:31:27 (lmgrd) TIMESTAMP 9/27/2014
+19:11:24 (parteklm) TIMESTAMP 9/27/2014
+22:31:30 (lmgrd) TIMESTAMP 9/27/2014
+ 0:00:21 (parteklm) base expired -- rereading to update
+ 0:00:21 (parteklm) Rereading license file...
+ 0:00:21 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:21 (parteklm) disc		pred		infr		
+ 0:00:21 (parteklm) cnct		matk		
+ 0:00:21 (parteklm) Updating feature base
+ 0:00:21 (parteklm) Updating feature disc
+ 0:00:21 (parteklm) Updating feature pred
+ 0:00:21 (parteklm) Updating feature infr
+ 0:00:21 (parteklm) Updating feature cnct
+ 0:00:21 (parteklm) Updating feature matk
+ 0:00:21 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:21 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:21 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:21 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:21 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:21 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:21 (parteklm) Rereading options file...
+ 0:00:21 (parteklm) ...Finished rereading
+ 1:16:27 (parteklm) TIMESTAMP 9/28/2014
+ 4:31:33 (lmgrd) TIMESTAMP 9/28/2014
+ 7:21:29 (parteklm) TIMESTAMP 9/28/2014
+10:31:35 (lmgrd) TIMESTAMP 9/28/2014
+13:26:29 (parteklm) TIMESTAMP 9/28/2014
+16:31:36 (lmgrd) TIMESTAMP 9/28/2014
+19:31:32 (parteklm) TIMESTAMP 9/28/2014
+22:31:38 (lmgrd) TIMESTAMP 9/28/2014
+ 0:00:43 (parteklm) base expired -- rereading to update
+ 0:00:43 (parteklm) Rereading license file...
+ 0:00:43 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:43 (parteklm) disc		pred		infr		
+ 0:00:43 (parteklm) cnct		matk		
+ 0:00:43 (parteklm) Updating feature base
+ 0:00:43 (parteklm) Updating feature disc
+ 0:00:43 (parteklm) Updating feature pred
+ 0:00:43 (parteklm) Updating feature infr
+ 0:00:43 (parteklm) Updating feature cnct
+ 0:00:43 (parteklm) Updating feature matk
+ 0:00:43 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:43 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:43 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:43 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:43 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:43 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:43 (parteklm) Rereading options file...
+ 0:00:43 (parteklm) ...Finished rereading
+ 1:36:34 (parteklm) TIMESTAMP 9/29/2014
+ 4:31:40 (lmgrd) TIMESTAMP 9/29/2014
+ 7:41:38 (parteklm) TIMESTAMP 9/29/2014
+10:31:43 (lmgrd) TIMESTAMP 9/29/2014
+13:46:40 (parteklm) TIMESTAMP 9/29/2014
+16:31:45 (lmgrd) TIMESTAMP 9/29/2014
+19:51:44 (parteklm) TIMESTAMP 9/29/2014
+22:31:46 (lmgrd) TIMESTAMP 9/29/2014
+ 0:00:17 (parteklm) base expired -- rereading to update
+ 0:00:17 (parteklm) Rereading license file...
+ 0:00:17 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:17 (parteklm) disc		pred		infr		
+ 0:00:17 (parteklm) cnct		matk		
+ 0:00:17 (parteklm) Updating feature base
+ 0:00:17 (parteklm) Updating feature disc
+ 0:00:17 (parteklm) Updating feature pred
+ 0:00:17 (parteklm) Updating feature infr
+ 0:00:17 (parteklm) Updating feature cnct
+ 0:00:17 (parteklm) Updating feature matk
+ 0:00:17 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:17 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:17 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:17 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:17 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:17 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:17 (parteklm) Rereading options file...
+ 0:00:17 (parteklm) ...Finished rereading
+ 1:56:47 (parteklm) TIMESTAMP 9/30/2014
+ 4:31:50 (lmgrd) TIMESTAMP 9/30/2014
+ 8:01:50 (parteklm) TIMESTAMP 9/30/2014
+10:31:50 (lmgrd) TIMESTAMP 9/30/2014
+14:06:54 (parteklm) TIMESTAMP 9/30/2014
+16:31:54 (lmgrd) TIMESTAMP 9/30/2014
+17:42:03 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:42:03 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:46:35 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:46:35 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+20:11:55 (parteklm) TIMESTAMP 9/30/2014
+22:31:56 (lmgrd) TIMESTAMP 9/30/2014
+ 0:00:45 (parteklm) base expired -- rereading to update
+ 0:00:45 (parteklm) Rereading license file...
+ 0:00:45 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:45 (parteklm) disc		pred		infr		
+ 0:00:45 (parteklm) cnct		matk		
+ 0:00:45 (parteklm) Updating feature base
+ 0:00:45 (parteklm) Updating feature disc
+ 0:00:45 (parteklm) Updating feature pred
+ 0:00:45 (parteklm) Updating feature infr
+ 0:00:45 (parteklm) Updating feature cnct
+ 0:00:45 (parteklm) Updating feature matk
+ 0:00:45 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:45 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:45 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:45 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:45 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:45 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:45 (parteklm) Rereading options file...
+ 0:00:45 (parteklm) ...Finished rereading
+ 2:16:57 (parteklm) TIMESTAMP 10/1/2014
+ 4:31:57 (lmgrd) TIMESTAMP 10/1/2014
+ 8:21:58 (parteklm) TIMESTAMP 10/1/2014
+10:32:00 (lmgrd) TIMESTAMP 10/1/2014
+14:27:01 (parteklm) TIMESTAMP 10/1/2014
+16:32:03 (lmgrd) TIMESTAMP 10/1/2014
+20:32:02 (parteklm) TIMESTAMP 10/1/2014
+22:32:04 (lmgrd) TIMESTAMP 10/1/2014
+ 0:00:17 (parteklm) base expired -- rereading to update
+ 0:00:17 (parteklm) Rereading license file...
+ 0:00:17 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:17 (parteklm) disc		pred		infr		
+ 0:00:17 (parteklm) cnct		matk		
+ 0:00:17 (parteklm) Updating feature base
+ 0:00:17 (parteklm) Updating feature disc
+ 0:00:17 (parteklm) Updating feature pred
+ 0:00:17 (parteklm) Updating feature infr
+ 0:00:17 (parteklm) Updating feature cnct
+ 0:00:17 (parteklm) Updating feature matk
+ 0:00:17 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:17 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:17 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:17 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:17 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:17 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:17 (parteklm) Rereading options file...
+ 0:00:17 (parteklm) ...Finished rereading
+ 2:37:03 (parteklm) TIMESTAMP 10/2/2014
+ 4:32:06 (lmgrd) TIMESTAMP 10/2/2014
+ 8:42:07 (parteklm) TIMESTAMP 10/2/2014
+10:32:07 (lmgrd) TIMESTAMP 10/2/2014
+14:47:09 (parteklm) TIMESTAMP 10/2/2014
+16:32:09 (lmgrd) TIMESTAMP 10/2/2014
+20:52:13 (parteklm) TIMESTAMP 10/2/2014
+22:32:13 (lmgrd) TIMESTAMP 10/2/2014
+ 0:00:39 (parteklm) base expired -- rereading to update
+ 0:00:39 (parteklm) Rereading license file...
+ 0:00:39 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:39 (parteklm) disc		pred		infr		
+ 0:00:39 (parteklm) cnct		matk		
+ 0:00:39 (parteklm) Updating feature base
+ 0:00:39 (parteklm) Updating feature disc
+ 0:00:39 (parteklm) Updating feature pred
+ 0:00:39 (parteklm) Updating feature infr
+ 0:00:39 (parteklm) Updating feature cnct
+ 0:00:39 (parteklm) Updating feature matk
+ 0:00:39 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:39 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:39 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:39 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:39 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:39 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:39 (parteklm) Rereading options file...
+ 0:00:39 (parteklm) ...Finished rereading
+ 2:57:14 (parteklm) TIMESTAMP 10/3/2014
+ 4:32:14 (lmgrd) TIMESTAMP 10/3/2014
+ 9:02:17 (parteklm) TIMESTAMP 10/3/2014
+10:32:17 (lmgrd) TIMESTAMP 10/3/2014
+14:37:38 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+14:37:38 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+14:42:19 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+14:42:19 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+15:05:23 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+15:05:23 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+15:07:21 (parteklm) TIMESTAMP 10/3/2014
+15:18:27 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+16:32:19 (lmgrd) TIMESTAMP 10/3/2014
+17:17:47 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:17:47 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:17:47 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+21:12:21 (parteklm) TIMESTAMP 10/3/2014
+22:32:21 (lmgrd) TIMESTAMP 10/3/2014
+ 0:00:42 (parteklm) base expired -- rereading to update
+ 0:00:42 (parteklm) Rereading license file...
+ 0:00:42 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:42 (parteklm) disc		pred		infr		
+ 0:00:42 (parteklm) cnct		matk		
+ 0:00:42 (parteklm) Updating feature base
+ 0:00:42 (parteklm) Updating feature disc
+ 0:00:42 (parteklm) Updating feature pred
+ 0:00:42 (parteklm) Updating feature infr
+ 0:00:42 (parteklm) Updating feature cnct
+ 0:00:42 (parteklm) Updating feature matk
+ 0:00:42 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:42 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:42 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:42 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:42 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:42 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:42 (parteklm) Rereading options file...
+ 0:00:42 (parteklm) ...Finished rereading
+ 3:17:25 (parteklm) TIMESTAMP 10/4/2014
+ 4:32:23 (lmgrd) TIMESTAMP 10/4/2014
+ 9:22:27 (parteklm) TIMESTAMP 10/4/2014
+10:32:27 (lmgrd) TIMESTAMP 10/4/2014
+15:27:30 (parteklm) TIMESTAMP 10/4/2014
+16:32:30 (lmgrd) TIMESTAMP 10/4/2014
+21:32:34 (parteklm) TIMESTAMP 10/4/2014
+22:32:34 (lmgrd) TIMESTAMP 10/4/2014
+ 0:00:19 (parteklm) base expired -- rereading to update
+ 0:00:19 (parteklm) Rereading license file...
+ 0:00:19 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:19 (parteklm) disc		pred		infr		
+ 0:00:19 (parteklm) cnct		matk		
+ 0:00:19 (parteklm) Updating feature base
+ 0:00:19 (parteklm) Updating feature disc
+ 0:00:19 (parteklm) Updating feature pred
+ 0:00:19 (parteklm) Updating feature infr
+ 0:00:19 (parteklm) Updating feature cnct
+ 0:00:19 (parteklm) Updating feature matk
+ 0:00:19 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:19 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:19 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:19 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:19 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:19 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:19 (parteklm) Rereading options file...
+ 0:00:19 (parteklm) ...Finished rereading
+ 4:37:34 (parteklm) TIMESTAMP 10/5/2014
+ 5:32:38 (lmgrd) TIMESTAMP 10/5/2014
+10:42:37 (parteklm) TIMESTAMP 10/5/2014
+11:32:40 (lmgrd) TIMESTAMP 10/5/2014
+16:47:38 (parteklm) TIMESTAMP 10/5/2014
+17:32:43 (lmgrd) TIMESTAMP 10/5/2014
+22:52:38 (parteklm) TIMESTAMP 10/5/2014
+23:32:43 (lmgrd) TIMESTAMP 10/5/2014
+ 0:00:53 (parteklm) base expired -- rereading to update
+ 0:00:53 (parteklm) Rereading license file...
+ 0:00:53 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:53 (parteklm) disc		pred		infr		
+ 0:00:53 (parteklm) cnct		matk		
+ 0:00:53 (parteklm) Updating feature base
+ 0:00:53 (parteklm) Updating feature disc
+ 0:00:53 (parteklm) Updating feature pred
+ 0:00:53 (parteklm) Updating feature infr
+ 0:00:53 (parteklm) Updating feature cnct
+ 0:00:53 (parteklm) Updating feature matk
+ 0:00:53 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:53 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:53 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:53 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:53 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:53 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:53 (parteklm) Rereading options file...
+ 0:00:53 (parteklm) ...Finished rereading
+ 4:57:42 (parteklm) TIMESTAMP 10/6/2014
+ 5:32:47 (lmgrd) TIMESTAMP 10/6/2014
+11:02:43 (parteklm) TIMESTAMP 10/6/2014
+11:32:48 (lmgrd) TIMESTAMP 10/6/2014
+17:07:46 (parteklm) TIMESTAMP 10/6/2014
+17:32:51 (lmgrd) TIMESTAMP 10/6/2014
+23:12:49 (parteklm) TIMESTAMP 10/6/2014
+23:32:55 (lmgrd) TIMESTAMP 10/6/2014
+ 0:00:31 (parteklm) base expired -- rereading to update
+ 0:00:31 (parteklm) Rereading license file...
+ 0:00:31 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:31 (parteklm) disc		pred		infr		
+ 0:00:31 (parteklm) cnct		matk		
+ 0:00:31 (parteklm) Updating feature base
+ 0:00:31 (parteklm) Updating feature disc
+ 0:00:31 (parteklm) Updating feature pred
+ 0:00:31 (parteklm) Updating feature infr
+ 0:00:31 (parteklm) Updating feature cnct
+ 0:00:31 (parteklm) Updating feature matk
+ 0:00:31 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:31 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:31 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:31 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:31 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:31 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:31 (parteklm) Rereading options file...
+ 0:00:31 (parteklm) ...Finished rereading
+ 5:17:49 (parteklm) TIMESTAMP 10/7/2014
+ 5:32:59 (lmgrd) TIMESTAMP 10/7/2014
+11:22:53 (parteklm) TIMESTAMP 10/7/2014
+11:33:03 (lmgrd) TIMESTAMP 10/7/2014
+17:27:54 (parteklm) TIMESTAMP 10/7/2014
+17:33:04 (lmgrd) TIMESTAMP 10/7/2014
+23:32:55 (parteklm) TIMESTAMP 10/7/2014
+23:33:05 (lmgrd) TIMESTAMP 10/7/2014
+ 0:00:10 (parteklm) base expired -- rereading to update
+ 0:00:10 (parteklm) Rereading license file...
+ 0:00:10 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:10 (parteklm) disc		pred		infr		
+ 0:00:10 (parteklm) cnct		matk		
+ 0:00:10 (parteklm) Updating feature base
+ 0:00:10 (parteklm) Updating feature disc
+ 0:00:10 (parteklm) Updating feature pred
+ 0:00:10 (parteklm) Updating feature infr
+ 0:00:10 (parteklm) Updating feature cnct
+ 0:00:10 (parteklm) Updating feature matk
+ 0:00:10 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:10 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:10 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:10 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:10 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:10 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:10 (parteklm) Rereading options file...
+ 0:00:10 (parteklm) ...Finished rereading
+ 5:33:06 (lmgrd) TIMESTAMP 10/8/2014
+ 5:37:56 (parteklm) TIMESTAMP 10/8/2014
+11:33:10 (lmgrd) TIMESTAMP 10/8/2014
+11:43:00 (parteklm) TIMESTAMP 10/8/2014
+14:58:53 (parteklm) OUT: "base" Jordan@Jordan-PC  
+14:58:53 (parteklm) OUT: "matk" Jordan@Jordan-PC  
+15:00:48 (parteklm) OUT: "infr" Jordan@Jordan-PC  
+15:06:34 (parteklm) IN: "base" Jordan@Jordan-PC  
+15:06:34 (parteklm) IN: "infr" Jordan@Jordan-PC  
+15:06:34 (parteklm) IN: "matk" Jordan@Jordan-PC  
+15:08:57 (parteklm) OUT: "base" Jordan@Jordan-PC  
+15:08:57 (parteklm) OUT: "matk" Jordan@Jordan-PC  
+15:11:10 (parteklm) OUT: "infr" Jordan@Jordan-PC  
+15:40:05 (parteklm) IN: "base" Jordan@Jordan-PC  
+15:40:05 (parteklm) IN: "infr" Jordan@Jordan-PC  
+15:40:05 (parteklm) IN: "matk" Jordan@Jordan-PC  
+17:33:13 (lmgrd) TIMESTAMP 10/8/2014
+17:48:03 (parteklm) TIMESTAMP 10/8/2014
+23:33:16 (lmgrd) TIMESTAMP 10/8/2014
+23:53:06 (parteklm) TIMESTAMP 10/8/2014
+ 0:00:31 (parteklm) base expired -- rereading to update
+ 0:00:31 (parteklm) Rereading license file...
+ 0:00:31 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:31 (parteklm) disc		pred		infr		
+ 0:00:31 (parteklm) cnct		matk		
+ 0:00:31 (parteklm) Updating feature base
+ 0:00:31 (parteklm) Updating feature disc
+ 0:00:31 (parteklm) Updating feature pred
+ 0:00:31 (parteklm) Updating feature infr
+ 0:00:31 (parteklm) Updating feature cnct
+ 0:00:31 (parteklm) Updating feature matk
+ 0:00:31 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:31 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:31 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:31 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:31 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:31 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:31 (parteklm) Rereading options file...
+ 0:00:31 (parteklm) ...Finished rereading
+ 5:33:16 (lmgrd) TIMESTAMP 10/9/2014
+ 5:58:06 (parteklm) TIMESTAMP 10/9/2014
+11:33:20 (lmgrd) TIMESTAMP 10/9/2014
+12:03:10 (parteklm) TIMESTAMP 10/9/2014
+17:33:22 (lmgrd) TIMESTAMP 10/9/2014
+18:08:12 (parteklm) TIMESTAMP 10/9/2014
+23:33:22 (lmgrd) TIMESTAMP 10/9/2014
+ 0:00:52 (parteklm) base expired -- rereading to update
+ 0:00:52 (parteklm) Rereading license file...
+ 0:00:52 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:52 (parteklm) disc		pred		infr		
+ 0:00:52 (parteklm) cnct		matk		
+ 0:00:52 (parteklm) Updating feature base
+ 0:00:52 (parteklm) Updating feature disc
+ 0:00:52 (parteklm) Updating feature pred
+ 0:00:52 (parteklm) Updating feature infr
+ 0:00:52 (parteklm) Updating feature cnct
+ 0:00:52 (parteklm) Updating feature matk
+ 0:00:52 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:52 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:52 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:52 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:52 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:52 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:52 (parteklm) Rereading options file...
+ 0:00:52 (parteklm) ...Finished rereading
+ 0:13:12 (parteklm) TIMESTAMP 10/10/2014
+ 5:33:23 (lmgrd) TIMESTAMP 10/10/2014
+ 6:18:13 (parteklm) TIMESTAMP 10/10/2014
+ 9:18:31 (parteklm) OUT: "base" Jordan@Jordan-PC  
+ 9:18:31 (parteklm) OUT: "matk" Jordan@Jordan-PC  
+ 9:19:12 (parteklm) OUT: "infr" Jordan@Jordan-PC  
+ 9:24:33 (parteklm) IN: "base" Jordan@Jordan-PC  
+ 9:24:33 (parteklm) IN: "infr" Jordan@Jordan-PC  
+ 9:24:33 (parteklm) IN: "matk" Jordan@Jordan-PC  
+11:33:27 (lmgrd) TIMESTAMP 10/10/2014
+12:23:17 (parteklm) TIMESTAMP 10/10/2014
+17:06:11 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:06:11 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:16:18 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:16:18 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:33:28 (lmgrd) TIMESTAMP 10/10/2014
+18:28:18 (parteklm) TIMESTAMP 10/10/2014
+23:33:29 (lmgrd) TIMESTAMP 10/10/2014
+ 0:00:40 (parteklm) base expired -- rereading to update
+ 0:00:40 (parteklm) Rereading license file...
+ 0:00:40 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:40 (parteklm) disc		pred		infr		
+ 0:00:40 (parteklm) cnct		matk		
+ 0:00:40 (parteklm) Updating feature base
+ 0:00:40 (parteklm) Updating feature disc
+ 0:00:40 (parteklm) Updating feature pred
+ 0:00:40 (parteklm) Updating feature infr
+ 0:00:40 (parteklm) Updating feature cnct
+ 0:00:40 (parteklm) Updating feature matk
+ 0:00:40 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:40 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:40 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:40 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:40 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:40 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:40 (parteklm) Rereading options file...
+ 0:00:40 (parteklm) ...Finished rereading
+ 0:33:20 (parteklm) TIMESTAMP 10/11/2014
+ 5:33:31 (lmgrd) TIMESTAMP 10/11/2014
+ 6:38:24 (parteklm) TIMESTAMP 10/11/2014
+10:56:22 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+10:56:22 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+11:27:00 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+11:27:00 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+11:29:45 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+11:29:45 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+11:33:33 (lmgrd) TIMESTAMP 10/11/2014
+11:35:03 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+12:04:33 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+12:04:33 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+12:04:33 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+12:43:28 (parteklm) TIMESTAMP 10/11/2014
+13:47:54 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+13:47:54 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+13:51:04 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+13:52:14 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+13:52:14 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+13:52:14 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:33:33 (lmgrd) TIMESTAMP 10/11/2014
+18:48:29 (parteklm) TIMESTAMP 10/11/2014
+23:33:35 (lmgrd) TIMESTAMP 10/11/2014
+ 0:00:16 (parteklm) base expired -- rereading to update
+ 0:00:16 (parteklm) Rereading license file...
+ 0:00:16 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:16 (parteklm) disc		pred		infr		
+ 0:00:16 (parteklm) cnct		matk		
+ 0:00:16 (parteklm) Updating feature base
+ 0:00:16 (parteklm) Updating feature disc
+ 0:00:16 (parteklm) Updating feature pred
+ 0:00:16 (parteklm) Updating feature infr
+ 0:00:16 (parteklm) Updating feature cnct
+ 0:00:16 (parteklm) Updating feature matk
+ 0:00:16 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:16 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:16 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:16 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:16 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:16 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:16 (parteklm) Rereading options file...
+ 0:00:16 (parteklm) ...Finished rereading
+ 0:53:31 (parteklm) TIMESTAMP 10/12/2014
+ 5:33:37 (lmgrd) TIMESTAMP 10/12/2014
+ 6:58:32 (parteklm) TIMESTAMP 10/12/2014
+11:33:40 (lmgrd) TIMESTAMP 10/12/2014
+13:03:35 (parteklm) TIMESTAMP 10/12/2014
+17:33:41 (lmgrd) TIMESTAMP 10/12/2014
+19:08:38 (parteklm) TIMESTAMP 10/12/2014
+23:33:43 (lmgrd) TIMESTAMP 10/12/2014
+ 0:00:23 (parteklm) base expired -- rereading to update
+ 0:00:23 (parteklm) Rereading license file...
+ 0:00:23 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:23 (parteklm) disc		pred		infr		
+ 0:00:23 (parteklm) cnct		matk		
+ 0:00:23 (parteklm) Updating feature base
+ 0:00:23 (parteklm) Updating feature disc
+ 0:00:23 (parteklm) Updating feature pred
+ 0:00:23 (parteklm) Updating feature infr
+ 0:00:23 (parteklm) Updating feature cnct
+ 0:00:23 (parteklm) Updating feature matk
+ 0:00:23 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:23 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:23 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:23 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:23 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:23 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:23 (parteklm) Rereading options file...
+ 0:00:23 (parteklm) ...Finished rereading
+ 1:13:38 (parteklm) TIMESTAMP 10/13/2014
+ 5:33:47 (lmgrd) TIMESTAMP 10/13/2014
+ 7:18:42 (parteklm) TIMESTAMP 10/13/2014
+11:33:48 (lmgrd) TIMESTAMP 10/13/2014
+13:23:46 (parteklm) TIMESTAMP 10/13/2014
+17:14:32 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:14:32 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:21:58 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:25:21 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:25:21 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:25:21 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:33:51 (lmgrd) TIMESTAMP 10/13/2014
+19:28:47 (parteklm) TIMESTAMP 10/13/2014
+23:33:51 (lmgrd) TIMESTAMP 10/13/2014
+ 0:00:22 (parteklm) base expired -- rereading to update
+ 0:00:22 (parteklm) Rereading license file...
+ 0:00:22 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:22 (parteklm) disc		pred		infr		
+ 0:00:22 (parteklm) cnct		matk		
+ 0:00:22 (parteklm) Updating feature base
+ 0:00:22 (parteklm) Updating feature disc
+ 0:00:22 (parteklm) Updating feature pred
+ 0:00:22 (parteklm) Updating feature infr
+ 0:00:22 (parteklm) Updating feature cnct
+ 0:00:22 (parteklm) Updating feature matk
+ 0:00:22 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:22 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:22 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:22 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:22 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:22 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:22 (parteklm) Rereading options file...
+ 0:00:22 (parteklm) ...Finished rereading
+ 1:33:51 (parteklm) TIMESTAMP 10/14/2014
+ 5:33:52 (lmgrd) TIMESTAMP 10/14/2014
+ 7:38:55 (parteklm) TIMESTAMP 10/14/2014
+11:33:52 (lmgrd) TIMESTAMP 10/14/2014
+13:43:58 (parteklm) TIMESTAMP 10/14/2014
+17:33:55 (lmgrd) TIMESTAMP 10/14/2014
+19:49:00 (parteklm) TIMESTAMP 10/14/2014
+23:33:57 (lmgrd) TIMESTAMP 10/14/2014
+ 0:00:47 (parteklm) base expired -- rereading to update
+ 0:00:47 (parteklm) Rereading license file...
+ 0:00:48 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:48 (parteklm) disc		pred		infr		
+ 0:00:48 (parteklm) cnct		matk		
+ 0:00:48 (parteklm) Updating feature base
+ 0:00:48 (parteklm) Updating feature disc
+ 0:00:48 (parteklm) Updating feature pred
+ 0:00:48 (parteklm) Updating feature infr
+ 0:00:48 (parteklm) Updating feature cnct
+ 0:00:48 (parteklm) Updating feature matk
+ 0:00:48 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:48 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:48 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:48 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:48 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:48 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:48 (parteklm) Rereading options file...
+ 0:00:48 (parteklm) ...Finished rereading
+ 1:54:04 (parteklm) TIMESTAMP 10/15/2014
+ 5:34:00 (lmgrd) TIMESTAMP 10/15/2014
+ 7:59:04 (parteklm) TIMESTAMP 10/15/2014
+11:34:02 (lmgrd) TIMESTAMP 10/15/2014
+14:04:08 (parteklm) TIMESTAMP 10/15/2014
+17:34:03 (lmgrd) TIMESTAMP 10/15/2014
+20:09:09 (parteklm) TIMESTAMP 10/15/2014
+23:34:03 (lmgrd) TIMESTAMP 10/15/2014
+ 0:00:29 (parteklm) base expired -- rereading to update
+ 0:00:29 (parteklm) Rereading license file...
+ 0:00:29 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:29 (parteklm) disc		pred		infr		
+ 0:00:29 (parteklm) cnct		matk		
+ 0:00:29 (parteklm) Updating feature base
+ 0:00:29 (parteklm) Updating feature disc
+ 0:00:29 (parteklm) Updating feature pred
+ 0:00:29 (parteklm) Updating feature infr
+ 0:00:29 (parteklm) Updating feature cnct
+ 0:00:29 (parteklm) Updating feature matk
+ 0:00:29 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:29 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:29 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:29 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:29 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:29 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:29 (parteklm) Rereading options file...
+ 0:00:29 (parteklm) ...Finished rereading
+ 2:14:11 (parteklm) TIMESTAMP 10/16/2014
+ 5:34:06 (lmgrd) TIMESTAMP 10/16/2014
+ 8:19:15 (parteklm) TIMESTAMP 10/16/2014
+11:34:07 (lmgrd) TIMESTAMP 10/16/2014
+14:24:17 (parteklm) TIMESTAMP 10/16/2014
+17:34:11 (lmgrd) TIMESTAMP 10/16/2014
+20:29:20 (parteklm) TIMESTAMP 10/16/2014
+23:34:14 (lmgrd) TIMESTAMP 10/16/2014
+ 0:01:00 (parteklm) base expired -- rereading to update
+ 0:01:00 (parteklm) Rereading license file...
+ 0:01:00 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:01:00 (parteklm) disc		pred		infr		
+ 0:01:00 (parteklm) cnct		matk		
+ 0:01:00 (parteklm) Updating feature base
+ 0:01:00 (parteklm) Updating feature disc
+ 0:01:00 (parteklm) Updating feature pred
+ 0:01:00 (parteklm) Updating feature infr
+ 0:01:00 (parteklm) Updating feature cnct
+ 0:01:00 (parteklm) Updating feature matk
+ 0:01:00 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:01:00 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:01:00 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:01:00 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:01:00 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:01:00 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:01:00 (parteklm) Rereading options file...
+ 0:01:00 (parteklm) ...Finished rereading
+ 2:34:23 (parteklm) TIMESTAMP 10/17/2014
+ 5:34:18 (lmgrd) TIMESTAMP 10/17/2014
+ 8:39:24 (parteklm) TIMESTAMP 10/17/2014
+11:34:19 (lmgrd) TIMESTAMP 10/17/2014
+14:44:28 (parteklm) TIMESTAMP 10/17/2014
+17:34:23 (lmgrd) TIMESTAMP 10/17/2014
+20:49:30 (parteklm) TIMESTAMP 10/17/2014
+23:34:24 (lmgrd) TIMESTAMP 10/17/2014
+ 0:00:24 (parteklm) base expired -- rereading to update
+ 0:00:24 (parteklm) Rereading license file...
+ 0:00:24 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:24 (parteklm) disc		pred		infr		
+ 0:00:24 (parteklm) cnct		matk		
+ 0:00:24 (parteklm) Updating feature base
+ 0:00:24 (parteklm) Updating feature disc
+ 0:00:24 (parteklm) Updating feature pred
+ 0:00:24 (parteklm) Updating feature infr
+ 0:00:24 (parteklm) Updating feature cnct
+ 0:00:24 (parteklm) Updating feature matk
+ 0:00:24 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:24 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:24 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:24 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:24 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:24 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:24 (parteklm) Rereading options file...
+ 0:00:24 (parteklm) ...Finished rereading
+ 2:54:32 (parteklm) TIMESTAMP 10/18/2014
+ 5:34:27 (lmgrd) TIMESTAMP 10/18/2014
+ 8:59:34 (parteklm) TIMESTAMP 10/18/2014
+11:34:29 (lmgrd) TIMESTAMP 10/18/2014
+15:04:38 (parteklm) TIMESTAMP 10/18/2014
+17:34:32 (lmgrd) TIMESTAMP 10/18/2014
+21:09:41 (parteklm) TIMESTAMP 10/18/2014
+23:34:36 (lmgrd) TIMESTAMP 10/18/2014
+ 0:00:42 (parteklm) base expired -- rereading to update
+ 0:00:42 (parteklm) Rereading license file...
+ 0:00:42 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:42 (parteklm) disc		pred		infr		
+ 0:00:42 (parteklm) cnct		matk		
+ 0:00:42 (parteklm) Updating feature base
+ 0:00:42 (parteklm) Updating feature disc
+ 0:00:42 (parteklm) Updating feature pred
+ 0:00:42 (parteklm) Updating feature infr
+ 0:00:42 (parteklm) Updating feature cnct
+ 0:00:42 (parteklm) Updating feature matk
+ 0:00:42 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:42 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:42 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:42 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:42 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:42 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:42 (parteklm) Rereading options file...
+ 0:00:42 (parteklm) ...Finished rereading
+ 3:14:42 (parteklm) TIMESTAMP 10/19/2014
+ 5:34:38 (lmgrd) TIMESTAMP 10/19/2014
+ 9:19:45 (parteklm) TIMESTAMP 10/19/2014
+11:34:40 (lmgrd) TIMESTAMP 10/19/2014
+15:24:46 (parteklm) TIMESTAMP 10/19/2014
+17:34:41 (lmgrd) TIMESTAMP 10/19/2014
+21:29:47 (parteklm) TIMESTAMP 10/19/2014
+23:34:42 (lmgrd) TIMESTAMP 10/19/2014
+ 0:01:02 (parteklm) base expired -- rereading to update
+ 0:01:02 (parteklm) Rereading license file...
+ 0:01:02 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:01:02 (parteklm) disc		pred		infr		
+ 0:01:02 (parteklm) cnct		matk		
+ 0:01:02 (parteklm) Updating feature base
+ 0:01:02 (parteklm) Updating feature disc
+ 0:01:02 (parteklm) Updating feature pred
+ 0:01:02 (parteklm) Updating feature infr
+ 0:01:02 (parteklm) Updating feature cnct
+ 0:01:02 (parteklm) Updating feature matk
+ 0:01:02 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:01:02 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:01:02 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:01:02 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:01:02 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:01:02 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:01:02 (parteklm) Rereading options file...
+ 0:01:02 (parteklm) ...Finished rereading
+ 3:34:50 (parteklm) TIMESTAMP 10/20/2014
+ 5:34:45 (lmgrd) TIMESTAMP 10/20/2014
+ 9:39:54 (parteklm) TIMESTAMP 10/20/2014
+11:34:49 (lmgrd) TIMESTAMP 10/20/2014
+15:44:58 (parteklm) TIMESTAMP 10/20/2014
+17:34:49 (lmgrd) TIMESTAMP 10/20/2014
+21:49:58 (parteklm) TIMESTAMP 10/20/2014
+23:34:51 (lmgrd) TIMESTAMP 10/20/2014
+ 0:00:27 (parteklm) base expired -- rereading to update
+ 0:00:27 (parteklm) Rereading license file...
+ 0:00:27 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:27 (parteklm) disc		pred		infr		
+ 0:00:27 (parteklm) cnct		matk		
+ 0:00:27 (parteklm) Updating feature base
+ 0:00:27 (parteklm) Updating feature disc
+ 0:00:27 (parteklm) Updating feature pred
+ 0:00:27 (parteklm) Updating feature infr
+ 0:00:27 (parteklm) Updating feature cnct
+ 0:00:27 (parteklm) Updating feature matk
+ 0:00:27 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:27 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:27 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:27 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:27 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:27 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:27 (parteklm) Rereading options file...
+ 0:00:27 (parteklm) ...Finished rereading
+ 3:54:59 (parteklm) TIMESTAMP 10/21/2014
+ 5:34:54 (lmgrd) TIMESTAMP 10/21/2014
+10:00:03 (parteklm) TIMESTAMP 10/21/2014
+11:34:57 (lmgrd) TIMESTAMP 10/21/2014
+16:05:04 (parteklm) TIMESTAMP 10/21/2014
+17:34:59 (lmgrd) TIMESTAMP 10/21/2014
+22:10:05 (parteklm) TIMESTAMP 10/21/2014
+23:34:59 (lmgrd) TIMESTAMP 10/21/2014
+ 0:00:54 (parteklm) base expired -- rereading to update
+ 0:00:54 (parteklm) Rereading license file...
+ 0:00:55 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:55 (parteklm) disc		pred		infr		
+ 0:00:55 (parteklm) cnct		matk		
+ 0:00:55 (parteklm) Updating feature base
+ 0:00:55 (parteklm) Updating feature disc
+ 0:00:55 (parteklm) Updating feature pred
+ 0:00:55 (parteklm) Updating feature infr
+ 0:00:55 (parteklm) Updating feature cnct
+ 0:00:55 (parteklm) Updating feature matk
+ 0:00:55 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:55 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:55 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:55 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:55 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:55 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:55 (parteklm) Rereading options file...
+ 0:00:55 (parteklm) ...Finished rereading
+ 4:15:07 (parteklm) TIMESTAMP 10/22/2014
+ 5:35:02 (lmgrd) TIMESTAMP 10/22/2014
+10:20:07 (parteklm) TIMESTAMP 10/22/2014
+11:35:02 (lmgrd) TIMESTAMP 10/22/2014
+13:32:15 (parteklm) OUT: "base" Jordan@Jordan-PC  
+13:32:15 (parteklm) OUT: "matk" Jordan@Jordan-PC  
+13:34:47 (parteklm) OUT: "infr" Jordan@Jordan-PC  
+13:42:56 (parteklm) IN: "base" Jordan@Jordan-PC  
+13:42:56 (parteklm) IN: "infr" Jordan@Jordan-PC  
+13:42:56 (parteklm) IN: "matk" Jordan@Jordan-PC  
+14:57:31 (parteklm) OUT: "base" Jordan@Jordan-PC  
+14:57:32 (parteklm) OUT: "matk" Jordan@Jordan-PC  
+14:58:06 (parteklm) OUT: "infr" Jordan@Jordan-PC  
+15:01:15 (parteklm) IN: "base" Jordan@Jordan-PC  
+15:01:15 (parteklm) IN: "infr" Jordan@Jordan-PC  
+15:01:15 (parteklm) IN: "matk" Jordan@Jordan-PC  
+16:25:11 (parteklm) TIMESTAMP 10/22/2014
+17:35:05 (lmgrd) TIMESTAMP 10/22/2014
+22:30:11 (parteklm) TIMESTAMP 10/22/2014
+23:35:09 (lmgrd) TIMESTAMP 10/22/2014
+ 0:00:35 (parteklm) base expired -- rereading to update
+ 0:00:35 (parteklm) Rereading license file...
+ 0:00:35 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:35 (parteklm) disc		pred		infr		
+ 0:00:35 (parteklm) cnct		matk		
+ 0:00:35 (parteklm) Updating feature base
+ 0:00:35 (parteklm) Updating feature disc
+ 0:00:35 (parteklm) Updating feature pred
+ 0:00:35 (parteklm) Updating feature infr
+ 0:00:35 (parteklm) Updating feature cnct
+ 0:00:35 (parteklm) Updating feature matk
+ 0:00:35 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:35 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:35 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:35 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:35 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:35 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:35 (parteklm) Rereading options file...
+ 0:00:35 (parteklm) ...Finished rereading
+ 4:35:11 (parteklm) TIMESTAMP 10/23/2014
+ 5:35:11 (lmgrd) TIMESTAMP 10/23/2014
+10:40:11 (parteklm) TIMESTAMP 10/23/2014
+11:35:11 (lmgrd) TIMESTAMP 10/23/2014
+16:45:15 (parteklm) TIMESTAMP 10/23/2014
+17:35:15 (lmgrd) TIMESTAMP 10/23/2014
+22:50:19 (parteklm) TIMESTAMP 10/23/2014
+23:35:16 (lmgrd) TIMESTAMP 10/23/2014
+ 0:00:06 (parteklm) base expired -- rereading to update
+ 0:00:06 (parteklm) Rereading license file...
+ 0:00:06 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:06 (parteklm) disc		pred		infr		
+ 0:00:06 (parteklm) cnct		matk		
+ 0:00:06 (parteklm) Updating feature base
+ 0:00:06 (parteklm) Updating feature disc
+ 0:00:06 (parteklm) Updating feature pred
+ 0:00:06 (parteklm) Updating feature infr
+ 0:00:06 (parteklm) Updating feature cnct
+ 0:00:06 (parteklm) Updating feature matk
+ 0:00:06 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:06 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:06 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:06 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:06 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:06 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:06 (parteklm) Rereading options file...
+ 0:00:06 (parteklm) ...Finished rereading
+ 4:55:21 (parteklm) TIMESTAMP 10/24/2014
+ 5:35:16 (lmgrd) TIMESTAMP 10/24/2014
+11:00:22 (parteklm) TIMESTAMP 10/24/2014
+11:35:17 (lmgrd) TIMESTAMP 10/24/2014
+17:05:26 (parteklm) TIMESTAMP 10/24/2014
+17:35:21 (lmgrd) TIMESTAMP 10/24/2014
+18:16:42 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+18:16:42 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+18:34:54 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+18:34:54 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+23:10:27 (parteklm) TIMESTAMP 10/24/2014
+23:35:23 (lmgrd) TIMESTAMP 10/24/2014
+ 0:00:58 (parteklm) base expired -- rereading to update
+ 0:00:58 (parteklm) Rereading license file...
+ 0:00:58 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:58 (parteklm) disc		pred		infr		
+ 0:00:58 (parteklm) cnct		matk		
+ 0:00:58 (parteklm) Updating feature base
+ 0:00:58 (parteklm) Updating feature disc
+ 0:00:58 (parteklm) Updating feature pred
+ 0:00:58 (parteklm) Updating feature infr
+ 0:00:58 (parteklm) Updating feature cnct
+ 0:00:58 (parteklm) Updating feature matk
+ 0:00:58 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:58 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:58 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:58 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:58 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:58 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:58 (parteklm) Rereading options file...
+ 0:00:58 (parteklm) ...Finished rereading
+ 5:15:29 (parteklm) TIMESTAMP 10/25/2014
+ 5:35:24 (lmgrd) TIMESTAMP 10/25/2014
+11:20:31 (parteklm) TIMESTAMP 10/25/2014
+11:35:26 (lmgrd) TIMESTAMP 10/25/2014
+17:25:34 (parteklm) TIMESTAMP 10/25/2014
+17:35:29 (lmgrd) TIMESTAMP 10/25/2014
+23:30:35 (parteklm) TIMESTAMP 10/25/2014
+23:35:30 (lmgrd) TIMESTAMP 10/25/2014
+ 0:00:26 (parteklm) base expired -- rereading to update
+ 0:00:26 (parteklm) Rereading license file...
+ 0:00:26 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:26 (parteklm) disc		pred		infr		
+ 0:00:26 (parteklm) cnct		matk		
+ 0:00:26 (parteklm) Updating feature base
+ 0:00:26 (parteklm) Updating feature disc
+ 0:00:26 (parteklm) Updating feature pred
+ 0:00:26 (parteklm) Updating feature infr
+ 0:00:26 (parteklm) Updating feature cnct
+ 0:00:26 (parteklm) Updating feature matk
+ 0:00:26 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:26 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:26 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:26 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:26 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:26 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:26 (parteklm) Rereading options file...
+ 0:00:26 (parteklm) ...Finished rereading
+ 5:35:30 (lmgrd) TIMESTAMP 10/26/2014
+ 5:35:35 (parteklm) TIMESTAMP 10/26/2014
+11:35:31 (lmgrd) TIMESTAMP 10/26/2014
+11:40:37 (parteklm) TIMESTAMP 10/26/2014
+17:35:35 (lmgrd) TIMESTAMP 10/26/2014
+17:45:40 (parteklm) TIMESTAMP 10/26/2014
+23:35:38 (lmgrd) TIMESTAMP 10/26/2014
+23:50:43 (parteklm) TIMESTAMP 10/26/2014
+ 0:00:53 (parteklm) base expired -- rereading to update
+ 0:00:53 (parteklm) Rereading license file...
+ 0:00:53 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:53 (parteklm) disc		pred		infr		
+ 0:00:53 (parteklm) cnct		matk		
+ 0:00:53 (parteklm) Updating feature base
+ 0:00:53 (parteklm) Updating feature disc
+ 0:00:53 (parteklm) Updating feature pred
+ 0:00:53 (parteklm) Updating feature infr
+ 0:00:53 (parteklm) Updating feature cnct
+ 0:00:53 (parteklm) Updating feature matk
+ 0:00:53 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:53 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:53 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:53 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:53 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:53 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:53 (parteklm) Rereading options file...
+ 0:00:53 (parteklm) ...Finished rereading
+ 5:35:39 (lmgrd) TIMESTAMP 10/27/2014
+ 5:55:44 (parteklm) TIMESTAMP 10/27/2014
+11:35:42 (lmgrd) TIMESTAMP 10/27/2014
+12:00:47 (parteklm) TIMESTAMP 10/27/2014
+17:35:46 (lmgrd) TIMESTAMP 10/27/2014
+18:05:47 (parteklm) TIMESTAMP 10/27/2014
+23:35:49 (lmgrd) TIMESTAMP 10/27/2014
+ 0:00:19 (parteklm) base expired -- rereading to update
+ 0:00:19 (parteklm) Rereading license file...
+ 0:00:20 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:20 (parteklm) disc		pred		infr		
+ 0:00:20 (parteklm) cnct		matk		
+ 0:00:20 (parteklm) Updating feature base
+ 0:00:20 (parteklm) Updating feature disc
+ 0:00:20 (parteklm) Updating feature pred
+ 0:00:20 (parteklm) Updating feature infr
+ 0:00:20 (parteklm) Updating feature cnct
+ 0:00:20 (parteklm) Updating feature matk
+ 0:00:20 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:20 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:20 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:20 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:20 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:20 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:20 (parteklm) Rereading options file...
+ 0:00:20 (parteklm) ...Finished rereading
+ 0:10:50 (parteklm) TIMESTAMP 10/28/2014
+ 5:35:53 (lmgrd) TIMESTAMP 10/28/2014
+ 6:15:53 (parteklm) TIMESTAMP 10/28/2014
+11:35:53 (lmgrd) TIMESTAMP 10/28/2014
+12:20:53 (parteklm) TIMESTAMP 10/28/2014
+17:35:57 (lmgrd) TIMESTAMP 10/28/2014
+18:25:57 (parteklm) TIMESTAMP 10/28/2014
+23:35:59 (lmgrd) TIMESTAMP 10/28/2014
+ 0:01:04 (parteklm) base expired -- rereading to update
+ 0:01:04 (parteklm) Rereading license file...
+ 0:01:04 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:01:04 (parteklm) disc		pred		infr		
+ 0:01:04 (parteklm) cnct		matk		
+ 0:01:04 (parteklm) Updating feature base
+ 0:01:04 (parteklm) Updating feature disc
+ 0:01:04 (parteklm) Updating feature pred
+ 0:01:04 (parteklm) Updating feature infr
+ 0:01:04 (parteklm) Updating feature cnct
+ 0:01:04 (parteklm) Updating feature matk
+ 0:01:04 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:01:04 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:01:04 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:01:04 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:01:04 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:01:04 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:01:04 (parteklm) Rereading options file...
+ 0:01:04 (parteklm) ...Finished rereading
+ 0:31:00 (parteklm) TIMESTAMP 10/29/2014
+ 5:36:01 (lmgrd) TIMESTAMP 10/29/2014
+ 6:36:01 (parteklm) TIMESTAMP 10/29/2014
+11:36:03 (lmgrd) TIMESTAMP 10/29/2014
+12:41:05 (parteklm) TIMESTAMP 10/29/2014
+17:36:05 (lmgrd) TIMESTAMP 10/29/2014
+18:46:06 (parteklm) TIMESTAMP 10/29/2014
+23:36:07 (lmgrd) TIMESTAMP 10/29/2014
+ 0:00:34 (parteklm) base expired -- rereading to update
+ 0:00:34 (parteklm) Rereading license file...
+ 0:00:34 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:34 (parteklm) disc		pred		infr		
+ 0:00:34 (parteklm) cnct		matk		
+ 0:00:34 (parteklm) Updating feature base
+ 0:00:34 (parteklm) Updating feature disc
+ 0:00:34 (parteklm) Updating feature pred
+ 0:00:34 (parteklm) Updating feature infr
+ 0:00:34 (parteklm) Updating feature cnct
+ 0:00:34 (parteklm) Updating feature matk
+ 0:00:34 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:34 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:34 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:34 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:34 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:34 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:34 (parteklm) Rereading options file...
+ 0:00:34 (parteklm) ...Finished rereading
+ 0:51:10 (parteklm) TIMESTAMP 10/30/2014
+ 5:36:08 (lmgrd) TIMESTAMP 10/30/2014
+ 6:56:11 (parteklm) TIMESTAMP 10/30/2014
+11:36:11 (lmgrd) TIMESTAMP 10/30/2014
+13:01:12 (parteklm) TIMESTAMP 10/30/2014
+17:36:15 (lmgrd) TIMESTAMP 10/30/2014
+19:06:12 (parteklm) TIMESTAMP 10/30/2014
+23:36:16 (lmgrd) TIMESTAMP 10/30/2014
+ 0:00:11 (parteklm) base expired -- rereading to update
+ 0:00:11 (parteklm) Rereading license file...
+ 0:00:11 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:11 (parteklm) disc		pred		infr		
+ 0:00:11 (parteklm) cnct		matk		
+ 0:00:11 (parteklm) Updating feature base
+ 0:00:11 (parteklm) Updating feature disc
+ 0:00:11 (parteklm) Updating feature pred
+ 0:00:11 (parteklm) Updating feature infr
+ 0:00:11 (parteklm) Updating feature cnct
+ 0:00:11 (parteklm) Updating feature matk
+ 0:00:11 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:11 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:11 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:11 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:11 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:11 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:11 (parteklm) Rereading options file...
+ 0:00:11 (parteklm) ...Finished rereading
+ 1:11:15 (parteklm) TIMESTAMP 10/31/2014
+ 5:36:16 (lmgrd) TIMESTAMP 10/31/2014
+ 7:16:16 (parteklm) TIMESTAMP 10/31/2014
+11:36:20 (lmgrd) TIMESTAMP 10/31/2014
+13:21:17 (parteklm) TIMESTAMP 10/31/2014
+16:21:55 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+16:21:55 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+16:49:28 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+16:50:03 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+16:50:03 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+16:50:03 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:36:22 (lmgrd) TIMESTAMP 10/31/2014
+19:26:20 (parteklm) TIMESTAMP 10/31/2014
+23:36:25 (lmgrd) TIMESTAMP 10/31/2014
+ 0:00:40 (parteklm) base expired -- rereading to update
+ 0:00:40 (parteklm) Rereading license file...
+ 0:00:40 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:40 (parteklm) disc		pred		infr		
+ 0:00:40 (parteklm) cnct		matk		
+ 0:00:40 (parteklm) Updating feature base
+ 0:00:40 (parteklm) Updating feature disc
+ 0:00:40 (parteklm) Updating feature pred
+ 0:00:40 (parteklm) Updating feature infr
+ 0:00:40 (parteklm) Updating feature cnct
+ 0:00:40 (parteklm) Updating feature matk
+ 0:00:40 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:40 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:40 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:40 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:40 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:40 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:40 (parteklm) Rereading options file...
+ 0:00:40 (parteklm) ...Finished rereading
+ 1:31:23 (parteklm) TIMESTAMP 11/1/2014
+ 5:36:28 (lmgrd) TIMESTAMP 11/1/2014
+ 7:36:23 (parteklm) TIMESTAMP 11/1/2014
+11:36:28 (lmgrd) TIMESTAMP 11/1/2014
+13:41:23 (parteklm) TIMESTAMP 11/1/2014
+17:36:29 (lmgrd) TIMESTAMP 11/1/2014
+19:46:23 (parteklm) TIMESTAMP 11/1/2014
+23:36:29 (lmgrd) TIMESTAMP 11/1/2014
+ 0:00:10 (parteklm) base expired -- rereading to update
+ 0:00:10 (parteklm) Rereading license file...
+ 0:00:10 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:10 (parteklm) disc		pred		infr		
+ 0:00:10 (parteklm) cnct		matk		
+ 0:00:10 (parteklm) Updating feature base
+ 0:00:10 (parteklm) Updating feature disc
+ 0:00:10 (parteklm) Updating feature pred
+ 0:00:10 (parteklm) Updating feature infr
+ 0:00:10 (parteklm) Updating feature cnct
+ 0:00:10 (parteklm) Updating feature matk
+ 0:00:10 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:10 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:10 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:10 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:10 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:10 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:10 (parteklm) Rereading options file...
+ 0:00:10 (parteklm) ...Finished rereading
+ 1:51:25 (parteklm) TIMESTAMP 11/2/2014
+ 5:36:30 (lmgrd) TIMESTAMP 11/2/2014
+ 7:56:25 (parteklm) TIMESTAMP 11/2/2014
+11:36:30 (lmgrd) TIMESTAMP 11/2/2014
+14:01:25 (parteklm) TIMESTAMP 11/2/2014
+17:36:31 (lmgrd) TIMESTAMP 11/2/2014
+20:06:28 (parteklm) TIMESTAMP 11/2/2014
+23:36:33 (lmgrd) TIMESTAMP 11/2/2014
+ 0:00:43 (parteklm) base expired -- rereading to update
+ 0:00:43 (parteklm) Rereading license file...
+ 0:00:43 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:43 (parteklm) disc		pred		infr		
+ 0:00:43 (parteklm) cnct		matk		
+ 0:00:43 (parteklm) Updating feature base
+ 0:00:43 (parteklm) Updating feature disc
+ 0:00:43 (parteklm) Updating feature pred
+ 0:00:43 (parteklm) Updating feature infr
+ 0:00:43 (parteklm) Updating feature cnct
+ 0:00:43 (parteklm) Updating feature matk
+ 0:00:43 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:43 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:43 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:43 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:43 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:43 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:43 (parteklm) Rereading options file...
+ 0:00:43 (parteklm) ...Finished rereading
+ 2:11:28 (parteklm) TIMESTAMP 11/3/2014
+ 5:36:35 (lmgrd) TIMESTAMP 11/3/2014
+ 8:16:31 (parteklm) TIMESTAMP 11/3/2014
+11:36:38 (lmgrd) TIMESTAMP 11/3/2014
+14:21:31 (parteklm) TIMESTAMP 11/3/2014
+17:13:01 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:13:01 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:20:44 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:20:44 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:36:42 (lmgrd) TIMESTAMP 11/3/2014
+20:26:34 (parteklm) TIMESTAMP 11/3/2014
+23:36:42 (lmgrd) TIMESTAMP 11/3/2014
+ 0:00:35 (parteklm) base expired -- rereading to update
+ 0:00:35 (parteklm) Rereading license file...
+ 0:00:36 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:36 (parteklm) disc		pred		infr		
+ 0:00:36 (parteklm) cnct		matk		
+ 0:00:36 (parteklm) Updating feature base
+ 0:00:36 (parteklm) Updating feature disc
+ 0:00:36 (parteklm) Updating feature pred
+ 0:00:36 (parteklm) Updating feature infr
+ 0:00:36 (parteklm) Updating feature cnct
+ 0:00:36 (parteklm) Updating feature matk
+ 0:00:36 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:36 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:36 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:36 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:36 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:36 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:36 (parteklm) Rereading options file...
+ 0:00:36 (parteklm) ...Finished rereading
+ 2:31:36 (parteklm) TIMESTAMP 11/4/2014
+ 5:36:44 (lmgrd) TIMESTAMP 11/4/2014
+ 8:36:36 (parteklm) TIMESTAMP 11/4/2014
+11:36:46 (lmgrd) TIMESTAMP 11/4/2014
+14:41:36 (parteklm) TIMESTAMP 11/4/2014
+17:36:46 (lmgrd) TIMESTAMP 11/4/2014
+20:46:37 (parteklm) TIMESTAMP 11/4/2014
+23:36:49 (lmgrd) TIMESTAMP 11/4/2014
+ 0:00:14 (parteklm) base expired -- rereading to update
+ 0:00:14 (parteklm) Rereading license file...
+ 0:00:14 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:14 (parteklm) disc		pred		infr		
+ 0:00:14 (parteklm) cnct		matk		
+ 0:00:14 (parteklm) Updating feature base
+ 0:00:14 (parteklm) Updating feature disc
+ 0:00:14 (parteklm) Updating feature pred
+ 0:00:14 (parteklm) Updating feature infr
+ 0:00:14 (parteklm) Updating feature cnct
+ 0:00:14 (parteklm) Updating feature matk
+ 0:00:14 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:14 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:14 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:14 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:14 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:14 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:14 (parteklm) Rereading options file...
+ 0:00:14 (parteklm) ...Finished rereading
+ 2:51:40 (parteklm) TIMESTAMP 11/5/2014
+ 5:36:52 (lmgrd) TIMESTAMP 11/5/2014
+ 8:56:43 (parteklm) TIMESTAMP 11/5/2014
+11:36:54 (lmgrd) TIMESTAMP 11/5/2014
+15:01:43 (parteklm) TIMESTAMP 11/5/2014
+17:36:58 (lmgrd) TIMESTAMP 11/5/2014
+21:06:46 (parteklm) TIMESTAMP 11/5/2014
+23:37:02 (lmgrd) TIMESTAMP 11/5/2014
+ 0:00:43 (parteklm) base expired -- rereading to update
+ 0:00:43 (parteklm) Rereading license file...
+ 0:00:43 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:43 (parteklm) disc		pred		infr		
+ 0:00:43 (parteklm) cnct		matk		
+ 0:00:43 (parteklm) Updating feature base
+ 0:00:43 (parteklm) Updating feature disc
+ 0:00:43 (parteklm) Updating feature pred
+ 0:00:43 (parteklm) Updating feature infr
+ 0:00:43 (parteklm) Updating feature cnct
+ 0:00:43 (parteklm) Updating feature matk
+ 0:00:43 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:43 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:43 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:43 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:43 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:43 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:43 (parteklm) Rereading options file...
+ 0:00:43 (parteklm) ...Finished rereading
+ 3:11:48 (parteklm) TIMESTAMP 11/6/2014
+ 5:37:05 (lmgrd) TIMESTAMP 11/6/2014
+ 9:16:48 (parteklm) TIMESTAMP 11/6/2014
+11:37:08 (lmgrd) TIMESTAMP 11/6/2014
+15:21:49 (parteklm) TIMESTAMP 11/6/2014
+17:37:11 (lmgrd) TIMESTAMP 11/6/2014
+21:26:49 (parteklm) TIMESTAMP 11/6/2014
+23:37:14 (lmgrd) TIMESTAMP 11/6/2014
+ 0:00:27 (parteklm) base expired -- rereading to update
+ 0:00:27 (parteklm) Rereading license file...
+ 0:00:27 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:27 (parteklm) disc		pred		infr		
+ 0:00:27 (parteklm) cnct		matk		
+ 0:00:27 (parteklm) Updating feature base
+ 0:00:27 (parteklm) Updating feature disc
+ 0:00:27 (parteklm) Updating feature pred
+ 0:00:27 (parteklm) Updating feature infr
+ 0:00:27 (parteklm) Updating feature cnct
+ 0:00:27 (parteklm) Updating feature matk
+ 0:00:27 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:27 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:27 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:27 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:27 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:27 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:27 (parteklm) Rereading options file...
+ 0:00:27 (parteklm) ...Finished rereading
+ 3:31:49 (parteklm) TIMESTAMP 11/7/2014
+ 5:37:14 (lmgrd) TIMESTAMP 11/7/2014
+ 9:36:52 (parteklm) TIMESTAMP 11/7/2014
+11:37:14 (lmgrd) TIMESTAMP 11/7/2014
+15:41:54 (parteklm) TIMESTAMP 11/7/2014
+17:37:14 (lmgrd) TIMESTAMP 11/7/2014
+21:46:56 (parteklm) TIMESTAMP 11/7/2014
+23:37:15 (lmgrd) TIMESTAMP 11/7/2014
+ 0:00:45 (parteklm) base expired -- rereading to update
+ 0:00:45 (parteklm) Rereading license file...
+ 0:00:45 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:45 (parteklm) disc		pred		infr		
+ 0:00:45 (parteklm) cnct		matk		
+ 0:00:45 (parteklm) Updating feature base
+ 0:00:45 (parteklm) Updating feature disc
+ 0:00:45 (parteklm) Updating feature pred
+ 0:00:45 (parteklm) Updating feature infr
+ 0:00:45 (parteklm) Updating feature cnct
+ 0:00:45 (parteklm) Updating feature matk
+ 0:00:45 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:45 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:45 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:45 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:45 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:45 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:45 (parteklm) Rereading options file...
+ 0:00:45 (parteklm) ...Finished rereading
+ 3:52:00 (parteklm) TIMESTAMP 11/8/2014
+ 5:37:16 (lmgrd) TIMESTAMP 11/8/2014
+ 9:57:03 (parteklm) TIMESTAMP 11/8/2014
+11:37:16 (lmgrd) TIMESTAMP 11/8/2014
+16:02:07 (parteklm) TIMESTAMP 11/8/2014
+17:37:19 (lmgrd) TIMESTAMP 11/8/2014
+22:07:11 (parteklm) TIMESTAMP 11/8/2014
+23:37:20 (lmgrd) TIMESTAMP 11/8/2014
+ 0:00:21 (parteklm) base expired -- rereading to update
+ 0:00:21 (parteklm) Rereading license file...
+ 0:00:21 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:21 (parteklm) disc		pred		infr		
+ 0:00:21 (parteklm) cnct		matk		
+ 0:00:21 (parteklm) Updating feature base
+ 0:00:21 (parteklm) Updating feature disc
+ 0:00:21 (parteklm) Updating feature pred
+ 0:00:21 (parteklm) Updating feature infr
+ 0:00:21 (parteklm) Updating feature cnct
+ 0:00:21 (parteklm) Updating feature matk
+ 0:00:21 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:21 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:21 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:21 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:21 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:21 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:21 (parteklm) Rereading options file...
+ 0:00:21 (parteklm) ...Finished rereading
+ 4:12:11 (parteklm) TIMESTAMP 11/9/2014
+ 5:37:22 (lmgrd) TIMESTAMP 11/9/2014
+10:17:11 (parteklm) TIMESTAMP 11/9/2014
+11:37:26 (lmgrd) TIMESTAMP 11/9/2014
+16:22:12 (parteklm) TIMESTAMP 11/9/2014
+17:37:27 (lmgrd) TIMESTAMP 11/9/2014
+22:27:13 (parteklm) TIMESTAMP 11/9/2014
+23:37:31 (lmgrd) TIMESTAMP 11/9/2014
+ 0:00:41 (parteklm) base expired -- rereading to update
+ 0:00:41 (parteklm) Rereading license file...
+ 0:00:41 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:41 (parteklm) disc		pred		infr		
+ 0:00:41 (parteklm) cnct		matk		
+ 0:00:41 (parteklm) Updating feature base
+ 0:00:41 (parteklm) Updating feature disc
+ 0:00:41 (parteklm) Updating feature pred
+ 0:00:41 (parteklm) Updating feature infr
+ 0:00:41 (parteklm) Updating feature cnct
+ 0:00:41 (parteklm) Updating feature matk
+ 0:00:41 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:41 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:41 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:41 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:41 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:41 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:41 (parteklm) Rereading options file...
+ 0:00:41 (parteklm) ...Finished rereading
+ 4:32:17 (parteklm) TIMESTAMP 11/10/2014
+ 5:37:35 (lmgrd) TIMESTAMP 11/10/2014
+10:37:17 (parteklm) TIMESTAMP 11/10/2014
+11:37:37 (lmgrd) TIMESTAMP 11/10/2014
+16:42:18 (parteklm) TIMESTAMP 11/10/2014
+17:37:40 (lmgrd) TIMESTAMP 11/10/2014
+22:47:18 (parteklm) TIMESTAMP 11/10/2014
+23:37:43 (lmgrd) TIMESTAMP 11/10/2014
+ 0:00:08 (parteklm) base expired -- rereading to update
+ 0:00:08 (parteklm) Rereading license file...
+ 0:00:08 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:08 (parteklm) disc		pred		infr		
+ 0:00:08 (parteklm) cnct		matk		
+ 0:00:08 (parteklm) Updating feature base
+ 0:00:08 (parteklm) Updating feature disc
+ 0:00:08 (parteklm) Updating feature pred
+ 0:00:08 (parteklm) Updating feature infr
+ 0:00:08 (parteklm) Updating feature cnct
+ 0:00:08 (parteklm) Updating feature matk
+ 0:00:08 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:08 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:08 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:08 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:08 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:08 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:08 (parteklm) Rereading options file...
+ 0:00:08 (parteklm) ...Finished rereading
+ 4:52:21 (parteklm) TIMESTAMP 11/11/2014
+ 5:37:46 (lmgrd) TIMESTAMP 11/11/2014
+10:57:25 (parteklm) TIMESTAMP 11/11/2014
+11:37:50 (lmgrd) TIMESTAMP 11/11/2014
+17:02:27 (parteklm) TIMESTAMP 11/11/2014
+17:37:51 (lmgrd) TIMESTAMP 11/11/2014
+23:07:31 (parteklm) TIMESTAMP 11/11/2014
+23:37:52 (lmgrd) TIMESTAMP 11/11/2014
+ 0:00:47 (parteklm) base expired -- rereading to update
+ 0:00:47 (parteklm) Rereading license file...
+ 0:00:48 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:48 (parteklm) disc		pred		infr		
+ 0:00:48 (parteklm) cnct		matk		
+ 0:00:48 (parteklm) Updating feature base
+ 0:00:48 (parteklm) Updating feature disc
+ 0:00:48 (parteklm) Updating feature pred
+ 0:00:48 (parteklm) Updating feature infr
+ 0:00:48 (parteklm) Updating feature cnct
+ 0:00:48 (parteklm) Updating feature matk
+ 0:00:48 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:48 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:48 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:48 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:48 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:48 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:48 (parteklm) Rereading options file...
+ 0:00:48 (parteklm) ...Finished rereading
+ 5:12:34 (parteklm) TIMESTAMP 11/12/2014
+ 5:37:54 (lmgrd) TIMESTAMP 11/12/2014
+11:17:34 (parteklm) TIMESTAMP 11/12/2014
+11:37:54 (lmgrd) TIMESTAMP 11/12/2014
+17:22:34 (parteklm) TIMESTAMP 11/12/2014
+17:37:54 (lmgrd) TIMESTAMP 11/12/2014
+23:27:34 (parteklm) TIMESTAMP 11/12/2014
+23:37:55 (lmgrd) TIMESTAMP 11/12/2014
+ 0:00:24 (parteklm) base expired -- rereading to update
+ 0:00:24 (parteklm) Rereading license file...
+ 0:00:24 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:24 (parteklm) disc		pred		infr		
+ 0:00:24 (parteklm) cnct		matk		
+ 0:00:24 (parteklm) Updating feature base
+ 0:00:24 (parteklm) Updating feature disc
+ 0:00:24 (parteklm) Updating feature pred
+ 0:00:24 (parteklm) Updating feature infr
+ 0:00:24 (parteklm) Updating feature cnct
+ 0:00:24 (parteklm) Updating feature matk
+ 0:00:24 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:24 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:24 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:24 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:24 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:24 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:24 (parteklm) Rereading options file...
+ 0:00:24 (parteklm) ...Finished rereading
+ 5:32:34 (parteklm) TIMESTAMP 11/13/2014
+ 5:37:59 (lmgrd) TIMESTAMP 11/13/2014
+11:37:35 (parteklm) TIMESTAMP 11/13/2014
+11:38:00 (lmgrd) TIMESTAMP 11/13/2014
+17:38:03 (lmgrd) TIMESTAMP 11/13/2014
+17:42:38 (parteklm) TIMESTAMP 11/13/2014
+23:38:07 (lmgrd) TIMESTAMP 11/13/2014
+23:47:42 (parteklm) TIMESTAMP 11/13/2014
+ 0:01:02 (parteklm) base expired -- rereading to update
+ 0:01:02 (parteklm) Rereading license file...
+ 0:01:02 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:01:02 (parteklm) disc		pred		infr		
+ 0:01:02 (parteklm) cnct		matk		
+ 0:01:02 (parteklm) Updating feature base
+ 0:01:02 (parteklm) Updating feature disc
+ 0:01:02 (parteklm) Updating feature pred
+ 0:01:02 (parteklm) Updating feature infr
+ 0:01:02 (parteklm) Updating feature cnct
+ 0:01:02 (parteklm) Updating feature matk
+ 0:01:02 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:01:02 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:01:02 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:01:02 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:01:02 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:01:02 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:01:02 (parteklm) Rereading options file...
+ 0:01:02 (parteklm) ...Finished rereading
+ 5:38:10 (lmgrd) TIMESTAMP 11/14/2014
+ 5:52:45 (parteklm) TIMESTAMP 11/14/2014
+11:38:14 (lmgrd) TIMESTAMP 11/14/2014
+11:57:49 (parteklm) TIMESTAMP 11/14/2014
+17:38:17 (lmgrd) TIMESTAMP 11/14/2014
+18:02:52 (parteklm) TIMESTAMP 11/14/2014
+23:38:20 (lmgrd) TIMESTAMP 11/14/2014
+ 0:00:41 (parteklm) base expired -- rereading to update
+ 0:00:41 (parteklm) Rereading license file...
+ 0:00:41 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:41 (parteklm) disc		pred		infr		
+ 0:00:41 (parteklm) cnct		matk		
+ 0:00:41 (parteklm) Updating feature base
+ 0:00:41 (parteklm) Updating feature disc
+ 0:00:41 (parteklm) Updating feature pred
+ 0:00:41 (parteklm) Updating feature infr
+ 0:00:41 (parteklm) Updating feature cnct
+ 0:00:41 (parteklm) Updating feature matk
+ 0:00:41 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:41 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:41 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:41 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:41 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:41 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:41 (parteklm) Rereading options file...
+ 0:00:41 (parteklm) ...Finished rereading
+ 0:07:55 (parteklm) TIMESTAMP 11/15/2014
+ 5:38:24 (lmgrd) TIMESTAMP 11/15/2014
+ 6:12:59 (parteklm) TIMESTAMP 11/15/2014
+11:38:26 (lmgrd) TIMESTAMP 11/15/2014
+12:17:59 (parteklm) TIMESTAMP 11/15/2014
+17:38:28 (lmgrd) TIMESTAMP 11/15/2014
+18:23:03 (parteklm) TIMESTAMP 11/15/2014
+23:38:28 (lmgrd) TIMESTAMP 11/15/2014
+ 0:01:03 (parteklm) base expired -- rereading to update
+ 0:01:03 (parteklm) Rereading license file...
+ 0:01:03 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:01:03 (parteklm) disc		pred		infr		
+ 0:01:03 (parteklm) cnct		matk		
+ 0:01:03 (parteklm) Updating feature base
+ 0:01:03 (parteklm) Updating feature disc
+ 0:01:03 (parteklm) Updating feature pred
+ 0:01:03 (parteklm) Updating feature infr
+ 0:01:03 (parteklm) Updating feature cnct
+ 0:01:03 (parteklm) Updating feature matk
+ 0:01:03 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:01:03 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:01:03 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:01:03 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:01:03 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:01:03 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:01:03 (parteklm) Rereading options file...
+ 0:01:03 (parteklm) ...Finished rereading
+ 0:28:03 (parteklm) TIMESTAMP 11/16/2014
+ 5:38:32 (lmgrd) TIMESTAMP 11/16/2014
+ 6:33:06 (parteklm) TIMESTAMP 11/16/2014
+11:38:36 (lmgrd) TIMESTAMP 11/16/2014
+12:38:07 (parteklm) TIMESTAMP 11/16/2014
+17:38:40 (lmgrd) TIMESTAMP 11/16/2014
+18:43:11 (parteklm) TIMESTAMP 11/16/2014
+23:38:43 (lmgrd) TIMESTAMP 11/16/2014
+ 0:00:33 (parteklm) base expired -- rereading to update
+ 0:00:33 (parteklm) Rereading license file...
+ 0:00:33 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:33 (parteklm) disc		pred		infr		
+ 0:00:33 (parteklm) cnct		matk		
+ 0:00:33 (parteklm) Updating feature base
+ 0:00:33 (parteklm) Updating feature disc
+ 0:00:33 (parteklm) Updating feature pred
+ 0:00:33 (parteklm) Updating feature infr
+ 0:00:33 (parteklm) Updating feature cnct
+ 0:00:33 (parteklm) Updating feature matk
+ 0:00:33 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:33 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:33 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:33 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:33 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:33 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:33 (parteklm) Rereading options file...
+ 0:00:33 (parteklm) ...Finished rereading
+ 0:48:13 (parteklm) TIMESTAMP 11/17/2014
+ 5:38:46 (lmgrd) TIMESTAMP 11/17/2014
+ 6:53:16 (parteklm) TIMESTAMP 11/17/2014
+11:38:50 (lmgrd) TIMESTAMP 11/17/2014
+12:58:17 (parteklm) TIMESTAMP 11/17/2014
+17:38:54 (lmgrd) TIMESTAMP 11/17/2014
+19:03:20 (parteklm) TIMESTAMP 11/17/2014
+23:38:55 (lmgrd) TIMESTAMP 11/17/2014
+ 0:00:59 (parteklm) base expired -- rereading to update
+ 0:00:59 (parteklm) Rereading license file...
+ 0:00:59 (parteklm) Server started on WMI-RDS01 for:	base		
+ 0:00:59 (parteklm) disc		pred		infr		
+ 0:00:59 (parteklm) cnct		matk		
+ 0:00:59 (parteklm) Updating feature base
+ 0:00:59 (parteklm) Updating feature disc
+ 0:00:59 (parteklm) Updating feature pred
+ 0:00:59 (parteklm) Updating feature infr
+ 0:00:59 (parteklm) Updating feature cnct
+ 0:00:59 (parteklm) Updating feature matk
+ 0:00:59 (parteklm) Support removed for feature base(059C E1BE 5369 2638 )
+ 0:00:59 (parteklm) Support removed for feature disc(0724 4678 D580 CE12 )
+ 0:00:59 (parteklm) Support removed for feature pred(0D10 F00E 640F 8740 )
+ 0:00:59 (parteklm) Support removed for feature infr(17C0 7081 D125 6FDE )
+ 0:00:59 (parteklm) Support removed for feature cnct(020F 82FE 977C 962E )
+ 0:00:59 (parteklm) Support removed for feature matk(09AD 5AC1 C0E8 20B8 )
+ 0:00:59 (parteklm) Rereading options file...
+ 0:00:59 (parteklm) ...Finished rereading
+ 1:08:24 (parteklm) TIMESTAMP 11/18/2014
+ 5:38:56 (lmgrd) TIMESTAMP 11/18/2014
+ 7:13:26 (parteklm) TIMESTAMP 11/18/2014
+11:38:57 (lmgrd) TIMESTAMP 11/18/2014
+13:18:27 (parteklm) TIMESTAMP 11/18/2014
+17:38:32 (lmgrd) parteklm exited with status 58 ()
+17:38:32 (lmgrd) Since this is an unknown status, license server 
+17:38:32 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+17:38:32 (lmgrd) EXITING DUE TO SIGNAL 1
+17:40:35 (lmgrd) -----------------------------------------------
+17:40:35 (lmgrd)   Please Note:
+17:40:35 (lmgrd) 
+17:40:35 (lmgrd)   This log is intended for debug purposes only.
+17:40:35 (lmgrd)   In order to capture accurate license
+17:40:35 (lmgrd)   usage data into an organized repository,
+17:40:35 (lmgrd)   please enable report logging. Use Flexera Software, Inc.'s
+17:40:35 (lmgrd)   software license administration  solution,
+17:40:35 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+17:40:35 (lmgrd)   into license usage data and to create
+17:40:35 (lmgrd)   insightful reports on critical information like
+17:40:35 (lmgrd)   license availability and usage. FLEXnet Manager
+17:40:35 (lmgrd)   can be fully automated to run these reports on
+17:40:35 (lmgrd)   schedule and can be used to track license
+17:40:35 (lmgrd)   servers and usage across a heterogeneous
+17:40:35 (lmgrd)   network of servers including Windows NT, Linux
+17:40:35 (lmgrd)   and UNIX. Contact Flexera Software, Inc. at
+17:40:35 (lmgrd)   www.flexerasoftware.com for more details on how to
+17:40:35 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+17:40:35 (lmgrd)   for your enterprise.
+17:40:35 (lmgrd) 
+17:40:35 (lmgrd) -----------------------------------------------
+17:40:35 (lmgrd) 
+17:40:35 (lmgrd) 
+17:40:35 (lmgrd) pid 1752
+17:40:35 (lmgrd) Detecting other license server manager (lmgrd) processes...
+17:40:35 (lmgrd) Done rereading
+17:40:35 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on WMI-RDS01 (IBM PC) (11/18/2014)
+17:40:35 (lmgrd) Copyright (c) 1988-2010 Flexera Software, Inc. All Rights Reserved.
+17:40:35 (lmgrd) US Patents 5,390,297 and 5,671,412.
+17:40:35 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+17:40:35 (lmgrd) License file(s): C:\FLEXnet.WIN64\FLEXnet\license.dat
+17:40:35 (lmgrd) lmgrd tcp-port 27000
+17:40:35 (lmgrd) Starting vendor daemons ... 
+17:40:35 (lmgrd) Starting vendor daemon at port 27001
+17:40:35 (lmgrd) Using vendor daemon port 27001 specified in license file
+17:40:36 (lmgrd) Started parteklm (pid 1792)
+17:40:36 (parteklm) FLEXnet Licensing version v11.9.0.0 build 87342 x64_n6
+17:40:36 (parteklm) Server started on WMI-RDS01 for:	base		
+17:40:36 (parteklm) disc		pred		infr		
+17:40:36 (parteklm) cnct		matk		
+17:40:36 (parteklm) EXTERNAL FILTERS are OFF
+17:40:36 (lmgrd) parteklm using TCP-port 27001
+23:40:38 (lmgrd) TIMESTAMP 11/18/2014
+23:45:39 (parteklm) TIMESTAMP 11/18/2014
+ 5:40:40 (lmgrd) TIMESTAMP 11/19/2014
+ 5:50:40 (parteklm) TIMESTAMP 11/19/2014
+11:40:44 (lmgrd) TIMESTAMP 11/19/2014
+11:55:44 (parteklm) TIMESTAMP 11/19/2014
+17:40:47 (lmgrd) TIMESTAMP 11/19/2014
+18:00:47 (parteklm) TIMESTAMP 11/19/2014
+23:40:50 (lmgrd) TIMESTAMP 11/19/2014
+ 0:05:50 (parteklm) TIMESTAMP 11/20/2014
+ 5:40:50 (lmgrd) TIMESTAMP 11/20/2014
+ 6:10:50 (parteklm) TIMESTAMP 11/20/2014
+11:40:53 (lmgrd) TIMESTAMP 11/20/2014
+12:15:53 (parteklm) TIMESTAMP 11/20/2014
+17:40:54 (lmgrd) TIMESTAMP 11/20/2014
+18:20:55 (parteklm) TIMESTAMP 11/20/2014
+23:40:56 (lmgrd) TIMESTAMP 11/20/2014
+ 0:25:57 (parteklm) TIMESTAMP 11/21/2014
+ 5:40:57 (lmgrd) TIMESTAMP 11/21/2014
+ 6:30:57 (parteklm) TIMESTAMP 11/21/2014
+11:40:59 (lmgrd) TIMESTAMP 11/21/2014
+12:35:58 (parteklm) TIMESTAMP 11/21/2014
+17:40:59 (lmgrd) TIMESTAMP 11/21/2014
+18:40:59 (parteklm) TIMESTAMP 11/21/2014
+23:41:02 (lmgrd) TIMESTAMP 11/21/2014
+ 0:46:02 (parteklm) TIMESTAMP 11/22/2014
+ 5:41:06 (lmgrd) TIMESTAMP 11/22/2014
+ 6:51:06 (parteklm) TIMESTAMP 11/22/2014
+11:41:06 (lmgrd) TIMESTAMP 11/22/2014
+12:56:06 (parteklm) TIMESTAMP 11/22/2014
+17:41:06 (lmgrd) TIMESTAMP 11/22/2014
+19:01:10 (parteklm) TIMESTAMP 11/22/2014
+23:41:07 (lmgrd) TIMESTAMP 11/22/2014
+ 1:06:13 (parteklm) TIMESTAMP 11/23/2014
+ 5:41:11 (lmgrd) TIMESTAMP 11/23/2014
+ 7:11:16 (parteklm) TIMESTAMP 11/23/2014
+11:41:15 (lmgrd) TIMESTAMP 11/23/2014
+13:16:16 (parteklm) TIMESTAMP 11/23/2014
+17:41:19 (lmgrd) TIMESTAMP 11/23/2014
+19:21:19 (parteklm) TIMESTAMP 11/23/2014
+23:41:22 (lmgrd) TIMESTAMP 11/23/2014
+ 1:26:22 (parteklm) TIMESTAMP 11/24/2014
+ 5:41:22 (lmgrd) TIMESTAMP 11/24/2014
+ 7:31:22 (parteklm) TIMESTAMP 11/24/2014
+11:41:24 (lmgrd) TIMESTAMP 11/24/2014
+13:36:22 (parteklm) TIMESTAMP 11/24/2014
+17:41:25 (lmgrd) TIMESTAMP 11/24/2014
+19:41:26 (parteklm) TIMESTAMP 11/24/2014
+23:41:26 (lmgrd) TIMESTAMP 11/24/2014
+ 1:46:28 (parteklm) TIMESTAMP 11/25/2014
+ 5:41:28 (lmgrd) TIMESTAMP 11/25/2014
+ 7:51:32 (parteklm) TIMESTAMP 11/25/2014
+11:41:29 (lmgrd) TIMESTAMP 11/25/2014
+13:56:34 (parteklm) TIMESTAMP 11/25/2014
+17:41:29 (lmgrd) TIMESTAMP 11/25/2014
+20:01:34 (parteklm) TIMESTAMP 11/25/2014
+23:41:29 (lmgrd) TIMESTAMP 11/25/2014
+ 2:06:36 (parteklm) TIMESTAMP 11/26/2014
+ 5:41:29 (lmgrd) TIMESTAMP 11/26/2014
+ 8:11:39 (parteklm) TIMESTAMP 11/26/2014
+11:41:33 (lmgrd) TIMESTAMP 11/26/2014
+14:16:39 (parteklm) TIMESTAMP 11/26/2014
+17:41:37 (lmgrd) TIMESTAMP 11/26/2014
+20:21:43 (parteklm) TIMESTAMP 11/26/2014
+23:41:40 (lmgrd) TIMESTAMP 11/26/2014
+ 2:26:44 (parteklm) TIMESTAMP 11/27/2014
+ 5:41:40 (lmgrd) TIMESTAMP 11/27/2014
+ 8:31:45 (parteklm) TIMESTAMP 11/27/2014
+11:41:40 (lmgrd) TIMESTAMP 11/27/2014
+14:36:49 (parteklm) TIMESTAMP 11/27/2014
+17:41:40 (lmgrd) TIMESTAMP 11/27/2014
+20:41:53 (parteklm) TIMESTAMP 11/27/2014
+23:41:41 (lmgrd) TIMESTAMP 11/27/2014
+ 2:46:57 (parteklm) TIMESTAMP 11/28/2014
+ 5:41:41 (lmgrd) TIMESTAMP 11/28/2014
+ 8:51:59 (parteklm) TIMESTAMP 11/28/2014
+11:41:42 (lmgrd) TIMESTAMP 11/28/2014
+14:57:03 (parteklm) TIMESTAMP 11/28/2014
+17:41:44 (lmgrd) TIMESTAMP 11/28/2014
+21:02:04 (parteklm) TIMESTAMP 11/28/2014
+23:41:48 (lmgrd) TIMESTAMP 11/28/2014
+ 3:07:05 (parteklm) TIMESTAMP 11/29/2014
+ 5:41:48 (lmgrd) TIMESTAMP 11/29/2014
+ 9:12:07 (parteklm) TIMESTAMP 11/29/2014
+11:41:48 (lmgrd) TIMESTAMP 11/29/2014
+15:17:07 (parteklm) TIMESTAMP 11/29/2014
+17:41:51 (lmgrd) TIMESTAMP 11/29/2014
+21:22:08 (parteklm) TIMESTAMP 11/29/2014
+23:41:54 (lmgrd) TIMESTAMP 11/29/2014
+ 3:27:09 (parteklm) TIMESTAMP 11/30/2014
+ 5:41:56 (lmgrd) TIMESTAMP 11/30/2014
+ 9:32:13 (parteklm) TIMESTAMP 11/30/2014
+11:41:56 (lmgrd) TIMESTAMP 11/30/2014
+15:37:14 (parteklm) TIMESTAMP 11/30/2014
+17:41:57 (lmgrd) TIMESTAMP 11/30/2014
+21:42:14 (parteklm) TIMESTAMP 11/30/2014
+23:41:59 (lmgrd) TIMESTAMP 11/30/2014
+ 3:47:16 (parteklm) TIMESTAMP 12/1/2014
+ 5:42:01 (lmgrd) TIMESTAMP 12/1/2014
+ 9:52:19 (parteklm) TIMESTAMP 12/1/2014
+11:42:04 (lmgrd) TIMESTAMP 12/1/2014
+15:57:20 (parteklm) TIMESTAMP 12/1/2014
+17:42:07 (lmgrd) TIMESTAMP 12/1/2014
+22:02:21 (parteklm) TIMESTAMP 12/1/2014
+23:42:10 (lmgrd) TIMESTAMP 12/1/2014
+ 4:07:25 (parteklm) TIMESTAMP 12/2/2014
+ 5:42:10 (lmgrd) TIMESTAMP 12/2/2014
+10:12:27 (parteklm) TIMESTAMP 12/2/2014
+11:42:12 (lmgrd) TIMESTAMP 12/2/2014
+16:17:28 (parteklm) TIMESTAMP 12/2/2014
+17:42:13 (lmgrd) TIMESTAMP 12/2/2014
+22:22:28 (parteklm) TIMESTAMP 12/2/2014
+23:42:17 (lmgrd) TIMESTAMP 12/2/2014
+ 4:27:28 (parteklm) TIMESTAMP 12/3/2014
+ 5:42:20 (lmgrd) TIMESTAMP 12/3/2014
+10:32:28 (parteklm) TIMESTAMP 12/3/2014
+11:42:23 (lmgrd) TIMESTAMP 12/3/2014
+16:37:31 (parteklm) TIMESTAMP 12/3/2014
+17:42:26 (lmgrd) TIMESTAMP 12/3/2014
+22:42:32 (parteklm) TIMESTAMP 12/3/2014
+23:42:28 (lmgrd) TIMESTAMP 12/3/2014
+ 4:47:36 (parteklm) TIMESTAMP 12/4/2014
+ 5:42:31 (lmgrd) TIMESTAMP 12/4/2014
+10:52:40 (parteklm) TIMESTAMP 12/4/2014
+11:42:35 (lmgrd) TIMESTAMP 12/4/2014
+16:57:40 (parteklm) TIMESTAMP 12/4/2014
+17:23:28 (parteklm) TCP_NODELAY NOT enabled
+17:23:28 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:23:28 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:37:39 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:42:36 (lmgrd) TIMESTAMP 12/4/2014
+17:47:12 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:47:12 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:47:12 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:47:34 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:47:34 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:48:33 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:48:33 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+18:10:04 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+18:10:04 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+18:13:57 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+18:21:21 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+18:21:21 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+18:21:21 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+23:02:44 (parteklm) TIMESTAMP 12/4/2014
+23:42:40 (lmgrd) TIMESTAMP 12/4/2014
+ 5:07:45 (parteklm) TIMESTAMP 12/5/2014
+ 5:42:40 (lmgrd) TIMESTAMP 12/5/2014
+11:12:46 (parteklm) TIMESTAMP 12/5/2014
+11:42:41 (lmgrd) TIMESTAMP 12/5/2014
+16:09:57 (lmgrd) parteklm exited with status 58 ()
+16:09:57 (lmgrd) Since this is an unknown status, license server 
+16:09:57 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+16:09:57 (lmgrd) EXITING DUE TO SIGNAL 1
+16:11:56 (lmgrd) -----------------------------------------------
+16:11:56 (lmgrd)   Please Note:
+16:11:56 (lmgrd) 
+16:11:56 (lmgrd)   This log is intended for debug purposes only.
+16:11:56 (lmgrd)   In order to capture accurate license
+16:11:56 (lmgrd)   usage data into an organized repository,
+16:11:56 (lmgrd)   please enable report logging. Use Flexera Software, Inc.'s
+16:11:56 (lmgrd)   software license administration  solution,
+16:11:56 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+16:11:56 (lmgrd)   into license usage data and to create
+16:11:56 (lmgrd)   insightful reports on critical information like
+16:11:56 (lmgrd)   license availability and usage. FLEXnet Manager
+16:11:56 (lmgrd)   can be fully automated to run these reports on
+16:11:56 (lmgrd)   schedule and can be used to track license
+16:11:56 (lmgrd)   servers and usage across a heterogeneous
+16:11:56 (lmgrd)   network of servers including Windows NT, Linux
+16:11:56 (lmgrd)   and UNIX. Contact Flexera Software, Inc. at
+16:11:56 (lmgrd)   www.flexerasoftware.com for more details on how to
+16:11:56 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+16:11:56 (lmgrd)   for your enterprise.
+16:11:56 (lmgrd) 
+16:11:56 (lmgrd) -----------------------------------------------
+16:11:56 (lmgrd) 
+16:11:56 (lmgrd) 
+16:11:56 (lmgrd) pid 1772
+16:11:56 (lmgrd) Detecting other license server manager (lmgrd) processes...
+16:11:56 (lmgrd) Done rereading
+16:11:56 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on WMI-RDS01 (IBM PC) (12/5/2014)
+16:11:56 (lmgrd) Copyright (c) 1988-2010 Flexera Software, Inc. All Rights Reserved.
+16:11:56 (lmgrd) US Patents 5,390,297 and 5,671,412.
+16:11:56 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+16:11:56 (lmgrd) License file(s): C:\FLEXnet.WIN64\FLEXnet\license.dat
+16:11:56 (lmgrd) lmgrd tcp-port 27000
+16:11:56 (lmgrd) Starting vendor daemons ... 
+16:11:56 (lmgrd) Starting vendor daemon at port 27001
+16:11:56 (lmgrd) Using vendor daemon port 27001 specified in license file
+16:11:57 (lmgrd) Started parteklm (pid 1788)
+16:11:57 (parteklm) FLEXnet Licensing version v11.9.0.0 build 87342 x64_n6
+16:11:57 (parteklm) Server started on WMI-RDS01 for:	base		
+16:11:57 (parteklm) disc		pred		infr		
+16:11:57 (parteklm) cnct		matk		
+16:11:57 (parteklm) EXTERNAL FILTERS are OFF
+16:11:57 (lmgrd) parteklm using TCP-port 27001
+22:12:00 (lmgrd) TIMESTAMP 12/5/2014
+22:17:00 (parteklm) TIMESTAMP 12/5/2014
+ 4:12:02 (lmgrd) TIMESTAMP 12/6/2014
+ 4:22:02 (parteklm) TIMESTAMP 12/6/2014
+10:12:02 (lmgrd) TIMESTAMP 12/6/2014
+10:27:02 (parteklm) TIMESTAMP 12/6/2014
+16:12:06 (lmgrd) TIMESTAMP 12/6/2014
+16:32:06 (parteklm) TIMESTAMP 12/6/2014
+22:12:10 (lmgrd) TIMESTAMP 12/6/2014
+22:37:10 (parteklm) TIMESTAMP 12/6/2014
+ 4:12:11 (lmgrd) TIMESTAMP 12/7/2014
+ 4:42:11 (parteklm) TIMESTAMP 12/7/2014
+10:12:12 (lmgrd) TIMESTAMP 12/7/2014
+10:47:12 (parteklm) TIMESTAMP 12/7/2014
+16:12:12 (lmgrd) TIMESTAMP 12/7/2014
+16:52:12 (parteklm) TIMESTAMP 12/7/2014
+22:12:13 (lmgrd) TIMESTAMP 12/7/2014
+22:57:13 (parteklm) TIMESTAMP 12/7/2014
+ 4:12:14 (lmgrd) TIMESTAMP 12/8/2014
+ 5:02:14 (parteklm) TIMESTAMP 12/8/2014
+10:12:14 (lmgrd) TIMESTAMP 12/8/2014
+11:07:16 (parteklm) TIMESTAMP 12/8/2014
+16:12:15 (lmgrd) TIMESTAMP 12/8/2014
+17:12:20 (parteklm) TIMESTAMP 12/8/2014
+22:12:15 (lmgrd) TIMESTAMP 12/8/2014
+23:17:22 (parteklm) TIMESTAMP 12/8/2014
+ 4:12:17 (lmgrd) TIMESTAMP 12/9/2014
+ 5:22:23 (parteklm) TIMESTAMP 12/9/2014
+10:12:20 (lmgrd) TIMESTAMP 12/9/2014
+11:27:25 (parteklm) TIMESTAMP 12/9/2014
+16:12:23 (lmgrd) TIMESTAMP 12/9/2014
+17:32:28 (parteklm) TIMESTAMP 12/9/2014
+22:12:26 (lmgrd) TIMESTAMP 12/9/2014
+23:37:30 (parteklm) TIMESTAMP 12/9/2014
+ 4:12:30 (lmgrd) TIMESTAMP 12/10/2014
+ 5:42:30 (parteklm) TIMESTAMP 12/10/2014
+10:12:34 (lmgrd) TIMESTAMP 12/10/2014
+11:47:32 (parteklm) TIMESTAMP 12/10/2014
+16:12:34 (lmgrd) TIMESTAMP 12/10/2014
+17:52:32 (parteklm) TIMESTAMP 12/10/2014
+22:12:34 (lmgrd) TIMESTAMP 12/10/2014
+23:57:36 (parteklm) TIMESTAMP 12/10/2014
+ 4:12:36 (lmgrd) TIMESTAMP 12/11/2014
+ 6:02:36 (parteklm) TIMESTAMP 12/11/2014
+10:12:36 (lmgrd) TIMESTAMP 12/11/2014
+12:07:36 (parteklm) TIMESTAMP 12/11/2014
+16:12:39 (lmgrd) TIMESTAMP 12/11/2014
+18:12:38 (parteklm) TIMESTAMP 12/11/2014
+21:11:04 (lmgrd) parteklm exited with status 58 ()
+21:11:05 (lmgrd) Since this is an unknown status, license server 
+21:11:05 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+21:11:05 (lmgrd) EXITING DUE TO SIGNAL 1
+21:16:14 (lmgrd) -----------------------------------------------
+21:16:14 (lmgrd)   Please Note:
+21:16:14 (lmgrd) 
+21:16:14 (lmgrd)   This log is intended for debug purposes only.
+21:16:14 (lmgrd)   In order to capture accurate license
+21:16:14 (lmgrd)   usage data into an organized repository,
+21:16:14 (lmgrd)   please enable report logging. Use Flexera Software, Inc.'s
+21:16:14 (lmgrd)   software license administration  solution,
+21:16:14 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+21:16:14 (lmgrd)   into license usage data and to create
+21:16:14 (lmgrd)   insightful reports on critical information like
+21:16:14 (lmgrd)   license availability and usage. FLEXnet Manager
+21:16:14 (lmgrd)   can be fully automated to run these reports on
+21:16:14 (lmgrd)   schedule and can be used to track license
+21:16:14 (lmgrd)   servers and usage across a heterogeneous
+21:16:14 (lmgrd)   network of servers including Windows NT, Linux
+21:16:14 (lmgrd)   and UNIX. Contact Flexera Software, Inc. at
+21:16:14 (lmgrd)   www.flexerasoftware.com for more details on how to
+21:16:14 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+21:16:14 (lmgrd)   for your enterprise.
+21:16:14 (lmgrd) 
+21:16:14 (lmgrd) -----------------------------------------------
+21:16:14 (lmgrd) 
+21:16:14 (lmgrd) 
+21:16:14 (lmgrd) pid 1792
+21:16:14 (lmgrd) Detecting other license server manager (lmgrd) processes...
+21:16:14 (lmgrd) Done rereading
+21:16:14 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on WMI-RDS01 (IBM PC) (12/11/2014)
+21:16:14 (lmgrd) Copyright (c) 1988-2010 Flexera Software, Inc. All Rights Reserved.
+21:16:14 (lmgrd) US Patents 5,390,297 and 5,671,412.
+21:16:14 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+21:16:14 (lmgrd) License file(s): C:\FLEXnet.WIN64\FLEXnet\license.dat
+21:16:14 (lmgrd) lmgrd tcp-port 27000
+21:16:14 (lmgrd) Starting vendor daemons ... 
+21:16:14 (lmgrd) Starting vendor daemon at port 27001
+21:16:14 (lmgrd) Using vendor daemon port 27001 specified in license file
+21:16:16 (lmgrd) Started parteklm (pid 1880)
+21:16:18 (parteklm) FLEXnet Licensing version v11.9.0.0 build 87342 x64_n6
+21:16:19 (parteklm) Server started on WMI-RDS01 for:	base		
+21:16:19 (parteklm) disc		pred		infr		
+21:16:19 (parteklm) cnct		matk		
+21:16:19 (parteklm) EXTERNAL FILTERS are OFF
+21:16:19 (lmgrd) parteklm using TCP-port 27001
+ 3:16:18 (lmgrd) TIMESTAMP 12/12/2014
+ 3:21:23 (parteklm) TIMESTAMP 12/12/2014
+ 9:16:22 (lmgrd) TIMESTAMP 12/12/2014
+ 9:26:27 (parteklm) TIMESTAMP 12/12/2014
+15:16:24 (lmgrd) TIMESTAMP 12/12/2014
+15:31:27 (parteklm) TIMESTAMP 12/12/2014
+21:16:25 (lmgrd) TIMESTAMP 12/12/2014
+21:36:30 (parteklm) TIMESTAMP 12/12/2014
+ 3:16:25 (lmgrd) TIMESTAMP 12/13/2014
+ 3:41:30 (parteklm) TIMESTAMP 12/13/2014
+ 9:16:26 (lmgrd) TIMESTAMP 12/13/2014
+ 9:46:31 (parteklm) TIMESTAMP 12/13/2014
+15:16:26 (lmgrd) TIMESTAMP 12/13/2014
+15:51:31 (parteklm) TIMESTAMP 12/13/2014
+21:16:26 (lmgrd) TIMESTAMP 12/13/2014
+21:56:31 (parteklm) TIMESTAMP 12/13/2014
+ 3:16:27 (lmgrd) TIMESTAMP 12/14/2014
+ 4:01:32 (parteklm) TIMESTAMP 12/14/2014
+ 9:16:27 (lmgrd) TIMESTAMP 12/14/2014
+10:06:32 (parteklm) TIMESTAMP 12/14/2014
+15:16:27 (lmgrd) TIMESTAMP 12/14/2014
+16:11:32 (parteklm) TIMESTAMP 12/14/2014
+21:16:28 (lmgrd) TIMESTAMP 12/14/2014
+22:16:33 (parteklm) TIMESTAMP 12/14/2014
+ 3:16:28 (lmgrd) TIMESTAMP 12/15/2014
+ 4:21:33 (parteklm) TIMESTAMP 12/15/2014
+ 9:16:28 (lmgrd) TIMESTAMP 12/15/2014
+10:26:33 (parteklm) TIMESTAMP 12/15/2014
+14:26:32 (parteklm) TCP_NODELAY NOT enabled
+14:26:44 (parteklm) OUT: "base" Jordan@Jordan-PC  
+14:26:44 (parteklm) OUT: "matk" Jordan@Jordan-PC  
+14:38:22 (parteklm) OUT: "infr" Jordan@Jordan-PC  
+14:57:36 (parteklm) IN: "base" Jordan@Jordan-PC  
+14:57:36 (parteklm) IN: "infr" Jordan@Jordan-PC  
+14:57:36 (parteklm) IN: "matk" Jordan@Jordan-PC  
+15:16:31 (lmgrd) TIMESTAMP 12/15/2014
+16:31:37 (parteklm) TIMESTAMP 12/15/2014
+17:29:43 (lmgrd) parteklm exited with status 58 ()
+17:29:43 (lmgrd) Since this is an unknown status, license server 
+17:29:43 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+17:29:43 (lmgrd) EXITING DUE TO SIGNAL 1
+17:36:38 (lmgrd) -----------------------------------------------
+17:36:38 (lmgrd)   Please Note:
+17:36:38 (lmgrd) 
+17:36:38 (lmgrd)   This log is intended for debug purposes only.
+17:36:38 (lmgrd)   In order to capture accurate license
+17:36:38 (lmgrd)   usage data into an organized repository,
+17:36:38 (lmgrd)   please enable report logging. Use Flexera Software, Inc.'s
+17:36:38 (lmgrd)   software license administration  solution,
+17:36:38 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+17:36:38 (lmgrd)   into license usage data and to create
+17:36:38 (lmgrd)   insightful reports on critical information like
+17:36:38 (lmgrd)   license availability and usage. FLEXnet Manager
+17:36:38 (lmgrd)   can be fully automated to run these reports on
+17:36:38 (lmgrd)   schedule and can be used to track license
+17:36:38 (lmgrd)   servers and usage across a heterogeneous
+17:36:38 (lmgrd)   network of servers including Windows NT, Linux
+17:36:38 (lmgrd)   and UNIX. Contact Flexera Software, Inc. at
+17:36:38 (lmgrd)   www.flexerasoftware.com for more details on how to
+17:36:38 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+17:36:38 (lmgrd)   for your enterprise.
+17:36:38 (lmgrd) 
+17:36:38 (lmgrd) -----------------------------------------------
+17:36:38 (lmgrd) 
+17:36:38 (lmgrd) 
+17:36:38 (lmgrd) pid 1816
+17:36:38 (lmgrd) Detecting other license server manager (lmgrd) processes...
+17:36:39 (lmgrd) Done rereading
+17:36:39 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on WMI-RDS01 (IBM PC) (12/15/2014)
+17:36:39 (lmgrd) Copyright (c) 1988-2010 Flexera Software, Inc. All Rights Reserved.
+17:36:39 (lmgrd) US Patents 5,390,297 and 5,671,412.
+17:36:39 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+17:36:39 (lmgrd) License file(s): C:\FLEXnet.WIN64\FLEXnet\license.dat
+17:36:39 (lmgrd) lmgrd tcp-port 27000
+17:36:39 (lmgrd) Starting vendor daemons ... 
+17:36:39 (lmgrd) Starting vendor daemon at port 27001
+17:36:39 (lmgrd) Using vendor daemon port 27001 specified in license file
+17:36:43 (lmgrd) Started parteklm (pid 1964)
+17:36:46 (parteklm) FLEXnet Licensing version v11.9.0.0 build 87342 x64_n6
+17:36:48 (parteklm) Server started on WMI-RDS01 for:	base		
+17:36:48 (parteklm) disc		pred		infr		
+17:36:48 (parteklm) cnct		matk		
+17:36:48 (parteklm) EXTERNAL FILTERS are OFF
+17:36:49 (lmgrd) parteklm using TCP-port 27001
+23:36:43 (lmgrd) TIMESTAMP 12/15/2014
+23:41:53 (parteklm) TIMESTAMP 12/15/2014
+ 5:36:44 (lmgrd) TIMESTAMP 12/16/2014
+ 5:46:54 (parteklm) TIMESTAMP 12/16/2014
+10:57:22 (lmgrd) parteklm exited with status 58 ()
+10:57:22 (lmgrd) Since this is an unknown status, license server 
+10:57:22 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+10:57:22 (lmgrd) EXITING DUE TO SIGNAL 1
+11:08:10 (lmgrd) -----------------------------------------------
+11:08:10 (lmgrd)   Please Note:
+11:08:10 (lmgrd) 
+11:08:10 (lmgrd)   This log is intended for debug purposes only.
+11:08:10 (lmgrd)   In order to capture accurate license
+11:08:10 (lmgrd)   usage data into an organized repository,
+11:08:10 (lmgrd)   please enable report logging. Use Flexera Software, Inc.'s
+11:08:10 (lmgrd)   software license administration  solution,
+11:08:10 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+11:08:10 (lmgrd)   into license usage data and to create
+11:08:10 (lmgrd)   insightful reports on critical information like
+11:08:10 (lmgrd)   license availability and usage. FLEXnet Manager
+11:08:10 (lmgrd)   can be fully automated to run these reports on
+11:08:10 (lmgrd)   schedule and can be used to track license
+11:08:10 (lmgrd)   servers and usage across a heterogeneous
+11:08:10 (lmgrd)   network of servers including Windows NT, Linux
+11:08:10 (lmgrd)   and UNIX. Contact Flexera Software, Inc. at
+11:08:10 (lmgrd)   www.flexerasoftware.com for more details on how to
+11:08:10 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+11:08:10 (lmgrd)   for your enterprise.
+11:08:10 (lmgrd) 
+11:08:10 (lmgrd) -----------------------------------------------
+11:08:10 (lmgrd) 
+11:08:10 (lmgrd) 
+11:08:10 (lmgrd) pid 1768
+11:08:10 (lmgrd) Detecting other license server manager (lmgrd) processes...
+11:08:11 (lmgrd) Done rereading
+11:08:11 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on WMI-RDS01 (IBM PC) (12/16/2014)
+11:08:11 (lmgrd) Copyright (c) 1988-2010 Flexera Software, Inc. All Rights Reserved.
+11:08:11 (lmgrd) US Patents 5,390,297 and 5,671,412.
+11:08:11 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+11:08:11 (lmgrd) License file(s): C:\FLEXnet.WIN64\FLEXnet\license.dat
+11:08:11 (lmgrd) lmgrd tcp-port 27000
+11:08:11 (lmgrd) Starting vendor daemons ... 
+11:08:11 (lmgrd) Starting vendor daemon at port 27001
+11:08:11 (lmgrd) Using vendor daemon port 27001 specified in license file
+11:08:12 (lmgrd) Started parteklm (pid 1812)
+11:08:13 (parteklm) FLEXnet Licensing version v11.9.0.0 build 87342 x64_n6
+11:08:14 (parteklm) Server started on WMI-RDS01 for:	base		
+11:08:14 (parteklm) disc		pred		infr		
+11:08:14 (parteklm) cnct		matk		
+11:08:14 (parteklm) EXTERNAL FILTERS are OFF
+11:08:14 (lmgrd) parteklm using TCP-port 27001
+11:24:42 (lmgrd) parteklm exited with status 58 ()
+11:24:42 (lmgrd) Since this is an unknown status, license server 
+11:24:42 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+11:24:42 (lmgrd) EXITING DUE TO SIGNAL 1
+11:31:55 (lmgrd) -----------------------------------------------
+11:31:55 (lmgrd)   Please Note:
+11:31:55 (lmgrd) 
+11:31:55 (lmgrd)   This log is intended for debug purposes only.
+11:31:55 (lmgrd)   In order to capture accurate license
+11:31:55 (lmgrd)   usage data into an organized repository,
+11:31:55 (lmgrd)   please enable report logging. Use Flexera Software, Inc.'s
+11:31:55 (lmgrd)   software license administration  solution,
+11:31:55 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+11:31:55 (lmgrd)   into license usage data and to create
+11:31:55 (lmgrd)   insightful reports on critical information like
+11:31:55 (lmgrd)   license availability and usage. FLEXnet Manager
+11:31:55 (lmgrd)   can be fully automated to run these reports on
+11:31:55 (lmgrd)   schedule and can be used to track license
+11:31:55 (lmgrd)   servers and usage across a heterogeneous
+11:31:55 (lmgrd)   network of servers including Windows NT, Linux
+11:31:55 (lmgrd)   and UNIX. Contact Flexera Software, Inc. at
+11:31:55 (lmgrd)   www.flexerasoftware.com for more details on how to
+11:31:55 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+11:31:55 (lmgrd)   for your enterprise.
+11:31:55 (lmgrd) 
+11:31:55 (lmgrd) -----------------------------------------------
+11:31:55 (lmgrd) 
+11:31:55 (lmgrd) 
+11:31:55 (lmgrd) pid 1828
+11:31:55 (lmgrd) Detecting other license server manager (lmgrd) processes...
+11:31:56 (lmgrd) Done rereading
+11:31:56 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on WMI-RDS01 (IBM PC) (12/16/2014)
+11:31:56 (lmgrd) Copyright (c) 1988-2010 Flexera Software, Inc. All Rights Reserved.
+11:31:56 (lmgrd) US Patents 5,390,297 and 5,671,412.
+11:31:56 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+11:31:56 (lmgrd) License file(s): C:\FLEXnet.WIN64\FLEXnet\license.dat
+11:31:56 (lmgrd) lmgrd tcp-port 27000
+11:31:56 (lmgrd) Starting vendor daemons ... 
+11:31:56 (lmgrd) Starting vendor daemon at port 27001
+11:31:56 (lmgrd) Using vendor daemon port 27001 specified in license file
+11:31:57 (lmgrd) Started parteklm (pid 1864)
+11:31:59 (parteklm) FLEXnet Licensing version v11.9.0.0 build 87342 x64_n6
+11:31:59 (parteklm) Server started on WMI-RDS01 for:	base		
+11:31:59 (parteklm) disc		pred		infr		
+11:31:59 (parteklm) cnct		matk		
+11:32:00 (parteklm) EXTERNAL FILTERS are OFF
+11:32:00 (lmgrd) parteklm using TCP-port 27001
+17:31:57 (lmgrd) TIMESTAMP 12/16/2014
+17:37:02 (parteklm) TIMESTAMP 12/16/2014
+23:32:01 (lmgrd) TIMESTAMP 12/16/2014
+23:42:02 (parteklm) TIMESTAMP 12/16/2014
+ 5:32:05 (lmgrd) TIMESTAMP 12/17/2014
+ 5:47:05 (parteklm) TIMESTAMP 12/17/2014
+11:32:08 (lmgrd) TIMESTAMP 12/17/2014
+11:52:08 (parteklm) TIMESTAMP 12/17/2014
+17:32:08 (lmgrd) TIMESTAMP 12/17/2014
+17:57:08 (parteklm) TIMESTAMP 12/17/2014
+23:32:11 (lmgrd) TIMESTAMP 12/17/2014
+ 0:02:09 (parteklm) TIMESTAMP 12/18/2014
+ 5:32:15 (lmgrd) TIMESTAMP 12/18/2014
+ 6:07:10 (parteklm) TIMESTAMP 12/18/2014
+11:32:18 (lmgrd) TIMESTAMP 12/18/2014
+12:12:13 (parteklm) TIMESTAMP 12/18/2014
+17:32:19 (lmgrd) TIMESTAMP 12/18/2014
+18:17:14 (parteklm) TIMESTAMP 12/18/2014
+23:32:22 (lmgrd) TIMESTAMP 12/18/2014
+ 0:22:17 (parteklm) TIMESTAMP 12/19/2014
+ 5:32:25 (lmgrd) TIMESTAMP 12/19/2014
+ 6:27:20 (parteklm) TIMESTAMP 12/19/2014
+11:32:28 (lmgrd) TIMESTAMP 12/19/2014
+12:32:23 (parteklm) TIMESTAMP 12/19/2014
+17:32:28 (lmgrd) TIMESTAMP 12/19/2014
+18:37:23 (parteklm) TIMESTAMP 12/19/2014
+23:32:28 (lmgrd) TIMESTAMP 12/19/2014
+ 0:42:23 (parteklm) TIMESTAMP 12/20/2014
+ 5:32:32 (lmgrd) TIMESTAMP 12/20/2014
+ 6:47:27 (parteklm) TIMESTAMP 12/20/2014
+11:32:33 (lmgrd) TIMESTAMP 12/20/2014
+12:52:28 (parteklm) TIMESTAMP 12/20/2014
+17:32:35 (lmgrd) TIMESTAMP 12/20/2014
+18:57:30 (parteklm) TIMESTAMP 12/20/2014
+23:32:35 (lmgrd) TIMESTAMP 12/20/2014
+ 1:02:30 (parteklm) TIMESTAMP 12/21/2014
+ 5:32:37 (lmgrd) TIMESTAMP 12/21/2014
+ 7:07:32 (parteklm) TIMESTAMP 12/21/2014
+11:32:38 (lmgrd) TIMESTAMP 12/21/2014
+13:12:34 (parteklm) TIMESTAMP 12/21/2014
+17:32:39 (lmgrd) TIMESTAMP 12/21/2014
+19:17:36 (parteklm) TIMESTAMP 12/21/2014
+23:32:42 (lmgrd) TIMESTAMP 12/21/2014
+ 1:22:37 (parteklm) TIMESTAMP 12/22/2014
+ 5:32:43 (lmgrd) TIMESTAMP 12/22/2014
+ 7:27:38 (parteklm) TIMESTAMP 12/22/2014
+11:32:43 (lmgrd) TIMESTAMP 12/22/2014
+13:32:38 (parteklm) TIMESTAMP 12/22/2014
+17:32:43 (lmgrd) TIMESTAMP 12/22/2014
+19:37:38 (parteklm) TIMESTAMP 12/22/2014
+23:32:46 (lmgrd) TIMESTAMP 12/22/2014
+ 1:42:42 (parteklm) TIMESTAMP 12/23/2014
+ 5:32:47 (lmgrd) TIMESTAMP 12/23/2014
+ 7:47:43 (parteklm) TIMESTAMP 12/23/2014
+11:32:49 (lmgrd) TIMESTAMP 12/23/2014
+12:54:58 (parteklm) TCP_NODELAY NOT enabled
+12:54:58 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+12:54:58 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+13:26:49 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+13:26:49 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+13:27:05 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+13:27:05 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+13:34:35 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+13:52:44 (parteklm) TIMESTAMP 12/23/2014
+13:58:53 (parteklm) UNSUPPORTED: "pathway_base" (PORT_AT_HOST_PLUS   ) cristinamapagu@Cristinas-MacBook-Pro  (License server system does not support this feature. (-18,327))
+15:09:35 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+15:09:35 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+15:09:35 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+15:18:13 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+15:18:13 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+15:43:44 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+15:54:39 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+15:54:39 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+15:54:39 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+15:54:57 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+15:54:57 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+15:58:26 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+16:08:46 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+16:08:46 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+16:08:46 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:32:51 (lmgrd) TIMESTAMP 12/23/2014
+19:57:47 (parteklm) TIMESTAMP 12/23/2014
+23:32:54 (lmgrd) TIMESTAMP 12/23/2014
+ 2:02:50 (parteklm) TIMESTAMP 12/24/2014
+ 5:32:56 (lmgrd) TIMESTAMP 12/24/2014
+ 8:07:51 (parteklm) TIMESTAMP 12/24/2014
+11:32:58 (lmgrd) TIMESTAMP 12/24/2014
+14:12:53 (parteklm) TIMESTAMP 12/24/2014
+17:32:58 (lmgrd) TIMESTAMP 12/24/2014
+20:17:56 (parteklm) TIMESTAMP 12/24/2014
+23:32:58 (lmgrd) TIMESTAMP 12/24/2014
+ 2:22:59 (parteklm) TIMESTAMP 12/25/2014
+ 5:32:59 (lmgrd) TIMESTAMP 12/25/2014
+ 8:27:59 (parteklm) TIMESTAMP 12/25/2014
+11:32:59 (lmgrd) TIMESTAMP 12/25/2014
+14:33:01 (parteklm) TIMESTAMP 12/25/2014
+17:33:02 (lmgrd) TIMESTAMP 12/25/2014
+20:38:05 (parteklm) TIMESTAMP 12/25/2014
+23:33:02 (lmgrd) TIMESTAMP 12/25/2014
+ 2:43:07 (parteklm) TIMESTAMP 12/26/2014
+ 5:33:03 (lmgrd) TIMESTAMP 12/26/2014
+ 8:48:09 (parteklm) TIMESTAMP 12/26/2014
+11:33:04 (lmgrd) TIMESTAMP 12/26/2014
+14:53:12 (parteklm) TIMESTAMP 12/26/2014
+17:33:07 (lmgrd) TIMESTAMP 12/26/2014
+20:58:13 (parteklm) TIMESTAMP 12/26/2014
+23:33:07 (lmgrd) TIMESTAMP 12/26/2014
+ 3:03:13 (parteklm) TIMESTAMP 12/27/2014
+ 5:33:08 (lmgrd) TIMESTAMP 12/27/2014
+ 9:08:14 (parteklm) TIMESTAMP 12/27/2014
+11:33:09 (lmgrd) TIMESTAMP 12/27/2014
+15:13:15 (parteklm) TIMESTAMP 12/27/2014
+17:33:10 (lmgrd) TIMESTAMP 12/27/2014
+21:18:17 (parteklm) TIMESTAMP 12/27/2014
+23:33:14 (lmgrd) TIMESTAMP 12/27/2014
+ 3:23:21 (parteklm) TIMESTAMP 12/28/2014
+ 5:33:14 (lmgrd) TIMESTAMP 12/28/2014
+ 9:28:24 (parteklm) TIMESTAMP 12/28/2014
+11:33:14 (lmgrd) TIMESTAMP 12/28/2014
+15:33:25 (parteklm) TIMESTAMP 12/28/2014
+17:33:15 (lmgrd) TIMESTAMP 12/28/2014
+21:38:26 (parteklm) TIMESTAMP 12/28/2014
+23:33:17 (lmgrd) TIMESTAMP 12/28/2014
+ 3:43:28 (parteklm) TIMESTAMP 12/29/2014
+ 5:33:19 (lmgrd) TIMESTAMP 12/29/2014
+ 9:48:30 (parteklm) TIMESTAMP 12/29/2014
+11:33:21 (lmgrd) TIMESTAMP 12/29/2014
+15:53:31 (parteklm) TIMESTAMP 12/29/2014
+17:33:21 (lmgrd) TIMESTAMP 12/29/2014
+21:58:33 (parteklm) TIMESTAMP 12/29/2014
+23:33:24 (lmgrd) TIMESTAMP 12/29/2014
+ 4:03:34 (parteklm) TIMESTAMP 12/30/2014
+ 5:33:25 (lmgrd) TIMESTAMP 12/30/2014
+10:08:35 (parteklm) TIMESTAMP 12/30/2014
+11:33:25 (lmgrd) TIMESTAMP 12/30/2014
+16:13:36 (parteklm) TIMESTAMP 12/30/2014
+17:33:26 (lmgrd) TIMESTAMP 12/30/2014
+22:18:38 (parteklm) TIMESTAMP 12/30/2014
+23:33:30 (lmgrd) TIMESTAMP 12/30/2014
+ 4:23:38 (parteklm) TIMESTAMP 12/31/2014
+ 5:33:33 (lmgrd) TIMESTAMP 12/31/2014
+10:28:39 (parteklm) TIMESTAMP 12/31/2014
+11:33:34 (lmgrd) TIMESTAMP 12/31/2014
+16:33:39 (parteklm) TIMESTAMP 12/31/2014
+17:33:35 (lmgrd) TIMESTAMP 12/31/2014
+22:38:42 (parteklm) TIMESTAMP 12/31/2014
+23:33:39 (lmgrd) TIMESTAMP 12/31/2014
+ 4:43:46 (parteklm) TIMESTAMP 1/1/2015
+ 5:33:41 (lmgrd) TIMESTAMP 1/1/2015
+10:48:47 (parteklm) TIMESTAMP 1/1/2015
+11:33:43 (lmgrd) TIMESTAMP 1/1/2015
+16:53:49 (parteklm) TIMESTAMP 1/1/2015
+17:33:44 (lmgrd) TIMESTAMP 1/1/2015
+22:58:49 (parteklm) TIMESTAMP 1/1/2015
+23:33:46 (lmgrd) TIMESTAMP 1/1/2015
+ 5:03:51 (parteklm) TIMESTAMP 1/2/2015
+ 5:33:47 (lmgrd) TIMESTAMP 1/2/2015
+11:08:53 (parteklm) TIMESTAMP 1/2/2015
+11:33:48 (lmgrd) TIMESTAMP 1/2/2015
+17:13:53 (parteklm) TIMESTAMP 1/2/2015
+17:33:48 (lmgrd) TIMESTAMP 1/2/2015
+23:18:56 (parteklm) TIMESTAMP 1/2/2015
+23:33:52 (lmgrd) TIMESTAMP 1/2/2015
+ 5:23:58 (parteklm) TIMESTAMP 1/3/2015
+ 5:33:53 (lmgrd) TIMESTAMP 1/3/2015
+11:29:02 (parteklm) TIMESTAMP 1/3/2015
+11:33:57 (lmgrd) TIMESTAMP 1/3/2015
+17:33:57 (lmgrd) TIMESTAMP 1/3/2015
+17:34:02 (parteklm) TIMESTAMP 1/3/2015
+23:34:00 (lmgrd) TIMESTAMP 1/3/2015
+23:39:05 (parteklm) TIMESTAMP 1/3/2015
+ 5:34:03 (lmgrd) TIMESTAMP 1/4/2015
+ 5:44:08 (parteklm) TIMESTAMP 1/4/2015
+11:34:04 (lmgrd) TIMESTAMP 1/4/2015
+11:49:09 (parteklm) TIMESTAMP 1/4/2015
+17:34:07 (lmgrd) TIMESTAMP 1/4/2015
+17:54:12 (parteklm) TIMESTAMP 1/4/2015
+23:34:09 (lmgrd) TIMESTAMP 1/4/2015
+23:59:14 (parteklm) TIMESTAMP 1/4/2015
+ 5:34:09 (lmgrd) TIMESTAMP 1/5/2015
+ 6:04:14 (parteklm) TIMESTAMP 1/5/2015
+11:34:12 (lmgrd) TIMESTAMP 1/5/2015
+12:09:17 (parteklm) TIMESTAMP 1/5/2015
+17:34:13 (lmgrd) TIMESTAMP 1/5/2015
+18:14:18 (parteklm) TIMESTAMP 1/5/2015
+23:34:17 (lmgrd) TIMESTAMP 1/5/2015
+ 0:19:18 (parteklm) TIMESTAMP 1/6/2015
+ 5:34:20 (lmgrd) TIMESTAMP 1/6/2015
+ 6:24:20 (parteklm) TIMESTAMP 1/6/2015
+11:34:20 (lmgrd) TIMESTAMP 1/6/2015
+12:29:22 (parteklm) TIMESTAMP 1/6/2015
+13:19:22 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+13:19:22 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+13:29:50 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+13:29:50 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+13:30:05 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+13:30:05 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+13:32:53 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+13:41:09 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+13:41:09 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+13:41:09 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+13:41:55 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+13:41:55 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+13:46:12 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+14:00:02 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+14:00:02 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+14:00:02 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+14:05:33 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+14:05:33 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+14:09:00 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+14:14:31 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+14:14:31 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+14:14:31 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:34:22 (lmgrd) TIMESTAMP 1/6/2015
+18:34:23 (parteklm) TIMESTAMP 1/6/2015
+23:34:22 (lmgrd) TIMESTAMP 1/6/2015
+ 0:39:25 (parteklm) TIMESTAMP 1/7/2015
+ 5:34:26 (lmgrd) TIMESTAMP 1/7/2015
+ 6:44:26 (parteklm) TIMESTAMP 1/7/2015
+11:34:28 (lmgrd) TIMESTAMP 1/7/2015
+12:49:29 (parteklm) TIMESTAMP 1/7/2015
+17:34:30 (lmgrd) TIMESTAMP 1/7/2015
+18:54:30 (parteklm) TIMESTAMP 1/7/2015
+23:34:33 (lmgrd) TIMESTAMP 1/7/2015
+ 0:59:33 (parteklm) TIMESTAMP 1/8/2015
+ 5:34:34 (lmgrd) TIMESTAMP 1/8/2015
+ 7:04:35 (parteklm) TIMESTAMP 1/8/2015
+11:34:36 (lmgrd) TIMESTAMP 1/8/2015
+13:09:36 (parteklm) TIMESTAMP 1/8/2015
+17:34:39 (lmgrd) TIMESTAMP 1/8/2015
+19:14:40 (parteklm) TIMESTAMP 1/8/2015
+23:34:42 (lmgrd) TIMESTAMP 1/8/2015
+ 1:19:41 (parteklm) TIMESTAMP 1/9/2015
+ 5:34:43 (lmgrd) TIMESTAMP 1/9/2015
+ 7:24:43 (parteklm) TIMESTAMP 1/9/2015
+11:34:45 (lmgrd) TIMESTAMP 1/9/2015
+13:29:46 (parteklm) TIMESTAMP 1/9/2015
+17:34:47 (lmgrd) TIMESTAMP 1/9/2015
+19:34:49 (parteklm) TIMESTAMP 1/9/2015
+23:34:47 (lmgrd) TIMESTAMP 1/9/2015
+ 1:39:52 (parteklm) TIMESTAMP 1/10/2015
+ 5:34:47 (lmgrd) TIMESTAMP 1/10/2015
+ 7:44:52 (parteklm) TIMESTAMP 1/10/2015
+11:34:47 (lmgrd) TIMESTAMP 1/10/2015
+13:49:52 (parteklm) TIMESTAMP 1/10/2015
+17:34:47 (lmgrd) TIMESTAMP 1/10/2015
+19:54:53 (parteklm) TIMESTAMP 1/10/2015
+23:34:49 (lmgrd) TIMESTAMP 1/10/2015
+ 1:59:57 (parteklm) TIMESTAMP 1/11/2015
+ 5:34:49 (lmgrd) TIMESTAMP 1/11/2015
+ 8:04:59 (parteklm) TIMESTAMP 1/11/2015
+11:34:49 (lmgrd) TIMESTAMP 1/11/2015
+14:09:59 (parteklm) TIMESTAMP 1/11/2015
+17:34:50 (lmgrd) TIMESTAMP 1/11/2015
+20:15:01 (parteklm) TIMESTAMP 1/11/2015
+23:34:51 (lmgrd) TIMESTAMP 1/11/2015
+ 2:20:03 (parteklm) TIMESTAMP 1/12/2015
+ 5:34:54 (lmgrd) TIMESTAMP 1/12/2015
+ 8:25:03 (parteklm) TIMESTAMP 1/12/2015
+11:34:55 (lmgrd) TIMESTAMP 1/12/2015
+14:30:06 (parteklm) TIMESTAMP 1/12/2015
+17:34:55 (lmgrd) TIMESTAMP 1/12/2015
+20:35:06 (parteklm) TIMESTAMP 1/12/2015
+23:34:55 (lmgrd) TIMESTAMP 1/12/2015
+ 2:40:06 (parteklm) TIMESTAMP 1/13/2015
+ 5:34:57 (lmgrd) TIMESTAMP 1/13/2015
+ 8:45:07 (parteklm) TIMESTAMP 1/13/2015
+11:34:57 (lmgrd) TIMESTAMP 1/13/2015
+14:05:13 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+14:05:13 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+14:09:48 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+14:09:48 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+14:10:04 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+14:10:04 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+14:14:22 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+14:50:08 (parteklm) TIMESTAMP 1/13/2015
+16:41:15 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+16:41:15 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+16:41:15 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+16:41:37 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+16:41:37 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:06:05 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:35:01 (lmgrd) TIMESTAMP 1/13/2015
+18:02:20 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+18:02:20 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+18:02:20 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+18:02:40 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+18:02:40 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+18:09:22 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+18:25:44 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+18:25:44 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+18:25:44 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+20:55:09 (parteklm) TIMESTAMP 1/13/2015
+23:35:03 (lmgrd) TIMESTAMP 1/13/2015
+ 3:00:13 (parteklm) TIMESTAMP 1/14/2015
+ 5:35:03 (lmgrd) TIMESTAMP 1/14/2015
+ 9:05:15 (parteklm) TIMESTAMP 1/14/2015
+11:35:05 (lmgrd) TIMESTAMP 1/14/2015
+15:10:15 (parteklm) TIMESTAMP 1/14/2015
+17:35:06 (lmgrd) TIMESTAMP 1/14/2015
+21:15:15 (parteklm) TIMESTAMP 1/14/2015
+23:35:08 (lmgrd) TIMESTAMP 1/14/2015
+ 3:20:15 (parteklm) TIMESTAMP 1/15/2015
+ 5:35:11 (lmgrd) TIMESTAMP 1/15/2015
+ 9:25:17 (parteklm) TIMESTAMP 1/15/2015
+11:35:12 (lmgrd) TIMESTAMP 1/15/2015
+15:30:19 (parteklm) TIMESTAMP 1/15/2015
+17:35:14 (lmgrd) TIMESTAMP 1/15/2015
+21:35:19 (parteklm) TIMESTAMP 1/15/2015
+23:35:18 (lmgrd) TIMESTAMP 1/15/2015
+ 3:40:23 (parteklm) TIMESTAMP 1/16/2015
+ 5:35:18 (lmgrd) TIMESTAMP 1/16/2015
+ 9:45:24 (parteklm) TIMESTAMP 1/16/2015
+11:35:19 (lmgrd) TIMESTAMP 1/16/2015
+15:50:25 (parteklm) TIMESTAMP 1/16/2015
+17:35:20 (lmgrd) TIMESTAMP 1/16/2015
+21:55:25 (parteklm) TIMESTAMP 1/16/2015
+23:35:22 (lmgrd) TIMESTAMP 1/16/2015
+ 4:00:25 (parteklm) TIMESTAMP 1/17/2015
+ 5:35:25 (lmgrd) TIMESTAMP 1/17/2015
+10:05:26 (parteklm) TIMESTAMP 1/17/2015
+11:35:26 (lmgrd) TIMESTAMP 1/17/2015
+16:10:27 (parteklm) TIMESTAMP 1/17/2015
+17:35:27 (lmgrd) TIMESTAMP 1/17/2015
+22:15:29 (parteklm) TIMESTAMP 1/17/2015
+23:35:29 (lmgrd) TIMESTAMP 1/17/2015
+ 4:20:32 (parteklm) TIMESTAMP 1/18/2015
+ 5:35:32 (lmgrd) TIMESTAMP 1/18/2015
+10:25:32 (parteklm) TIMESTAMP 1/18/2015
+11:35:32 (lmgrd) TIMESTAMP 1/18/2015
+16:30:32 (parteklm) TIMESTAMP 1/18/2015
+17:35:32 (lmgrd) TIMESTAMP 1/18/2015
+22:35:34 (parteklm) TIMESTAMP 1/18/2015
+23:35:34 (lmgrd) TIMESTAMP 1/18/2015
+ 4:40:36 (parteklm) TIMESTAMP 1/19/2015
+ 5:35:36 (lmgrd) TIMESTAMP 1/19/2015
+10:45:38 (parteklm) TIMESTAMP 1/19/2015
+11:35:38 (lmgrd) TIMESTAMP 1/19/2015
+16:50:40 (parteklm) TIMESTAMP 1/19/2015
+17:35:40 (lmgrd) TIMESTAMP 1/19/2015
+22:55:40 (parteklm) TIMESTAMP 1/19/2015
+23:35:43 (lmgrd) TIMESTAMP 1/19/2015
+ 5:00:42 (parteklm) TIMESTAMP 1/20/2015
+ 5:35:47 (lmgrd) TIMESTAMP 1/20/2015
+11:05:44 (parteklm) TIMESTAMP 1/20/2015
+11:35:49 (lmgrd) TIMESTAMP 1/20/2015
+17:10:45 (parteklm) TIMESTAMP 1/20/2015
+17:35:50 (lmgrd) TIMESTAMP 1/20/2015
+23:15:48 (parteklm) TIMESTAMP 1/20/2015
+23:35:54 (lmgrd) TIMESTAMP 1/20/2015
+ 5:20:50 (parteklm) TIMESTAMP 1/21/2015
+ 5:35:55 (lmgrd) TIMESTAMP 1/21/2015
+11:25:50 (parteklm) TIMESTAMP 1/21/2015
+11:35:55 (lmgrd) TIMESTAMP 1/21/2015
+17:30:51 (parteklm) TIMESTAMP 1/21/2015
+17:35:56 (lmgrd) TIMESTAMP 1/21/2015
+23:35:55 (parteklm) TIMESTAMP 1/21/2015
+23:36:00 (lmgrd) TIMESTAMP 1/21/2015
+ 5:36:01 (lmgrd) TIMESTAMP 1/22/2015
+ 5:40:56 (parteklm) TIMESTAMP 1/22/2015
+11:36:01 (lmgrd) TIMESTAMP 1/22/2015
+11:45:58 (parteklm) TIMESTAMP 1/22/2015
+17:36:05 (lmgrd) TIMESTAMP 1/22/2015
+17:51:00 (parteklm) TIMESTAMP 1/22/2015
+23:36:09 (lmgrd) TIMESTAMP 1/22/2015
+23:56:00 (parteklm) TIMESTAMP 1/22/2015
+ 5:36:11 (lmgrd) TIMESTAMP 1/23/2015
+ 6:01:01 (parteklm) TIMESTAMP 1/23/2015
+11:36:13 (lmgrd) TIMESTAMP 1/23/2015
+12:06:03 (parteklm) TIMESTAMP 1/23/2015
+17:36:14 (lmgrd) TIMESTAMP 1/23/2015
+17:39:50 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:39:50 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:43:33 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:49:18 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:49:18 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:49:18 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+18:11:03 (parteklm) TIMESTAMP 1/23/2015
+23:36:17 (lmgrd) TIMESTAMP 1/23/2015
+ 0:16:03 (parteklm) TIMESTAMP 1/24/2015
+ 5:36:21 (lmgrd) TIMESTAMP 1/24/2015
+ 6:21:06 (parteklm) TIMESTAMP 1/24/2015
+11:36:22 (lmgrd) TIMESTAMP 1/24/2015
+12:26:07 (parteklm) TIMESTAMP 1/24/2015
+17:36:23 (lmgrd) TIMESTAMP 1/24/2015
+18:31:08 (parteklm) TIMESTAMP 1/24/2015
+23:36:24 (lmgrd) TIMESTAMP 1/24/2015
+ 0:36:09 (parteklm) TIMESTAMP 1/25/2015
+ 5:36:24 (lmgrd) TIMESTAMP 1/25/2015
+ 6:41:10 (parteklm) TIMESTAMP 1/25/2015
+11:36:26 (lmgrd) TIMESTAMP 1/25/2015
+12:46:11 (parteklm) TIMESTAMP 1/25/2015
+17:36:27 (lmgrd) TIMESTAMP 1/25/2015
+18:51:13 (parteklm) TIMESTAMP 1/25/2015
+23:36:29 (lmgrd) TIMESTAMP 1/25/2015
+ 0:56:15 (parteklm) TIMESTAMP 1/26/2015
+ 5:36:30 (lmgrd) TIMESTAMP 1/26/2015
+ 7:01:15 (parteklm) TIMESTAMP 1/26/2015
+11:36:31 (lmgrd) TIMESTAMP 1/26/2015
+13:06:16 (parteklm) TIMESTAMP 1/26/2015
+17:36:33 (lmgrd) TIMESTAMP 1/26/2015
+19:11:18 (parteklm) TIMESTAMP 1/26/2015
+23:36:33 (lmgrd) TIMESTAMP 1/26/2015
+ 1:16:20 (parteklm) TIMESTAMP 1/27/2015
+ 5:36:35 (lmgrd) TIMESTAMP 1/27/2015
+ 7:21:20 (parteklm) TIMESTAMP 1/27/2015
+11:36:35 (lmgrd) TIMESTAMP 1/27/2015
+13:26:20 (parteklm) TIMESTAMP 1/27/2015
+16:25:49 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+16:25:49 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+16:30:41 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+16:41:57 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+16:41:57 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+16:41:57 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:36:38 (lmgrd) TIMESTAMP 1/27/2015
+19:31:23 (parteklm) TIMESTAMP 1/27/2015
+23:36:38 (lmgrd) TIMESTAMP 1/27/2015
+ 1:36:23 (parteklm) TIMESTAMP 1/28/2015
+ 5:36:38 (lmgrd) TIMESTAMP 1/28/2015
+ 7:41:23 (parteklm) TIMESTAMP 1/28/2015
+11:36:39 (lmgrd) TIMESTAMP 1/28/2015
+13:46:24 (parteklm) TIMESTAMP 1/28/2015
+17:36:43 (lmgrd) TIMESTAMP 1/28/2015
+19:51:24 (parteklm) TIMESTAMP 1/28/2015
+23:36:44 (lmgrd) TIMESTAMP 1/28/2015
+ 1:56:24 (parteklm) TIMESTAMP 1/29/2015
+ 5:36:44 (lmgrd) TIMESTAMP 1/29/2015
+ 8:01:24 (parteklm) TIMESTAMP 1/29/2015
+11:36:44 (lmgrd) TIMESTAMP 1/29/2015
+14:06:24 (parteklm) TIMESTAMP 1/29/2015
+17:36:44 (lmgrd) TIMESTAMP 1/29/2015
+20:11:24 (parteklm) TIMESTAMP 1/29/2015
+23:36:44 (lmgrd) TIMESTAMP 1/29/2015
+ 2:16:24 (parteklm) TIMESTAMP 1/30/2015
+ 5:36:44 (lmgrd) TIMESTAMP 1/30/2015
+ 8:21:25 (parteklm) TIMESTAMP 1/30/2015
+11:36:45 (lmgrd) TIMESTAMP 1/30/2015
+14:26:25 (parteklm) TIMESTAMP 1/30/2015
+17:36:45 (lmgrd) TIMESTAMP 1/30/2015
+20:31:25 (parteklm) TIMESTAMP 1/30/2015
+23:36:45 (lmgrd) TIMESTAMP 1/30/2015
+ 2:36:25 (parteklm) TIMESTAMP 1/31/2015
+ 5:36:45 (lmgrd) TIMESTAMP 1/31/2015
+ 8:41:25 (parteklm) TIMESTAMP 1/31/2015
+11:36:46 (lmgrd) TIMESTAMP 1/31/2015
+14:46:26 (parteklm) TIMESTAMP 1/31/2015
+17:36:46 (lmgrd) TIMESTAMP 1/31/2015
+20:51:26 (parteklm) TIMESTAMP 1/31/2015
+23:36:46 (lmgrd) TIMESTAMP 1/31/2015
+ 2:56:26 (parteklm) TIMESTAMP 2/1/2015
+ 5:36:46 (lmgrd) TIMESTAMP 2/1/2015
+ 9:01:26 (parteklm) TIMESTAMP 2/1/2015
+11:36:46 (lmgrd) TIMESTAMP 2/1/2015
+15:06:26 (parteklm) TIMESTAMP 2/1/2015
+17:36:46 (lmgrd) TIMESTAMP 2/1/2015
+21:11:26 (parteklm) TIMESTAMP 2/1/2015
+23:36:46 (lmgrd) TIMESTAMP 2/1/2015
+ 3:16:26 (parteklm) TIMESTAMP 2/2/2015
+ 5:36:46 (lmgrd) TIMESTAMP 2/2/2015
+ 9:21:27 (parteklm) TIMESTAMP 2/2/2015
+11:36:46 (lmgrd) TIMESTAMP 2/2/2015
+15:26:31 (parteklm) TIMESTAMP 2/2/2015
+17:36:47 (lmgrd) TIMESTAMP 2/2/2015
+21:31:32 (parteklm) TIMESTAMP 2/2/2015
+23:36:47 (lmgrd) TIMESTAMP 2/2/2015
+ 3:36:32 (parteklm) TIMESTAMP 2/3/2015
+ 5:36:47 (lmgrd) TIMESTAMP 2/3/2015
+ 9:41:32 (parteklm) TIMESTAMP 2/3/2015
+11:36:47 (lmgrd) TIMESTAMP 2/3/2015
+15:46:32 (parteklm) TIMESTAMP 2/3/2015
+17:36:47 (lmgrd) TIMESTAMP 2/3/2015
+21:51:32 (parteklm) TIMESTAMP 2/3/2015
+23:36:47 (lmgrd) TIMESTAMP 2/3/2015
+ 3:56:32 (parteklm) TIMESTAMP 2/4/2015
+ 5:36:48 (lmgrd) TIMESTAMP 2/4/2015
+10:01:33 (parteklm) TIMESTAMP 2/4/2015
+11:36:48 (lmgrd) TIMESTAMP 2/4/2015
+16:06:33 (parteklm) TIMESTAMP 2/4/2015
+17:36:48 (lmgrd) TIMESTAMP 2/4/2015
+22:11:33 (parteklm) TIMESTAMP 2/4/2015
+23:36:48 (lmgrd) TIMESTAMP 2/4/2015
+ 4:16:33 (parteklm) TIMESTAMP 2/5/2015
+ 5:36:48 (lmgrd) TIMESTAMP 2/5/2015
+10:21:33 (parteklm) TIMESTAMP 2/5/2015
+11:36:48 (lmgrd) TIMESTAMP 2/5/2015
+16:26:33 (parteklm) TIMESTAMP 2/5/2015
+17:36:48 (lmgrd) TIMESTAMP 2/5/2015
+22:31:33 (parteklm) TIMESTAMP 2/5/2015
+23:36:48 (lmgrd) TIMESTAMP 2/5/2015
+ 4:36:33 (parteklm) TIMESTAMP 2/6/2015
+ 5:36:48 (lmgrd) TIMESTAMP 2/6/2015
+10:41:33 (parteklm) TIMESTAMP 2/6/2015
+11:36:48 (lmgrd) TIMESTAMP 2/6/2015
+16:46:34 (parteklm) TIMESTAMP 2/6/2015
+17:36:49 (lmgrd) TIMESTAMP 2/6/2015
+22:51:34 (parteklm) TIMESTAMP 2/6/2015
+23:36:49 (lmgrd) TIMESTAMP 2/6/2015
+ 4:56:34 (parteklm) TIMESTAMP 2/7/2015
+ 5:36:49 (lmgrd) TIMESTAMP 2/7/2015
+11:01:34 (parteklm) TIMESTAMP 2/7/2015
+11:36:49 (lmgrd) TIMESTAMP 2/7/2015
+17:06:34 (parteklm) TIMESTAMP 2/7/2015
+17:36:49 (lmgrd) TIMESTAMP 2/7/2015
+23:11:34 (parteklm) TIMESTAMP 2/7/2015
+23:36:49 (lmgrd) TIMESTAMP 2/7/2015
+ 5:16:35 (parteklm) TIMESTAMP 2/8/2015
+ 5:36:50 (lmgrd) TIMESTAMP 2/8/2015
+11:21:35 (parteklm) TIMESTAMP 2/8/2015
+11:36:50 (lmgrd) TIMESTAMP 2/8/2015
+17:26:35 (parteklm) TIMESTAMP 2/8/2015
+17:36:50 (lmgrd) TIMESTAMP 2/8/2015
+23:31:35 (parteklm) TIMESTAMP 2/8/2015
+23:36:50 (lmgrd) TIMESTAMP 2/8/2015
+ 5:36:35 (parteklm) TIMESTAMP 2/9/2015
+ 5:36:50 (lmgrd) TIMESTAMP 2/9/2015
+11:36:50 (lmgrd) TIMESTAMP 2/9/2015
+11:41:35 (parteklm) TIMESTAMP 2/9/2015
+17:36:50 (lmgrd) TIMESTAMP 2/9/2015
+17:46:35 (parteklm) TIMESTAMP 2/9/2015
+23:36:51 (lmgrd) TIMESTAMP 2/9/2015
+23:51:36 (parteklm) TIMESTAMP 2/9/2015
+ 5:36:51 (lmgrd) TIMESTAMP 2/10/2015
+ 5:56:36 (parteklm) TIMESTAMP 2/10/2015
+11:36:51 (lmgrd) TIMESTAMP 2/10/2015
+12:01:36 (parteklm) TIMESTAMP 2/10/2015
+17:36:51 (lmgrd) TIMESTAMP 2/10/2015
+18:06:36 (parteklm) TIMESTAMP 2/10/2015
+23:36:51 (lmgrd) TIMESTAMP 2/10/2015
+ 0:11:36 (parteklm) TIMESTAMP 2/11/2015
+ 5:36:51 (lmgrd) TIMESTAMP 2/11/2015
+ 6:16:36 (parteklm) TIMESTAMP 2/11/2015
+11:36:51 (lmgrd) TIMESTAMP 2/11/2015
+12:21:36 (parteklm) TIMESTAMP 2/11/2015
+17:36:51 (lmgrd) TIMESTAMP 2/11/2015
+18:26:36 (parteklm) TIMESTAMP 2/11/2015
+23:36:52 (lmgrd) TIMESTAMP 2/11/2015
+ 0:31:37 (parteklm) TIMESTAMP 2/12/2015
+ 5:36:52 (lmgrd) TIMESTAMP 2/12/2015
+ 6:36:37 (parteklm) TIMESTAMP 2/12/2015
+11:36:53 (lmgrd) TIMESTAMP 2/12/2015
+12:41:38 (parteklm) TIMESTAMP 2/12/2015
+17:36:54 (lmgrd) TIMESTAMP 2/12/2015
+18:46:39 (parteklm) TIMESTAMP 2/12/2015
+23:36:54 (lmgrd) TIMESTAMP 2/12/2015
+ 0:51:39 (parteklm) TIMESTAMP 2/13/2015
+ 5:36:54 (lmgrd) TIMESTAMP 2/13/2015
+ 6:56:39 (parteklm) TIMESTAMP 2/13/2015
+11:36:54 (lmgrd) TIMESTAMP 2/13/2015
+13:01:39 (parteklm) TIMESTAMP 2/13/2015
+17:36:55 (lmgrd) TIMESTAMP 2/13/2015
+19:06:40 (parteklm) TIMESTAMP 2/13/2015
+23:36:55 (lmgrd) TIMESTAMP 2/13/2015
+ 1:11:40 (parteklm) TIMESTAMP 2/14/2015
+ 5:36:55 (lmgrd) TIMESTAMP 2/14/2015
+ 7:16:40 (parteklm) TIMESTAMP 2/14/2015
+11:36:55 (lmgrd) TIMESTAMP 2/14/2015
+13:21:40 (parteklm) TIMESTAMP 2/14/2015
+17:36:55 (lmgrd) TIMESTAMP 2/14/2015
+19:26:40 (parteklm) TIMESTAMP 2/14/2015
+23:36:55 (lmgrd) TIMESTAMP 2/14/2015
+ 1:31:40 (parteklm) TIMESTAMP 2/15/2015
+ 5:36:56 (lmgrd) TIMESTAMP 2/15/2015
+ 7:36:41 (parteklm) TIMESTAMP 2/15/2015
+ 9:08:09 (lmgrd) -----------------------------------------------
+ 9:08:09 (lmgrd)   Please Note:
+ 9:08:09 (lmgrd) 
+ 9:08:09 (lmgrd)   This log is intended for debug purposes only.
+ 9:08:09 (lmgrd)   In order to capture accurate license
+ 9:08:09 (lmgrd)   usage data into an organized repository,
+ 9:08:09 (lmgrd)   please enable report logging. Use Flexera Software, Inc.'s
+ 9:08:09 (lmgrd)   software license administration  solution,
+ 9:08:09 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+ 9:08:09 (lmgrd)   into license usage data and to create
+ 9:08:09 (lmgrd)   insightful reports on critical information like
+ 9:08:09 (lmgrd)   license availability and usage. FLEXnet Manager
+ 9:08:09 (lmgrd)   can be fully automated to run these reports on
+ 9:08:09 (lmgrd)   schedule and can be used to track license
+ 9:08:09 (lmgrd)   servers and usage across a heterogeneous
+ 9:08:09 (lmgrd)   network of servers including Windows NT, Linux
+ 9:08:09 (lmgrd)   and UNIX. Contact Flexera Software, Inc. at
+ 9:08:09 (lmgrd)   www.flexerasoftware.com for more details on how to
+ 9:08:09 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+ 9:08:09 (lmgrd)   for your enterprise.
+ 9:08:09 (lmgrd) 
+ 9:08:09 (lmgrd) -----------------------------------------------
+ 9:08:09 (lmgrd) 
+ 9:08:09 (lmgrd) 
+ 9:08:09 (lmgrd) pid 1788
+ 9:08:09 (lmgrd) Detecting other license server manager (lmgrd) processes...
+ 9:08:09 (lmgrd) Done rereading
+ 9:08:09 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on WMI-RDS01 (IBM PC) (2/16/2015)
+ 9:08:09 (lmgrd) Copyright (c) 1988-2010 Flexera Software, Inc. All Rights Reserved.
+ 9:08:09 (lmgrd) US Patents 5,390,297 and 5,671,412.
+ 9:08:09 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+ 9:08:09 (lmgrd) License file(s): C:\FLEXnet.WIN64\FLEXnet\license.dat
+ 9:08:09 (lmgrd) lmgrd tcp-port 27000
+ 9:08:09 (lmgrd) Starting vendor daemons ... 
+ 9:08:09 (lmgrd) Starting vendor daemon at port 27001
+ 9:08:09 (lmgrd) Using vendor daemon port 27001 specified in license file
+ 9:08:12 (lmgrd) Started parteklm (pid 1828)
+ 9:08:17 (parteklm) FLEXnet Licensing version v11.9.0.0 build 87342 x64_n6
+ 9:08:19 (parteklm) Server started on WMI-RDS01 for:	base		
+ 9:08:19 (parteklm) disc		pred		infr		
+ 9:08:19 (parteklm) cnct		matk		
+ 9:08:20 (parteklm) EXTERNAL FILTERS are OFF
+ 9:08:20 (lmgrd) parteklm using TCP-port 27001
+14:07:30 (lmgrd) parteklm exited with status 58 ()
+14:07:30 (lmgrd) Since this is an unknown status, license server 
+14:07:30 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+14:07:30 (lmgrd) EXITING DUE TO SIGNAL 1
+14:11:20 (lmgrd) -----------------------------------------------
+14:11:20 (lmgrd)   Please Note:
+14:11:20 (lmgrd) 
+14:11:20 (lmgrd)   This log is intended for debug purposes only.
+14:11:20 (lmgrd)   In order to capture accurate license
+14:11:20 (lmgrd)   usage data into an organized repository,
+14:11:20 (lmgrd)   please enable report logging. Use Flexera Software, Inc.'s
+14:11:20 (lmgrd)   software license administration  solution,
+14:11:20 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+14:11:20 (lmgrd)   into license usage data and to create
+14:11:20 (lmgrd)   insightful reports on critical information like
+14:11:20 (lmgrd)   license availability and usage. FLEXnet Manager
+14:11:20 (lmgrd)   can be fully automated to run these reports on
+14:11:20 (lmgrd)   schedule and can be used to track license
+14:11:20 (lmgrd)   servers and usage across a heterogeneous
+14:11:20 (lmgrd)   network of servers including Windows NT, Linux
+14:11:20 (lmgrd)   and UNIX. Contact Flexera Software, Inc. at
+14:11:20 (lmgrd)   www.flexerasoftware.com for more details on how to
+14:11:20 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+14:11:20 (lmgrd)   for your enterprise.
+14:11:20 (lmgrd) 
+14:11:20 (lmgrd) -----------------------------------------------
+14:11:20 (lmgrd) 
+14:11:20 (lmgrd) 
+14:11:20 (lmgrd) pid 1796
+14:11:20 (lmgrd) Detecting other license server manager (lmgrd) processes...
+14:11:20 (lmgrd) Done rereading
+14:11:20 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on WMI-RDS01 (IBM PC) (2/16/2015)
+14:11:20 (lmgrd) Copyright (c) 1988-2010 Flexera Software, Inc. All Rights Reserved.
+14:11:20 (lmgrd) US Patents 5,390,297 and 5,671,412.
+14:11:20 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+14:11:20 (lmgrd) License file(s): C:\FLEXnet.WIN64\FLEXnet\license.dat
+14:11:20 (lmgrd) lmgrd tcp-port 27000
+14:11:20 (lmgrd) Starting vendor daemons ... 
+14:11:20 (lmgrd) Starting vendor daemon at port 27001
+14:11:20 (lmgrd) Using vendor daemon port 27001 specified in license file
+14:11:22 (lmgrd) Started parteklm (pid 1892)
+14:11:23 (parteklm) FLEXnet Licensing version v11.9.0.0 build 87342 x64_n6
+14:11:23 (parteklm) Server started on WMI-RDS01 for:	base		
+14:11:23 (parteklm) disc		pred		infr		
+14:11:23 (parteklm) cnct		matk		
+14:11:23 (parteklm) EXTERNAL FILTERS are OFF
+14:11:23 (lmgrd) parteklm using TCP-port 27001
+20:11:23 (lmgrd) TIMESTAMP 2/16/2015
+20:16:28 (parteklm) TIMESTAMP 2/16/2015
+ 2:11:26 (lmgrd) TIMESTAMP 2/17/2015
+ 2:21:31 (parteklm) TIMESTAMP 2/17/2015
+ 8:11:27 (lmgrd) TIMESTAMP 2/17/2015
+ 8:26:32 (parteklm) TIMESTAMP 2/17/2015
+14:11:27 (lmgrd) TIMESTAMP 2/17/2015
+14:31:32 (parteklm) TIMESTAMP 2/17/2015
+20:11:30 (lmgrd) TIMESTAMP 2/17/2015
+20:36:35 (parteklm) TIMESTAMP 2/17/2015
+ 2:11:33 (lmgrd) TIMESTAMP 2/18/2015
+ 2:41:38 (parteklm) TIMESTAMP 2/18/2015
+ 8:11:35 (lmgrd) TIMESTAMP 2/18/2015
+ 8:46:40 (parteklm) TIMESTAMP 2/18/2015
+14:11:38 (lmgrd) TIMESTAMP 2/18/2015
+14:51:43 (parteklm) TIMESTAMP 2/18/2015
+20:11:41 (lmgrd) TIMESTAMP 2/18/2015
+20:56:45 (parteklm) TIMESTAMP 2/18/2015
+ 2:11:44 (lmgrd) TIMESTAMP 2/19/2015
+ 3:01:49 (parteklm) TIMESTAMP 2/19/2015
+ 8:11:47 (lmgrd) TIMESTAMP 2/19/2015
+ 9:06:52 (parteklm) TIMESTAMP 2/19/2015
+14:11:48 (lmgrd) TIMESTAMP 2/19/2015
+15:11:53 (parteklm) TIMESTAMP 2/19/2015
+17:11:21 (lmgrd) parteklm exited with status 58 ()
+17:11:21 (lmgrd) Since this is an unknown status, license server 
+17:11:21 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+17:11:21 (lmgrd) EXITING DUE TO SIGNAL 1
+17:15:34 (lmgrd) -----------------------------------------------
+17:15:34 (lmgrd)   Please Note:
+17:15:34 (lmgrd) 
+17:15:34 (lmgrd)   This log is intended for debug purposes only.
+17:15:34 (lmgrd)   In order to capture accurate license
+17:15:34 (lmgrd)   usage data into an organized repository,
+17:15:34 (lmgrd)   please enable report logging. Use Flexera Software, Inc.'s
+17:15:34 (lmgrd)   software license administration  solution,
+17:15:34 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+17:15:34 (lmgrd)   into license usage data and to create
+17:15:34 (lmgrd)   insightful reports on critical information like
+17:15:34 (lmgrd)   license availability and usage. FLEXnet Manager
+17:15:34 (lmgrd)   can be fully automated to run these reports on
+17:15:34 (lmgrd)   schedule and can be used to track license
+17:15:34 (lmgrd)   servers and usage across a heterogeneous
+17:15:34 (lmgrd)   network of servers including Windows NT, Linux
+17:15:34 (lmgrd)   and UNIX. Contact Flexera Software, Inc. at
+17:15:34 (lmgrd)   www.flexerasoftware.com for more details on how to
+17:15:34 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+17:15:34 (lmgrd)   for your enterprise.
+17:15:34 (lmgrd) 
+17:15:34 (lmgrd) -----------------------------------------------
+17:15:34 (lmgrd) 
+17:15:34 (lmgrd) 
+17:15:34 (lmgrd) pid 1816
+17:15:34 (lmgrd) Detecting other license server manager (lmgrd) processes...
+17:15:35 (lmgrd) Done rereading
+17:15:35 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on WMI-RDS01 (IBM PC) (2/19/2015)
+17:15:35 (lmgrd) Copyright (c) 1988-2010 Flexera Software, Inc. All Rights Reserved.
+17:15:35 (lmgrd) US Patents 5,390,297 and 5,671,412.
+17:15:35 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+17:15:35 (lmgrd) License file(s): C:\FLEXnet.WIN64\FLEXnet\license.dat
+17:15:35 (lmgrd) lmgrd tcp-port 27000
+17:15:35 (lmgrd) Starting vendor daemons ... 
+17:15:35 (lmgrd) Starting vendor daemon at port 27001
+17:15:35 (lmgrd) Using vendor daemon port 27001 specified in license file
+17:15:35 (lmgrd) Started parteklm (pid 1840)
+17:15:36 (parteklm) FLEXnet Licensing version v11.9.0.0 build 87342 x64_n6
+17:15:36 (parteklm) Server started on WMI-RDS01 for:	base		
+17:15:36 (parteklm) disc		pred		infr		
+17:15:36 (parteklm) cnct		matk		
+17:15:36 (parteklm) EXTERNAL FILTERS are OFF
+17:15:36 (lmgrd) parteklm using TCP-port 27001
+23:15:35 (lmgrd) TIMESTAMP 2/19/2015
+23:20:40 (parteklm) TIMESTAMP 2/19/2015
+ 5:15:37 (lmgrd) TIMESTAMP 2/20/2015
+ 5:25:42 (parteklm) TIMESTAMP 2/20/2015
+10:19:16 (lmgrd) parteklm exited with status 58 ()
+10:19:16 (lmgrd) Since this is an unknown status, license server 
+10:19:16 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+10:19:16 (lmgrd) EXITING DUE TO SIGNAL 1
+10:21:32 (lmgrd) -----------------------------------------------
+10:21:32 (lmgrd)   Please Note:
+10:21:32 (lmgrd) 
+10:21:32 (lmgrd)   This log is intended for debug purposes only.
+10:21:32 (lmgrd)   In order to capture accurate license
+10:21:32 (lmgrd)   usage data into an organized repository,
+10:21:32 (lmgrd)   please enable report logging. Use Flexera Software, Inc.'s
+10:21:32 (lmgrd)   software license administration  solution,
+10:21:32 (lmgrd)   FLEXnet Manager, to  readily gain visibility
+10:21:32 (lmgrd)   into license usage data and to create
+10:21:32 (lmgrd)   insightful reports on critical information like
+10:21:32 (lmgrd)   license availability and usage. FLEXnet Manager
+10:21:32 (lmgrd)   can be fully automated to run these reports on
+10:21:32 (lmgrd)   schedule and can be used to track license
+10:21:32 (lmgrd)   servers and usage across a heterogeneous
+10:21:32 (lmgrd)   network of servers including Windows NT, Linux
+10:21:32 (lmgrd)   and UNIX. Contact Flexera Software, Inc. at
+10:21:32 (lmgrd)   www.flexerasoftware.com for more details on how to
+10:21:32 (lmgrd)   obtain an evaluation copy of FLEXnet Manager
+10:21:32 (lmgrd)   for your enterprise.
+10:21:32 (lmgrd) 
+10:21:32 (lmgrd) -----------------------------------------------
+10:21:32 (lmgrd) 
+10:21:32 (lmgrd) 
+10:21:32 (lmgrd) pid 1732
+10:21:32 (lmgrd) Detecting other license server manager (lmgrd) processes...
+10:21:32 (lmgrd) Done rereading
+10:21:32 (lmgrd) FLEXnet Licensing (v11.9.0.0 build 87342 x64_n6) started on WMI-RDS01 (IBM PC) (2/20/2015)
+10:21:32 (lmgrd) Copyright (c) 1988-2010 Flexera Software, Inc. All Rights Reserved.
+10:21:32 (lmgrd) US Patents 5,390,297 and 5,671,412.
+10:21:32 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+10:21:32 (lmgrd) License file(s): C:\FLEXnet.WIN64\FLEXnet\license.dat
+10:21:32 (lmgrd) lmgrd tcp-port 27000
+10:21:32 (lmgrd) Starting vendor daemons ... 
+10:21:32 (lmgrd) Starting vendor daemon at port 27001
+10:21:32 (lmgrd) Using vendor daemon port 27001 specified in license file
+10:21:33 (lmgrd) Started parteklm (pid 1816)
+10:21:34 (parteklm) FLEXnet Licensing version v11.9.0.0 build 87342 x64_n6
+10:21:34 (parteklm) Server started on WMI-RDS01 for:	base		
+10:21:34 (parteklm) disc		pred		infr		
+10:21:34 (parteklm) cnct		matk		
+10:21:34 (parteklm) EXTERNAL FILTERS are OFF
+10:21:34 (lmgrd) parteklm using TCP-port 27001
+16:21:35 (lmgrd) TIMESTAMP 2/20/2015
+16:26:35 (parteklm) TIMESTAMP 2/20/2015
+22:21:36 (lmgrd) TIMESTAMP 2/20/2015
+22:31:37 (parteklm) TIMESTAMP 2/20/2015
+ 4:21:36 (lmgrd) TIMESTAMP 2/21/2015
+ 4:36:41 (parteklm) TIMESTAMP 2/21/2015
+10:21:39 (lmgrd) TIMESTAMP 2/21/2015
+10:41:44 (parteklm) TIMESTAMP 2/21/2015
+16:21:39 (lmgrd) TIMESTAMP 2/21/2015
+16:46:44 (parteklm) TIMESTAMP 2/21/2015
+22:21:39 (lmgrd) TIMESTAMP 2/21/2015
+22:51:44 (parteklm) TIMESTAMP 2/21/2015
+ 4:21:41 (lmgrd) TIMESTAMP 2/22/2015
+ 4:56:44 (parteklm) TIMESTAMP 2/22/2015
+10:21:41 (lmgrd) TIMESTAMP 2/22/2015
+11:01:46 (parteklm) TIMESTAMP 2/22/2015
+16:21:42 (lmgrd) TIMESTAMP 2/22/2015
+17:06:47 (parteklm) TIMESTAMP 2/22/2015
+22:21:46 (lmgrd) TIMESTAMP 2/22/2015
+23:11:47 (parteklm) TIMESTAMP 2/22/2015
+ 4:21:47 (lmgrd) TIMESTAMP 2/23/2015
+ 5:16:47 (parteklm) TIMESTAMP 2/23/2015
+10:21:50 (lmgrd) TIMESTAMP 2/23/2015
+11:21:50 (parteklm) TIMESTAMP 2/23/2015
+16:11:13 (parteklm) TCP_NODELAY NOT enabled
+16:11:13 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+16:11:13 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+16:21:54 (lmgrd) TIMESTAMP 2/23/2015
+16:31:15 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:12:28 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:12:28 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:12:28 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:12:48 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+17:12:48 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+17:15:37 (parteklm) OUT: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+17:26:50 (parteklm) TIMESTAMP 2/23/2015
+17:49:25 (parteklm) UNSUPPORTED: "pathway_base" (PORT_AT_HOST_PLUS   ) cristinamapagu@Cristinas-MacBook-Pro  (License server system does not support this feature. (-18,327))
+17:49:36 (parteklm) UNSUPPORTED: "pathway_base" (PORT_AT_HOST_PLUS   ) cristinamapagu@Cristinas-MacBook-Pro  (License server system does not support this feature. (-18,327))
+18:09:18 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+18:09:18 (parteklm) IN: "infr" cristinamapagu@Cristinas-MacBook-Pro  
+18:09:18 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+22:21:57 (lmgrd) TIMESTAMP 2/23/2015
+23:31:50 (parteklm) TIMESTAMP 2/23/2015
+ 4:22:01 (lmgrd) TIMESTAMP 2/24/2015
+ 5:36:51 (parteklm) TIMESTAMP 2/24/2015
+10:22:03 (lmgrd) TIMESTAMP 2/24/2015
+11:41:52 (parteklm) TIMESTAMP 2/24/2015
+15:40:34 (parteklm) OUT: "base" cristinamapagu@Cristinas-MacBook-Pro  
+15:40:34 (parteklm) OUT: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+15:56:53 (parteklm) IN: "base" cristinamapagu@Cristinas-MacBook-Pro  
+15:56:53 (parteklm) IN: "matk" cristinamapagu@Cristinas-MacBook-Pro  
+16:22:03 (lmgrd) TIMESTAMP 2/24/2015
+17:46:54 (parteklm) TIMESTAMP 2/24/2015
+22:22:04 (lmgrd) TIMESTAMP 2/24/2015
+23:51:57 (parteklm) TIMESTAMP 2/24/2015
+ 4:22:08 (lmgrd) TIMESTAMP 2/25/2015
+ 5:56:58 (parteklm) TIMESTAMP 2/25/2015
+10:22:12 (lmgrd) TIMESTAMP 2/25/2015
+12:01:58 (parteklm) TIMESTAMP 2/25/2015
+16:22:12 (lmgrd) TIMESTAMP 2/25/2015
+18:07:02 (parteklm) TIMESTAMP 2/25/2015
+22:22:14 (lmgrd) TIMESTAMP 2/25/2015
+ 0:12:03 (parteklm) TIMESTAMP 2/26/2015
+ 4:22:14 (lmgrd) TIMESTAMP 2/26/2015
+ 6:17:07 (parteklm) TIMESTAMP 2/26/2015
+10:22:17 (lmgrd) TIMESTAMP 2/26/2015
+12:22:07 (parteklm) TIMESTAMP 2/26/2015
+16:22:17 (lmgrd) TIMESTAMP 2/26/2015
+18:27:07 (parteklm) TIMESTAMP 2/26/2015
+22:22:19 (lmgrd) TIMESTAMP 2/26/2015
+ 0:32:10 (parteklm) TIMESTAMP 2/27/2015
+ 4:22:21 (lmgrd) TIMESTAMP 2/27/2015
+ 6:37:11 (parteklm) TIMESTAMP 2/27/2015
+10:22:21 (lmgrd) TIMESTAMP 2/27/2015
+12:42:12 (parteklm) TIMESTAMP 2/27/2015
+16:22:24 (lmgrd) TIMESTAMP 2/27/2015
+18:47:12 (parteklm) TIMESTAMP 2/27/2015
+22:22:26 (lmgrd) TIMESTAMP 2/27/2015
+ 0:52:13 (parteklm) TIMESTAMP 2/28/2015
+ 4:22:27 (lmgrd) TIMESTAMP 2/28/2015
+ 6:57:14 (parteklm) TIMESTAMP 2/28/2015
+10:22:30 (lmgrd) TIMESTAMP 2/28/2015
+13:02:18 (parteklm) TIMESTAMP 2/28/2015
+16:22:32 (lmgrd) TIMESTAMP 2/28/2015
+19:07:22 (parteklm) TIMESTAMP 2/28/2015
+22:22:33 (lmgrd) TIMESTAMP 2/28/2015
+ 1:12:23 (parteklm) TIMESTAMP 3/1/2015
+ 4:22:35 (lmgrd) TIMESTAMP 3/1/2015
+ 7:17:24 (parteklm) TIMESTAMP 3/1/2015
+10:22:35 (lmgrd) TIMESTAMP 3/1/2015
+13:22:27 (parteklm) TIMESTAMP 3/1/2015
+16:22:36 (lmgrd) TIMESTAMP 3/1/2015
+19:27:27 (parteklm) TIMESTAMP 3/1/2015
+22:22:37 (lmgrd) TIMESTAMP 3/1/2015
+ 1:32:28 (parteklm) TIMESTAMP 3/2/2015
+ 4:22:38 (lmgrd) TIMESTAMP 3/2/2015
+ 7:37:29 (parteklm) TIMESTAMP 3/2/2015
+10:22:40 (lmgrd) TIMESTAMP 3/2/2015
+13:42:31 (parteklm) TIMESTAMP 3/2/2015
+16:22:42 (lmgrd) TIMESTAMP 3/2/2015
+19:47:33 (parteklm) TIMESTAMP 3/2/2015
+22:22:43 (lmgrd) TIMESTAMP 3/2/2015
+ 1:52:33 (parteklm) TIMESTAMP 3/3/2015
+ 4:22:44 (lmgrd) TIMESTAMP 3/3/2015
+ 7:57:37 (parteklm) TIMESTAMP 3/3/2015
+10:22:44 (lmgrd) TIMESTAMP 3/3/2015
+14:02:40 (parteklm) TIMESTAMP 3/3/2015
+16:22:46 (lmgrd) TIMESTAMP 3/3/2015
+20:07:44 (parteklm) TIMESTAMP 3/3/2015
+22:22:50 (lmgrd) TIMESTAMP 3/3/2015
+ 2:12:44 (parteklm) TIMESTAMP 3/4/2015
+ 4:22:51 (lmgrd) TIMESTAMP 3/4/2015
+ 8:17:48 (parteklm) TIMESTAMP 3/4/2015
+10:22:51 (lmgrd) TIMESTAMP 3/4/2015
+14:22:48 (parteklm) TIMESTAMP 3/4/2015
+16:22:53 (lmgrd) TIMESTAMP 3/4/2015
+20:27:52 (parteklm) TIMESTAMP 3/4/2015
+22:22:57 (lmgrd) TIMESTAMP 3/4/2015
+ 2:32:53 (parteklm) TIMESTAMP 3/5/2015
+ 4:23:00 (lmgrd) TIMESTAMP 3/5/2015
+ 8:37:53 (parteklm) TIMESTAMP 3/5/2015
+10:23:00 (lmgrd) TIMESTAMP 3/5/2015
+14:42:54 (parteklm) TIMESTAMP 3/5/2015
+16:23:04 (lmgrd) TIMESTAMP 3/5/2015
+20:47:58 (parteklm) TIMESTAMP 3/5/2015
+22:23:07 (lmgrd) TIMESTAMP 3/5/2015
+ 2:53:02 (parteklm) TIMESTAMP 3/6/2015
+ 4:23:10 (lmgrd) TIMESTAMP 3/6/2015
+ 8:58:05 (parteklm) TIMESTAMP 3/6/2015
+10:23:13 (lmgrd) TIMESTAMP 3/6/2015
+15:03:05 (parteklm) TIMESTAMP 3/6/2015
+16:23:16 (lmgrd) TIMESTAMP 3/6/2015
+21:08:05 (parteklm) TIMESTAMP 3/6/2015
+22:23:19 (lmgrd) TIMESTAMP 3/6/2015
+ 3:13:05 (parteklm) TIMESTAMP 3/7/2015
+ 4:23:20 (lmgrd) TIMESTAMP 3/7/2015
+ 9:18:09 (parteklm) TIMESTAMP 3/7/2015
+10:23:24 (lmgrd) TIMESTAMP 3/7/2015
+15:23:13 (parteklm) TIMESTAMP 3/7/2015
+16:23:24 (lmgrd) TIMESTAMP 3/7/2015
+21:28:13 (parteklm) TIMESTAMP 3/7/2015
+22:23:25 (lmgrd) TIMESTAMP 3/7/2015
+ 3:33:15 (parteklm) TIMESTAMP 3/8/2015
+ 4:23:25 (lmgrd) TIMESTAMP 3/8/2015
+ 9:38:16 (parteklm) TIMESTAMP 3/8/2015
+10:23:26 (lmgrd) TIMESTAMP 3/8/2015
+15:43:16 (parteklm) TIMESTAMP 3/8/2015
+16:23:26 (lmgrd) TIMESTAMP 3/8/2015
+21:48:18 (parteklm) TIMESTAMP 3/8/2015
+22:23:28 (lmgrd) TIMESTAMP 3/8/2015
+ 3:53:22 (parteklm) TIMESTAMP 3/9/2015
+ 4:23:31 (lmgrd) TIMESTAMP 3/9/2015
+ 9:58:22 (parteklm) TIMESTAMP 3/9/2015
+10:23:32 (lmgrd) TIMESTAMP 3/9/2015
+16:03:24 (parteklm) TIMESTAMP 3/9/2015
+16:23:34 (lmgrd) TIMESTAMP 3/9/2015
+22:08:25 (parteklm) TIMESTAMP 3/9/2015
+22:23:35 (lmgrd) TIMESTAMP 3/9/2015
+ 4:13:25 (parteklm) TIMESTAMP 3/10/2015
+ 4:23:35 (lmgrd) TIMESTAMP 3/10/2015
+10:18:27 (parteklm) TIMESTAMP 3/10/2015
+10:23:37 (lmgrd) TIMESTAMP 3/10/2015
+16:23:30 (parteklm) TIMESTAMP 3/10/2015
+16:23:40 (lmgrd) TIMESTAMP 3/10/2015
+22:23:41 (lmgrd) TIMESTAMP 3/10/2015
+22:28:31 (parteklm) TIMESTAMP 3/10/2015
+ 4:23:44 (lmgrd) TIMESTAMP 3/11/2015
+ 4:33:34 (parteklm) TIMESTAMP 3/11/2015
+10:23:48 (lmgrd) TIMESTAMP 3/11/2015
+10:38:38 (parteklm) TIMESTAMP 3/11/2015
+16:23:50 (lmgrd) TIMESTAMP 3/11/2015
+16:43:40 (parteklm) TIMESTAMP 3/11/2015
+22:23:51 (lmgrd) TIMESTAMP 3/11/2015
+22:48:41 (parteklm) TIMESTAMP 3/11/2015
+ 4:23:51 (lmgrd) TIMESTAMP 3/12/2015
+ 4:53:41 (parteklm) TIMESTAMP 3/12/2015
+10:23:51 (lmgrd) TIMESTAMP 3/12/2015
+10:58:41 (parteklm) TIMESTAMP 3/12/2015
+16:23:51 (lmgrd) TIMESTAMP 3/12/2015
+17:03:41 (parteklm) TIMESTAMP 3/12/2015
+22:23:51 (lmgrd) TIMESTAMP 3/12/2015
+23:08:41 (parteklm) TIMESTAMP 3/12/2015
+ 4:23:51 (lmgrd) TIMESTAMP 3/13/2015
+ 5:13:41 (parteklm) TIMESTAMP 3/13/2015
+10:23:52 (lmgrd) TIMESTAMP 3/13/2015
+11:18:42 (parteklm) TIMESTAMP 3/13/2015
+15:32:58 (parteklm) OUT: "base" Jordan@Jordan-PC  
+15:32:58 (parteklm) OUT: "matk" Jordan@Jordan-PC  
+15:42:20 (parteklm) OUT: "infr" Jordan@Jordan-PC  
+15:44:25 (parteklm) IN: "base" Jordan@Jordan-PC  
+15:44:25 (parteklm) IN: "infr" Jordan@Jordan-PC  
+15:44:25 (parteklm) IN: "matk" Jordan@Jordan-PC  
+15:44:31 (parteklm) OUT: "base" Jordan@Jordan-PC  
+15:44:31 (parteklm) OUT: "matk" Jordan@Jordan-PC  
+15:48:32 (parteklm) OUT: "infr" Jordan@Jordan-PC  
+15:56:11 (parteklm) IN: "base" Jordan@Jordan-PC  
+15:56:11 (parteklm) IN: "infr" Jordan@Jordan-PC  
+15:56:11 (parteklm) IN: "matk" Jordan@Jordan-PC  
+15:56:14 (parteklm) OUT: "base" Jordan@Jordan-PC  
+15:56:14 (parteklm) OUT: "matk" Jordan@Jordan-PC  
+15:59:03 (parteklm) OUT: "infr" Jordan@Jordan-PC  
+16:03:43 (parteklm) IN: "base" Jordan@Jordan-PC  
+16:03:43 (parteklm) IN: "infr" Jordan@Jordan-PC  
+16:03:43 (parteklm) IN: "matk" Jordan@Jordan-PC  
+16:23:06 (parteklm) OUT: "base" Joey@Joey-PC  
+16:23:06 (parteklm) OUT: "matk" Joey@Joey-PC  
+16:23:53 (lmgrd) TIMESTAMP 3/13/2015
+16:24:54 (parteklm) IN: "base" Joey@Joey-PC  
+16:24:54 (parteklm) IN: "matk" Joey@Joey-PC  
+16:28:22 (parteklm) OUT: "base" Jordan@Jordan-PC  
+16:28:22 (parteklm) OUT: "matk" Jordan@Jordan-PC  
+16:32:13 (parteklm) OUT: "infr" Jordan@Jordan-PC  
+16:51:36 (parteklm) IN: "base" Jordan@Jordan-PC  
+16:51:36 (parteklm) IN: "infr" Jordan@Jordan-PC  
+16:51:36 (parteklm) IN: "matk" Jordan@Jordan-PC  
+17:23:46 (parteklm) TIMESTAMP 3/13/2015
+22:23:56 (lmgrd) TIMESTAMP 3/13/2015
+23:28:46 (parteklm) TIMESTAMP 3/13/2015
+ 4:23:56 (lmgrd) TIMESTAMP 3/14/2015
+ 5:33:46 (parteklm) TIMESTAMP 3/14/2015
+10:23:56 (lmgrd) TIMESTAMP 3/14/2015
+11:38:46 (parteklm) TIMESTAMP 3/14/2015
+16:23:56 (lmgrd) TIMESTAMP 3/14/2015
+17:43:46 (parteklm) TIMESTAMP 3/14/2015
+22:23:56 (lmgrd) TIMESTAMP 3/14/2015
+23:48:46 (parteklm) TIMESTAMP 3/14/2015
+ 4:23:57 (lmgrd) TIMESTAMP 3/15/2015
+ 5:53:47 (parteklm) TIMESTAMP 3/15/2015
+10:23:57 (lmgrd) TIMESTAMP 3/15/2015
+11:58:47 (parteklm) TIMESTAMP 3/15/2015
+16:23:57 (lmgrd) TIMESTAMP 3/15/2015
+18:03:47 (parteklm) TIMESTAMP 3/15/2015
+22:23:57 (lmgrd) TIMESTAMP 3/15/2015
+ 0:08:47 (parteklm) TIMESTAMP 3/16/2015
+ 4:23:57 (lmgrd) TIMESTAMP 3/16/2015
+ 6:13:47 (parteklm) TIMESTAMP 3/16/2015
+10:23:57 (lmgrd) TIMESTAMP 3/16/2015
+12:18:47 (parteklm) TIMESTAMP 3/16/2015
+16:23:57 (lmgrd) TIMESTAMP 3/16/2015
+18:23:47 (parteklm) TIMESTAMP 3/16/2015
+22:23:57 (lmgrd) TIMESTAMP 3/16/2015
+ 0:28:48 (parteklm) TIMESTAMP 3/17/2015
+ 4:23:58 (lmgrd) TIMESTAMP 3/17/2015
+ 6:33:48 (parteklm) TIMESTAMP 3/17/2015
+10:23:58 (lmgrd) TIMESTAMP 3/17/2015
+12:38:48 (parteklm) TIMESTAMP 3/17/2015
+16:23:58 (lmgrd) TIMESTAMP 3/17/2015
+18:43:48 (parteklm) TIMESTAMP 3/17/2015
+22:23:58 (lmgrd) TIMESTAMP 3/17/2015
+ 0:48:48 (parteklm) TIMESTAMP 3/18/2015
+ 4:23:58 (lmgrd) TIMESTAMP 3/18/2015
+ 6:53:48 (parteklm) TIMESTAMP 3/18/2015
+10:23:58 (lmgrd) TIMESTAMP 3/18/2015
+12:58:48 (parteklm) TIMESTAMP 3/18/2015
+16:23:58 (lmgrd) TIMESTAMP 3/18/2015
+19:03:48 (parteklm) TIMESTAMP 3/18/2015
+22:23:58 (lmgrd) TIMESTAMP 3/18/2015
+ 1:08:48 (parteklm) TIMESTAMP 3/19/2015
+ 4:23:59 (lmgrd) TIMESTAMP 3/19/2015
+ 7:13:49 (parteklm) TIMESTAMP 3/19/2015
+10:23:59 (lmgrd) TIMESTAMP 3/19/2015
+13:18:49 (parteklm) TIMESTAMP 3/19/2015
+16:23:59 (lmgrd) TIMESTAMP 3/19/2015
+19:23:49 (parteklm) TIMESTAMP 3/19/2015
+22:23:59 (lmgrd) TIMESTAMP 3/19/2015
+ 1:28:49 (parteklm) TIMESTAMP 3/20/2015
+ 4:23:59 (lmgrd) TIMESTAMP 3/20/2015
+ 7:33:50 (parteklm) TIMESTAMP 3/20/2015
+10:24:00 (lmgrd) TIMESTAMP 3/20/2015
+13:38:50 (parteklm) TIMESTAMP 3/20/2015
+16:24:00 (lmgrd) TIMESTAMP 3/20/2015
+19:43:50 (parteklm) TIMESTAMP 3/20/2015
+22:24:00 (lmgrd) TIMESTAMP 3/20/2015
+ 1:48:50 (parteklm) TIMESTAMP 3/21/2015
+ 4:24:00 (lmgrd) TIMESTAMP 3/21/2015
+ 7:53:50 (parteklm) TIMESTAMP 3/21/2015
+10:24:00 (lmgrd) TIMESTAMP 3/21/2015
+13:58:50 (parteklm) TIMESTAMP 3/21/2015
+16:24:00 (lmgrd) TIMESTAMP 3/21/2015
+20:03:50 (parteklm) TIMESTAMP 3/21/2015
+22:24:00 (lmgrd) TIMESTAMP 3/21/2015
+ 2:08:50 (parteklm) TIMESTAMP 3/22/2015
+ 4:24:00 (lmgrd) TIMESTAMP 3/22/2015
+ 8:13:50 (parteklm) TIMESTAMP 3/22/2015
+10:24:00 (lmgrd) TIMESTAMP 3/22/2015
+14:18:51 (parteklm) TIMESTAMP 3/22/2015
+16:24:01 (lmgrd) TIMESTAMP 3/22/2015
+20:23:51 (parteklm) TIMESTAMP 3/22/2015
+22:24:01 (lmgrd) TIMESTAMP 3/22/2015
+ 2:28:51 (parteklm) TIMESTAMP 3/23/2015
+ 4:24:01 (lmgrd) TIMESTAMP 3/23/2015
+ 8:33:51 (parteklm) TIMESTAMP 3/23/2015
+10:24:01 (lmgrd) TIMESTAMP 3/23/2015
+14:38:51 (parteklm) TIMESTAMP 3/23/2015
+16:24:01 (lmgrd) TIMESTAMP 3/23/2015
+20:43:51 (parteklm) TIMESTAMP 3/23/2015
+22:24:01 (lmgrd) TIMESTAMP 3/23/2015
+ 2:48:52 (parteklm) TIMESTAMP 3/24/2015
+ 4:24:02 (lmgrd) TIMESTAMP 3/24/2015
+ 8:53:52 (parteklm) TIMESTAMP 3/24/2015
+10:24:02 (lmgrd) TIMESTAMP 3/24/2015
+14:58:52 (parteklm) TIMESTAMP 3/24/2015
+16:24:02 (lmgrd) TIMESTAMP 3/24/2015
+21:03:52 (parteklm) TIMESTAMP 3/24/2015
+22:24:02 (lmgrd) TIMESTAMP 3/24/2015
+ 3:08:52 (parteklm) TIMESTAMP 3/25/2015
+ 4:24:02 (lmgrd) TIMESTAMP 3/25/2015
+ 9:13:52 (parteklm) TIMESTAMP 3/25/2015
+10:24:02 (lmgrd) TIMESTAMP 3/25/2015
+15:18:53 (parteklm) TIMESTAMP 3/25/2015
+16:24:03 (lmgrd) TIMESTAMP 3/25/2015
+21:23:53 (parteklm) TIMESTAMP 3/25/2015
+22:24:03 (lmgrd) TIMESTAMP 3/25/2015
+ 3:28:53 (parteklm) TIMESTAMP 3/26/2015
+ 4:24:03 (lmgrd) TIMESTAMP 3/26/2015
+ 9:33:53 (parteklm) TIMESTAMP 3/26/2015
+10:24:03 (lmgrd) TIMESTAMP 3/26/2015
+15:38:53 (parteklm) TIMESTAMP 3/26/2015
+16:24:03 (lmgrd) TIMESTAMP 3/26/2015

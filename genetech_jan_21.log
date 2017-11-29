@@ -1,0 +1,518 @@
+ 5:15:31 (lmgrd) TIMESTAMP 1/1/2016
+11:15:31 (lmgrd) TIMESTAMP 1/1/2016
+15:39:42 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+15:39:42 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+15:39:42 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/1/2016
+23:15:31 (lmgrd) TIMESTAMP 1/1/2016
+ 0:00:33 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/2/2016
+11:15:31 (lmgrd) TIMESTAMP 1/2/2016
+17:15:31 (lmgrd) TIMESTAMP 1/2/2016
+23:15:31 (lmgrd) TIMESTAMP 1/2/2016
+ 0:00:57 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/3/2016
+11:15:31 (lmgrd) TIMESTAMP 1/3/2016
+11:41:46 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+11:41:47 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:41:50 (parteklm) OUT: "infr" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/3/2016
+20:16:37 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+20:16:37 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+20:16:37 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+20:21:41 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+20:21:41 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+20:21:42 (parteklm) OUT: "infr" qunw@GNELTSG5324K6G
+22:22:42 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+22:22:42 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+22:22:42 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/3/2016
+ 0:00:52 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/4/2016
+ 9:43:18 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 9:43:19 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+ 9:43:19 (parteklm) OUT: "infr" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/4/2016
+12:45:52 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+12:45:52 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+12:45:52 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/4/2016
+23:15:31 (lmgrd) TIMESTAMP 1/4/2016
+ 0:00:42 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/5/2016
+ 9:52:21 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 9:52:21 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+ 9:52:21 (parteklm) OUT: "infr" qunw@GNELTSG5324K6G
+10:13:21 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+10:13:21 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+10:13:21 (parteklm) OUT: "infr" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/5/2016
+12:11:16 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+12:11:16 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+12:11:16 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+13:08:56 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+13:08:57 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+13:08:57 (parteklm) OUT: "infr" qunw@GNELTSG5324K6G
+14:38:13 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+14:38:13 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+14:38:13 (parteklm) OUT: "infr" qunw@GNELTSG5324K6G
+14:57:38 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+14:57:38 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+14:57:38 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+15:04:59 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+15:05:00 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+15:05:00 (parteklm) OUT: "infr" qunw@GNELTSG5324K6G
+15:59:31 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+15:59:32 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+15:59:32 (parteklm) OUT: "infr" qunw@GNELTSG5324K6G
+16:10:47 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+16:10:47 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+16:10:47 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+16:58:11 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+16:58:11 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+16:58:11 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/5/2016
+17:32:12 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+17:32:12 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+17:32:12 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+18:40:17 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+18:40:17 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+18:40:17 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/5/2016
+ 0:00:38 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/6/2016
+ 8:44:47 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 8:44:47 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+ 8:44:48 (parteklm) OUT: "infr" qunw@GNELTSG5324K6G
+10:39:14 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+10:39:14 (parteklm) IN: "infr" qunw@GNELTSG5324K6G
+10:39:14 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+10:42:03 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+10:42:03 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/6/2016
+12:57:17 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+12:57:17 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+13:16:58 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+13:16:58 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+14:16:36 (parteklm) OUT: "base" marieclw@GNELTSG5134QY3
+14:16:36 (parteklm) OUT: "matk" marieclw@GNELTSG5134QY3
+16:42:37 (parteklm) IN: "base" marieclw@GNELTSG5134QY3
+16:42:37 (parteklm) IN: "matk" marieclw@GNELTSG5134QY3
+17:15:31 (lmgrd) TIMESTAMP 1/6/2016
+20:06:42 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+20:06:42 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+21:44:42 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+21:44:43 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/6/2016
+ 0:00:38 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 1:11:47 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+ 1:11:47 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+ 5:15:31 (lmgrd) TIMESTAMP 1/7/2016
+ 8:22:20 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 8:22:20 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+ 9:40:02 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 9:40:02 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/7/2016
+11:30:21 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+11:30:21 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+11:53:33 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+12:09:14 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+13:21:51 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+13:21:51 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+13:26:22 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+13:26:22 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+13:52:47 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+13:52:47 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+15:22:47 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+15:22:47 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/7/2016
+18:43:01 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+18:43:01 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+20:52:48 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+20:52:49 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/7/2016
+ 0:00:22 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 1:12:31 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+ 1:12:31 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+ 5:15:31 (lmgrd) TIMESTAMP 1/8/2016
+ 8:45:01 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 8:45:01 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+10:33:23 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+10:33:23 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+10:34:32 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+10:34:33 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:00:03 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+11:00:03 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/8/2016
+12:57:38 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+12:57:39 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+12:59:14 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+12:59:14 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+13:00:17 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+13:00:17 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+15:52:50 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+15:52:50 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+15:54:32 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+15:54:32 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+15:54:59 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+15:55:00 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+17:15:31 (lmgrd) TIMESTAMP 1/8/2016
+18:15:32 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+18:15:32 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+18:59:37 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+18:59:37 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/8/2016
+ 0:00:48 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/9/2016
+11:15:31 (lmgrd) TIMESTAMP 1/9/2016
+17:15:31 (lmgrd) TIMESTAMP 1/9/2016
+23:15:31 (lmgrd) TIMESTAMP 1/9/2016
+ 0:01:02 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/10/2016
+11:15:31 (lmgrd) TIMESTAMP 1/10/2016
+12:38:03 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+12:38:03 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+16:49:40 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+16:49:40 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+16:55:05 (parteklm) OUT: "infr" lyhuw@GNELTSG51525LY
+17:15:31 (lmgrd) TIMESTAMP 1/10/2016
+17:45:41 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+17:45:41 (parteklm) IN: "infr" lyhuw@GNELTSG51525LY
+17:45:41 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+18:01:33 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+18:01:33 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+18:23:11 (parteklm) OUT: "infr" lyhuw@GNELTSG51525LY
+20:03:23 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+20:03:23 (parteklm) IN: "infr" lyhuw@GNELTSG51525LY
+20:03:23 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+20:04:33 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+20:04:34 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+20:04:34 (parteklm) OUT: "infr" lyhuw@GNELTSG51525LY
+23:06:15 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+23:06:15 (parteklm) IN: "infr" lyhuw@GNELTSG51525LY
+23:06:15 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+23:15:31 (lmgrd) TIMESTAMP 1/10/2016
+ 0:00:35 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 1:06:32 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+ 1:06:33 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+ 1:10:23 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+ 1:10:23 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+ 1:10:41 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+ 1:10:42 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+ 1:15:15 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+ 1:15:15 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+ 1:42:11 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+ 1:42:12 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+ 1:43:04 (parteklm) OUT: "infr" lyhuw@GNELTSG51525LY
+ 2:08:01 (parteklm) UNSUPPORTED: "pathway_base" (PORT_AT_HOST_PLUS   ) lyhuw@GNELTSG51525LY  (License server system does not support this feature. (-18,327))
+ 2:08:01 (parteklm) UNSUPPORTED: "pathway_base" (PORT_AT_HOST_PLUS   ) lyhuw@GNELTSG51525LY  (License server system does not support this feature. (-18,327))
+ 2:31:25 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+ 2:31:25 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+ 4:31:55 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+ 4:31:55 (parteklm) IN: "infr" lyhuw@GNELTSG51525LY
+ 4:31:55 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+ 5:15:31 (lmgrd) TIMESTAMP 1/11/2016
+ 9:21:13 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 9:21:13 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/11/2016
+12:39:15 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+12:39:15 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+13:13:46 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+13:13:46 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+14:37:56 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+14:37:56 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+15:10:56 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+15:10:56 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/11/2016
+19:47:26 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+19:47:26 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+20:44:07 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+20:44:07 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/11/2016
+ 0:00:32 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 2:26:47 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+ 2:26:47 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+ 5:15:31 (lmgrd) TIMESTAMP 1/12/2016
+ 9:12:14 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 9:12:14 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+10:29:12 (parteklm) OUT: "base" franzc3@franzc3-JUG3QN
+10:29:12 (parteklm) OUT: "matk" franzc3@franzc3-JUG3QN
+10:29:26 (parteklm) IN: "base" franzc3@franzc3-JUG3QN
+10:29:26 (parteklm) IN: "matk" franzc3@franzc3-JUG3QN
+11:15:31 (lmgrd) TIMESTAMP 1/12/2016
+13:12:15 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+13:12:16 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+13:37:16 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+13:37:17 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+15:11:07 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+15:11:07 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+15:24:20 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+15:24:20 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+15:34:15 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+15:34:15 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/12/2016
+17:16:27 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+17:16:27 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+18:15:32 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+18:15:32 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/12/2016
+ 0:00:08 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/13/2016
+ 9:15:02 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 9:15:02 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/13/2016
+17:15:31 (lmgrd) TIMESTAMP 1/13/2016
+20:24:22 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+20:24:22 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/13/2016
+ 0:00:43 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/14/2016
+ 8:57:38 (parteklm) OUT: "base" kdupree@kdupree-FGFD58
+ 8:57:38 (parteklm) OUT: "matk" kdupree@kdupree-FGFD58
+11:15:31 (lmgrd) TIMESTAMP 1/14/2016
+11:48:44 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+11:48:44 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+12:03:44 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+12:03:44 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+12:06:14 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+12:06:14 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+13:09:47 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+13:09:47 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+14:01:44 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+14:01:44 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+14:04:49 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+14:04:49 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+14:58:07 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+14:58:07 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+15:03:48 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+15:03:49 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+15:29:18 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+15:29:18 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+15:36:49 (parteklm) OUT: "base" lyhuw@GNELTSG51525LY
+15:36:49 (parteklm) OUT: "matk" lyhuw@GNELTSG51525LY
+16:02:55 (parteklm) IN: "base" kdupree@kdupree-FGFD58
+16:02:55 (parteklm) IN: "matk" kdupree@kdupree-FGFD58
+16:44:05 (parteklm) OUT: "base" jessli@jessli-ZAFVH5
+16:44:05 (parteklm) OUT: "matk" jessli@jessli-ZAFVH5
+16:48:04 (parteklm) IN: "base" jessli@jessli-ZAFVH5
+16:48:04 (parteklm) IN: "matk" jessli@jessli-ZAFVH5
+16:52:54 (parteklm) OUT: "base" jessli@jessli-ZAFVH5
+16:52:54 (parteklm) OUT: "matk" jessli@jessli-ZAFVH5
+16:53:48 (parteklm) IN: "base" jessli@jessli-ZAFVH5
+16:53:48 (parteklm) IN: "matk" jessli@jessli-ZAFVH5
+17:02:32 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+17:02:32 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+17:15:31 (lmgrd) TIMESTAMP 1/14/2016
+17:28:36 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+17:28:36 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+17:29:36 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+17:29:36 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+18:15:42 (parteklm) IN: "base" lyhuw@GNELTSG51525LY
+18:15:42 (parteklm) IN: "matk" lyhuw@GNELTSG51525LY
+21:05:38 (parteklm) OUT: "base" jessli@jessli-ZAFVH5
+21:05:38 (parteklm) OUT: "matk" jessli@jessli-ZAFVH5
+21:05:57 (parteklm) IN: "base" jessli@jessli-ZAFVH5
+21:05:57 (parteklm) IN: "matk" jessli@jessli-ZAFVH5
+21:06:46 (parteklm) OUT: "base" jessli@jessli-ZAFVH5
+21:06:46 (parteklm) OUT: "matk" jessli@jessli-ZAFVH5
+21:07:37 (parteklm) IN: "base" jessli@jessli-ZAFVH5
+21:07:37 (parteklm) IN: "matk" jessli@jessli-ZAFVH5
+23:15:31 (lmgrd) TIMESTAMP 1/14/2016
+ 0:00:22 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/15/2016
+ 8:28:23 (parteklm) OUT: "base" kdupree@kdupree-FGFD58
+ 8:28:23 (parteklm) OUT: "matk" kdupree@kdupree-FGFD58
+ 8:43:56 (parteklm) IN: "base" kdupree@kdupree-FGFD58
+ 8:43:56 (parteklm) IN: "matk" kdupree@kdupree-FGFD58
+ 8:46:29 (parteklm) OUT: "base" kdupree@kdupree-FGFD58
+ 8:46:29 (parteklm) OUT: "matk" kdupree@kdupree-FGFD58
+ 8:47:00 (parteklm) IN: "base" kdupree@kdupree-FGFD58
+ 8:47:00 (parteklm) IN: "matk" kdupree@kdupree-FGFD58
+ 9:33:14 (parteklm) OUT: "base" kdupree@kdupree-FGFD58
+ 9:33:14 (parteklm) OUT: "matk" kdupree@kdupree-FGFD58
+ 9:39:00 (parteklm) IN: "base" kdupree@kdupree-FGFD58
+ 9:39:00 (parteklm) IN: "matk" kdupree@kdupree-FGFD58
+ 9:39:15 (parteklm) OUT: "base" kdupree@kdupree-FGFD58
+ 9:39:15 (parteklm) OUT: "matk" kdupree@kdupree-FGFD58
+10:00:17 (parteklm) IN: "base" kdupree@kdupree-FGFD58
+10:00:17 (parteklm) IN: "matk" kdupree@kdupree-FGFD58
+10:00:23 (parteklm) OUT: "base" kdupree@kdupree-FGFD58
+10:00:23 (parteklm) OUT: "matk" kdupree@kdupree-FGFD58
+11:13:09 (parteklm) OUT: "base" kdupree@kdupree-FGFD58
+11:13:09 (parteklm) OUT: "matk" kdupree@kdupree-FGFD58
+11:15:31 (lmgrd) TIMESTAMP 1/15/2016
+11:51:52 (parteklm) IN: "base" kdupree@kdupree-FGFD58
+11:51:52 (parteklm) IN: "matk" kdupree@kdupree-FGFD58
+13:01:43 (parteklm) IN: "base" kdupree@kdupree-FGFD58
+13:01:43 (parteklm) IN: "matk" kdupree@kdupree-FGFD58
+17:15:31 (lmgrd) TIMESTAMP 1/15/2016
+23:15:31 (lmgrd) TIMESTAMP 1/15/2016
+ 0:00:41 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/16/2016
+11:15:31 (lmgrd) TIMESTAMP 1/16/2016
+17:15:31 (lmgrd) TIMESTAMP 1/16/2016
+23:15:31 (lmgrd) TIMESTAMP 1/16/2016
+ 0:01:02 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/17/2016
+11:15:31 (lmgrd) TIMESTAMP 1/17/2016
+17:15:31 (lmgrd) TIMESTAMP 1/17/2016
+23:15:31 (lmgrd) TIMESTAMP 1/17/2016
+ 0:00:27 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/18/2016
+11:15:31 (lmgrd) TIMESTAMP 1/18/2016
+12:50:03 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+12:50:03 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+16:03:59 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+16:03:59 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+16:21:49 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+16:21:49 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/18/2016
+17:59:29 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+17:59:29 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+19:29:30 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+19:29:30 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+19:57:01 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+19:57:01 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+21:29:01 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+21:29:01 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/18/2016
+ 0:01:01 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 1:05:32 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 1:05:33 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+ 3:03:17 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+ 3:03:17 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+ 3:06:17 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+ 3:06:17 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+ 5:15:31 (lmgrd) TIMESTAMP 1/19/2016
+ 9:37:50 (parteklm) OUT: "base" kdupree@kdupree-FGFD58
+ 9:37:50 (parteklm) OUT: "matk" kdupree@kdupree-FGFD58
+ 9:41:19 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 9:41:20 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+ 9:48:37 (parteklm) IN: "base" kdupree@kdupree-FGFD58
+ 9:48:37 (parteklm) IN: "matk" kdupree@kdupree-FGFD58
+ 9:48:43 (parteklm) OUT: "base" kdupree@kdupree-FGFD58
+ 9:48:43 (parteklm) OUT: "matk" kdupree@kdupree-FGFD58
+10:01:52 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+10:01:52 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+10:34:54 (parteklm) IN: "base" kdupree@kdupree-FGFD58
+10:34:54 (parteklm) IN: "matk" kdupree@kdupree-FGFD58
+11:08:38 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+11:08:38 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/19/2016
+11:52:03 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+11:52:03 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+12:07:41 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+12:07:41 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+12:56:11 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+12:56:11 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+13:01:58 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+13:01:58 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+14:01:27 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+14:01:27 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+14:07:02 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+14:07:03 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+14:58:43 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+14:58:43 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+15:29:53 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+15:29:53 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/19/2016
+18:50:41 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+18:50:41 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+19:57:51 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+19:57:52 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+20:49:28 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+20:49:29 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+22:34:00 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+22:34:01 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+22:43:06 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+22:43:06 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+22:50:06 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+22:50:06 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/19/2016
+ 0:00:17 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 2:58:41 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+ 2:58:41 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+ 5:15:31 (lmgrd) TIMESTAMP 1/20/2016
+ 7:59:14 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 7:59:14 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+ 9:28:41 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 9:28:41 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+ 9:51:14 (parteklm) OUT: "base" jessli@jessli-ZAFVH5
+ 9:51:14 (parteklm) OUT: "matk" jessli@jessli-ZAFVH5
+10:14:03 (parteklm) IN: "base" jessli@jessli-ZAFVH5
+10:14:03 (parteklm) IN: "matk" jessli@jessli-ZAFVH5
+10:22:13 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+10:22:13 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/20/2016
+13:59:01 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+13:59:01 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+15:06:21 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+15:06:21 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+15:45:37 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+15:45:37 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+15:58:10 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+15:58:11 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+16:57:51 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+16:57:51 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/20/2016
+17:38:01 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+17:38:01 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+19:44:06 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+19:44:06 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/20/2016
+ 0:00:22 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 5:15:31 (lmgrd) TIMESTAMP 1/21/2016
+ 8:12:03 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 8:12:03 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+ 9:57:42 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 9:57:43 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/21/2016
+11:33:33 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+11:33:33 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+13:18:56 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+13:18:57 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+13:56:52 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+13:56:52 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+15:08:06 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+15:08:07 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+15:54:37 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+15:54:38 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+16:02:23 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+16:02:23 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+16:55:24 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+16:55:24 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:15:31 (lmgrd) TIMESTAMP 1/21/2016
+17:51:44 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+17:51:44 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+17:54:44 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+17:54:44 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+21:06:12 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+21:06:12 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+21:30:25 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+21:30:25 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+23:15:31 (lmgrd) TIMESTAMP 1/21/2016
+ 0:00:36 (parteklm) ERROR: Non-activation-capable daemon activation invoked with non-client-request event type
+ 2:51:42 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+ 2:51:42 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+ 5:15:31 (lmgrd) TIMESTAMP 1/22/2016
+ 9:20:26 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+ 9:20:26 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:05:41 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+11:05:42 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+11:15:31 (lmgrd) TIMESTAMP 1/22/2016
+12:14:31 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+12:14:31 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+13:01:42 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+13:01:42 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+13:49:47 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+13:49:47 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+14:07:02 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+14:07:02 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+14:11:07 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+14:11:07 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+15:26:23 (parteklm) OUT: "base" qunw@GNELTSG5324K6G
+15:26:23 (parteklm) OUT: "matk" qunw@GNELTSG5324K6G
+16:05:53 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+16:05:53 (parteklm) IN: "matk" qunw@GNELTSG5324K6G
+16:07:53 (parteklm) IN: "base" qunw@GNELTSG5324K6G
+16:07:53 (parteklm) IN: "matk" qunw@GNELTSG5324K6G

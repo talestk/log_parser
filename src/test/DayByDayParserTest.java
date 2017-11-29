@@ -9,12 +9,12 @@ import java.text.ParseException;
 public class DayByDayParserTest {
 	@Test
 	public void testOverallParser_log1() throws IOException, ParseException {
-		Main.main(new String[]{"-a", "logfileNCI.log"});
+		Main.main(new String[]{"-a", "jenny.log"});
 	}
 
 	@Test
 	public void testOverallParser_log2() throws IOException, ParseException {
-		Main.main(new String[]{"-a", "logfile.log"});
+		Main.main(new String[]{"-a", "hsiufen.log"});
 	}
 
 	@Test
@@ -29,7 +29,7 @@ public class DayByDayParserTest {
 
 	@Test
 	public void testOverallParser_manyFiles_userSpecific() throws IOException, ParseException {
-		Main.main(new String[]{"-fu", "logfile"});
+		Main.main(new String[]{"-fu", "hsiufen.log"});
 	}
 
 	@Test
@@ -39,18 +39,25 @@ public class DayByDayParserTest {
 
 	@Test
 	public void testUserSpecificParser_dayChange() throws IOException, ParseException {
-		Main.main(new String[]{"-u", "logfile_daychange_test.log"});
+		Main.main(new String[]{"-u", "hsiufen.log"});
 	}
 
 	@Test
 	public void testUserSpecificParser() throws IOException, ParseException {
-		Main.main(new String[]{"-u", "logfile.log"});
+		Main.main(new String[]{"-u", "jenny.log"});
 	}
 
 	@Test
 	public void testSimpleUserActions() throws IOException, ParseException {
-		Main.main(new String[]{"-s", "logfile.log"});
+		Main.main(new String[]{"-s", "jenny.log"});
+	}
+
+    @Test
+	public void testSimpleUserActionsNCI() throws IOException, ParseException {
+		Main.main(new String[]{"-s", "logfileNCI.log"});
 	}
 
 	// TODO make tests for averages and total
+
+
 }
