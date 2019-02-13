@@ -97,6 +97,11 @@ class DayByDayParser {
 					time = line.split("Time:")[1].trim();
 					datePieces = time.split(" ");
 					String weekDay = datePieces[0];
+					// weird bug on the logs where the line is broken like:
+					// parteklm-SLOG@) Time: Sun Nov 18 2018 16:23:46 AUS Eastern Daylight Time
+					if (line.split(" ")[0].startsWith("parteklm")) {
+						continue;
+					}
 					newDate = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 							.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + line.split(" ")[0]);
 					if (!weekDay.equals(currentDay) && newDate != null && newDate.getTime() > currentDate.getTime()) {

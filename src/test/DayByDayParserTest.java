@@ -4,6 +4,7 @@ import com.company.Main;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.nio.MappedByteBuffer;
 import java.text.ParseException;
 
 public class DayByDayParserTest {
@@ -44,17 +45,22 @@ public class DayByDayParserTest {
 
 	@Test
 	public void testUserSpecificParser() throws IOException, ParseException {
-		Main.main(new String[]{"-u", "offDates.log"});
+		Main.main(new String[]{"-u", "hsiufen.log"});
 	}
 
 	@Test
 	public void testSimpleUserActions() throws IOException, ParseException {
-		Main.main(new String[]{"-s", "jenny.log"});
+		Main.main(new String[]{"-s", "hsiufen.log"});
 	}
 
     @Test
 	public void testSimpleUserActionsNCI() throws IOException, ParseException {
 		Main.main(new String[]{"-s", "logfileNCI.log"});
+	}
+
+	@Test
+	public void testSimpleSpecificMonths() throws IOException, ParseException {
+		Main.main(new String[]{"-d", "12", "logfileNCI.log"});
 	}
 
 	// TODO make tests for averages and total
