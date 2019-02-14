@@ -4,7 +4,6 @@ import java.io.File;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
 public class LastDayOnFile {
 	/**
@@ -14,19 +13,17 @@ public class LastDayOnFile {
 	 * @throws ParseException if line has the wrong format
 	 */
 	public static long checkLastDayOnFile(String filePath) throws ParseException {
-		String last200Lines = Tail.tail(new File(filePath), 200);
+		String last200Lines = Tail.tail(new File(filePath), 50);
+		long timeStampInMillis = 0;
 		if (last200Lines != null && last200Lines.contains("TIMESTAMP")) {
 			String[] lines = last200Lines.split(System.getProperty("line.separator"));
 			for (String line : lines) {
 				if (line.contains("TIMESTAMP")) {
-					return getTimeStampInMillis(line);
+					timeStampInMillis = getTimeStampInMillis(line);
 				}
 			}
-		} else {
-			System.out.println("Could not find any occurrence of TIMESTAMP in the last 200 lines");
-			return 0;
 		}
-		return 0;
+		return timeStampInMillis;
 	}
 
 	/**
@@ -36,9 +33,11 @@ public class LastDayOnFile {
 	 * @throws ParseException if can't parse the line
 	 */
 	public static long getTimeStampInMillis(String line) throws ParseException {
+		line = line.trim();
 		String[] lineSplit = line.split(" ");
 		String timeStamp = lineSplit[lineSplit.length - 1].trim();
-		Date newDate = new SimpleDateFormat("MM/dd/yyyy").parse(timeStamp);
-		return newDate.getTime() + TimeUnit.DAYS.toMillis(1);
+		Date newDate = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss").parse(timeStamp + " " + lineSplit[0].trim());
+		return newDate.getTime();
+
 	}
 }

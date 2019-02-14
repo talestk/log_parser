@@ -39,7 +39,7 @@ class SimpleUserActionsCounter {
 	}
 
 	static void parse(String filePath) throws IOException, ParseException {
-		System.out.println("Starting overall parser ...");
+		System.out.println("Starting simple actions parser ...");
 		long firstDayToCount = 0;
 		if (months > 0) {
 			long lastDayInMills = LastDayOnFile.checkLastDayOnFile(filePath);
@@ -65,7 +65,7 @@ class SimpleUserActionsCounter {
 			// this will have an object of all UserActions on the log
 			List<UserActions> simpleUserActionsCounterList = new ArrayList<>();
 
-			boolean foundDate = false;
+			boolean foundDate = months < 1;
 			// lets loop through all the lines on the log
 			for (String line : allLines) {
 				if (line.contains("TIMESTAMP") && !foundDate) {

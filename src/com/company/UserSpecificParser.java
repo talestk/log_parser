@@ -49,7 +49,7 @@ class UserSpecificParser {
 			writer.write("Date\tUser\tTime using license\n");
 			List<LicenseRegistrar> registrars = new ArrayList<>();
 			List<LicenseRegistrar> duplicateRegistry = new ArrayList<>();
-			boolean foundDate = false;
+			boolean foundDate = months < 1;
 
 			// here we loop through all the lines in the file
 			for (String line : allLines) {

@@ -72,7 +72,7 @@ public class Main {
 			System.out.println("file: "+args[2]);
 			SimpleUserActionsCounter.parse(args[2], months);
 			UserSpecificParser.parse(args[2], months);
-//			DayByDayParser.parse(args[1]);
+			DayByDayParser.parse(args[2], months);
 		}
 
 	}

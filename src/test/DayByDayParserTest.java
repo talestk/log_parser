@@ -15,7 +15,7 @@ public class DayByDayParserTest {
 
 	@Test
 	public void testOverallParser_log2() throws IOException, ParseException {
-		Main.main(new String[]{"-a", "hsiufen.log"});
+		Main.main(new String[]{"-a", "dj.log"});
 	}
 
 	@Test
@@ -60,7 +60,7 @@ public class DayByDayParserTest {
 
 	@Test
 	public void testSimpleSpecificMonths() throws IOException, ParseException {
-		Main.main(new String[]{"-d", "2", "dj.log"});
+		Main.main(new String[]{"-d", "5", "dj.log"});
 	}
 
 	// TODO make tests for averages and total

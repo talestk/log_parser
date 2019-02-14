@@ -57,7 +57,7 @@ public class ParserHelper {
 		System.out.println(" Weekend checkouts: " + weekendCheckOuts);
 		System.out.println(" Weekend denies: " + weekendDenies);
 		System.out.println(" Weekend days: " + weekendDaysOnLog);
-		System.out.println(" Days on log: " + (weekDaysOnLog + weekendDaysOnLog));
+		System.out.println(" Days parsed on log: " + (weekDaysOnLog + weekendDaysOnLog));
 		System.out.println(" Days that licenses were used: " + (weekDaysLicenseChecked + weekendDaysLicenseChecked));
 		System.out.println("============================");
 		DecimalFormat df = new DecimalFormat("0.0");
