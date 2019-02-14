@@ -1,6 +1,6 @@
 package test;
 
-import com.company.Tail;
+import com.company.helpers.Tail;
 import org.junit.Test;
 
 import java.io.File;

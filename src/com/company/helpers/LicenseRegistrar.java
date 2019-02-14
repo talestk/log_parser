@@ -1,4 +1,4 @@
-package com.company;
+package com.company.helpers;
 
 import java.util.Date;
 import java.util.Objects;
@@ -9,14 +9,14 @@ public class LicenseRegistrar {
 	private final String host;
 	private final String feature;
 
-	LicenseRegistrar(Date checkInTime, String user, String host, String feature) {
+	public LicenseRegistrar(Date checkInTime, String user, String host, String feature) {
 		this.checkOutTime = checkInTime;
 		this.user = user;
 		this.host = host;
 		this.feature = feature;
 	}
 
-	Date getCheckOutTime() {
+	public Date getCheckOutTime() {
 		return checkOutTime;
 	}
 

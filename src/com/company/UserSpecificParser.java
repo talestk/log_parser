@@ -1,36 +1,66 @@
 package com.company;
 
+import com.company.helpers.LastDayOnFile;
+import com.company.helpers.LicenseRegistrar;
+import com.company.helpers.ParserHelper;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+import java.nio.charset.StandardCharsets;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 class UserSpecificParser {
+	private static int months = 0;
+
+	static void parse(String filePath, int months) throws IOException, ParseException {
+		UserSpecificParser.months = months;
+		parse(filePath);
+	}
+
 	static void parse(String filePath) throws IOException, ParseException {
 		System.out.println("Starting user specific parser ...");
+		long firstDayToCount = 0;
+		if (months > 0) {
+			long lastDayInMills = LastDayOnFile.checkLastDayOnFile(filePath);
+			long daysInMonths = months * 30;
+			firstDayToCount = lastDayInMills - TimeUnit.DAYS.toMillis(daysInMonths);
+		}
+
 		List<String> allLines = ParserHelper.getAllLinesFromFile(filePath);
 		String outputFileName = "output";
 		// check for file name existence
 		if (new File(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION).exists()) {
 			outputFileName = outputFileName + "_" + System.currentTimeMillis();
+			System.out.println("User specific output file: " + outputFileName);
 		}
 		try (Writer writer = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION), "utf-8"))) {
+				new FileOutputStream(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION), StandardCharsets.UTF_8))) {
 			String[] datePieces = {};
 			writer.write("Date\tUser\tTime using license\n");
 			List<LicenseRegistrar> registrars = new ArrayList<>();
 			List<LicenseRegistrar> duplicateRegistry = new ArrayList<>();
+			boolean foundDate = false;
+
 			// here we loop through all the lines in the file
 			for (String line : allLines) {
-				datePieces = parseLine(writer, datePieces, registrars, duplicateRegistry, line);
+				if (line.contains("TIMESTAMP") && !foundDate) {
+					if (firstDayToCount > 0 && firstDayToCount <= LastDayOnFile.getTimeStampInMillis(line)) {
+						foundDate = true;
+						datePieces = ParserHelper.getDatePiecesFromTimeStamp(line);
+					}
+				} else if (foundDate) {
+					datePieces = parseLine(writer, datePieces, registrars, duplicateRegistry, line);
+				}
 			}
 		}
 		System.out.println("Done!");

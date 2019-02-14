@@ -1,4 +1,4 @@
-package com.company;
+package com.company.helpers;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -14,7 +14,7 @@ public class CounterHelper {
 	public final AtomicInteger weekDaysLicenseChecked;
 	public final AtomicInteger weekendDaysLicenseChecked;
 
-	CounterHelper() {
+	public CounterHelper() {
 		checkoutCount = new AtomicInteger(0);
 		deniedCount = new AtomicInteger(0);
 		checkoutCountTotal = new AtomicInteger(0);

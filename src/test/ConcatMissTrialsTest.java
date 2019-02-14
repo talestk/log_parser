@@ -1,6 +1,6 @@
 package test;
 
-import com.company.ConcatMissTrials;
+import com.company.helpers.ConcatMissTrials;
 import org.junit.Test;
 
 import java.io.IOException;

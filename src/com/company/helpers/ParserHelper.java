@@ -1,4 +1,6 @@
-package com.company;
+package com.company.helpers;
+
+import com.company.helpers.CounterHelper;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,11 +15,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-class ParserHelper {
-	static final String OUTPUT_FILE_EXTENSION = ".csv";
-	static final String DATE_AND_TIME_PATTERN = "E MMM dd yyyy HH:mm:ss";
+public class ParserHelper {
+	public static final String OUTPUT_FILE_EXTENSION = ".csv";
+	public static final String DATE_AND_TIME_PATTERN = "E MMM dd yyyy HH:mm:ss";
 
-	static List<String> getAllLinesFromFile(String arg) {
+	public static List<String> getAllLinesFromFile(String arg) {
 		File logFile = new File(arg);
 		List<String> allLines = new ArrayList<>();
 		if (logFile.canRead()) {
@@ -33,7 +35,7 @@ class ParserHelper {
 		return allLines;
 	}
 
-	static void printResume(CounterHelper counterHelper) {
+	public static void printResume(CounterHelper counterHelper) {
 
 		int weekDaysOnLog = counterHelper.weekDaysOnLog.get();
 		if (weekDaysOnLog == 0) { weekDaysOnLog = 1; }
@@ -67,7 +69,7 @@ class ParserHelper {
 		System.out.println("============================");
 	}
 
-	static File concatAllFilesWhichStartsWith(final File folder, String filenamePattern) throws IOException {
+	public static File concatAllFilesWhichStartsWith(final File folder, String filenamePattern) throws IOException {
 		System.out.println("Concatenating and parsing all files...");
 		File[] allFolderFiles = folder.listFiles();
 		assert allFolderFiles != null;
@@ -84,7 +86,7 @@ class ParserHelper {
 	}
 
 	// http://stackoverflow.com/questions/1978933/a-quick-and-easy-way-to-join-array-elements-with-a-separator-the-opposite-of-sp
-	static String strJoin(String[] aArr, String sSep) {
+	public static String strJoin(String[] aArr, String sSep) {
 		StringBuilder sbStr = new StringBuilder();
 		for (int i = 0, il = aArr.length; i < il; i++) {
 			if (i > 0)
@@ -94,7 +96,8 @@ class ParserHelper {
 		return sbStr.toString();
 	}
 
-	static String[] getDatePiecesFromTimeStamp(String line) throws ParseException {
+	public static String[] getDatePiecesFromTimeStamp(String line) throws ParseException {
+		line = line.trim();
 		String time;
 		String[] datePieces;
 		String[] lineSplit = line.split(" ");

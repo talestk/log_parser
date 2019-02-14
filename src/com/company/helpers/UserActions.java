@@ -1,4 +1,4 @@
-package com.company;
+package com.company.helpers;
 
 /**
  * Just a simple helper for {@link com.company.SimpleUserActionsCounter}
@@ -6,7 +6,7 @@ package com.company;
 public class UserActions {
     private final String type;
     private final String user;
-    UserActions(String type, String user) {
+    public UserActions(String type, String user) {
         this.type = type;
         this.user = user;
     }

@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.helpers.ParserHelper;
+
 import java.io.File;
 import java.io.IOException;
 import java.text.ParseException;
@@ -69,7 +71,7 @@ public class Main {
 
 			System.out.println("file: "+args[2]);
 			SimpleUserActionsCounter.parse(args[2], months);
-//			UserSpecificParser.parse(args[2]);
+			UserSpecificParser.parse(args[2], months);
 //			DayByDayParser.parse(args[1]);
 		}
 

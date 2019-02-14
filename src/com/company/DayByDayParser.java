@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.helpers.CounterHelper;
+import com.company.helpers.ParserHelper;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;

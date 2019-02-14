@@ -1,5 +1,10 @@
 package com.company;
 
+import com.company.helpers.LastDayOnFile;
+import com.company.helpers.ParserHelper;
+import com.company.helpers.Tail;
+import com.company.helpers.UserActions;
+
 import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -37,7 +42,7 @@ class SimpleUserActionsCounter {
 		System.out.println("Starting overall parser ...");
 		long firstDayToCount = 0;
 		if (months > 0) {
-			long lastDayInMills = checkLastDayOnFile(filePath);
+			long lastDayInMills = LastDayOnFile.checkLastDayOnFile(filePath);
 			long daysInMonths = months * 30;
 			firstDayToCount = lastDayInMills - TimeUnit.DAYS.toMillis(daysInMonths);
 		}
@@ -48,7 +53,7 @@ class SimpleUserActionsCounter {
 		// check for file name existence
 		if (new File(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION).exists()) {
 			outputFileName = outputFileName + "_" + System.currentTimeMillis();
-			System.out.println("-s output file: " + outputFileName);
+			System.out.println("Simple user actions output file: " + outputFileName);
 		}
 		try (Writer writer = new BufferedWriter(new OutputStreamWriter(
 				new FileOutputStream(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION), "utf-8"))) {
@@ -64,7 +69,7 @@ class SimpleUserActionsCounter {
 			// lets loop through all the lines on the log
 			for (String line : allLines) {
 				if (line.contains("TIMESTAMP") && !foundDate) {
-					if (firstDayToCount > 0 && firstDayToCount <= getTimeStampInMillis(line)) {
+					if (firstDayToCount > 0 && firstDayToCount <= LastDayOnFile.getTimeStampInMillis(line)) {
 						foundDate = true;
 					}
 				} else if (foundDate) {
@@ -73,41 +78,6 @@ class SimpleUserActionsCounter {
 			}
 			writeAndPrintOutput(writer, userSet, simpleUserActionsCounterList);
 		}
-	}
-
-	/**
-	 * Check the last lines of the file for a possible last date seen on logs
-	 * @param filePath the file log to be parsed
-	 * @return last known date in milliseconds
-	 * @throws ParseException if line has the wrong format
-	 */
-	private static long checkLastDayOnFile(String filePath) throws ParseException {
-		String last200Lines = Tail.tail(new File(filePath), 200);
-		if (last200Lines != null && last200Lines.contains("TIMESTAMP")) {
-			String[] lines = last200Lines.split(System.getProperty("line.separator"));
-			for (String line : lines) {
-				if (line.contains("TIMESTAMP")) {
-					return getTimeStampInMillis(line);
-				}
-			}
-		} else {
-			System.out.println("Could not find any occurrence of TIMESTAMP in the last 200 lines");
-			return 0;
-		}
-		return 0;
-	}
-
-	/**
-	 * Converts a date on the format MM/dd/yyyy to milliseconds
-	 * @param line line to be parsed
-	 * @return milliseconds since 1970
-	 * @throws ParseException if can't parse the line
-	 */
-	private static long getTimeStampInMillis(String line) throws ParseException {
-		String[] lineSplit = line.split(" ");
-		String timeStamp = lineSplit[lineSplit.length - 1].trim();
-		Date newDate = new SimpleDateFormat("MM/dd/yyyy").parse(timeStamp);
-		return newDate.getTime() + TimeUnit.DAYS.toMillis(1);
 	}
 
 	private static void parseLine(Collection<Object> userSet, Collection<UserActions> simpleUserActionsCounterList, String string) {
