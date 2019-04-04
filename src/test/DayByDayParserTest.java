@@ -45,7 +45,7 @@ public class DayByDayParserTest {
 
 	@Test
 	public void testUserSpecificParser() throws IOException, ParseException {
-		Main.main(new String[]{"-u", "hsiufen.log"});
+		Main.main(new String[]{"-u", "parteklm.log"});
 	}
 
 	@Test

@@ -214,7 +214,7 @@ class DayByDayParser {
 		}
 		// for formatting purposes we skip the first loop for the counts
 		if (!firstLoop) {
-			writer.write("\t" + counterHelper.checkoutCount.get() + "\t" + counterHelper.deniedCount.get() + "\n");
+			writer.write(counterHelper.checkoutCount.get() + "\t" + counterHelper.deniedCount.get() + "\n");
 		}
 		// but still prints the date
 		writer.write(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + "\t");

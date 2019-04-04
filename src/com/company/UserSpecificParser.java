@@ -137,7 +137,7 @@ class UserSpecificParser {
 	}
 
 	private static void removeRegistry(List<LicenseRegistrar> registrars, Collection<LicenseRegistrar> duplicateRegistries,
-	                                   String[] datePieces, Writer writer, String[] wordsInLine) throws ParseException, IOException {
+									   String[] datePieces, Writer writer, String[] wordsInLine) throws ParseException, IOException {
 		String lastWord = wordsInLine[wordsInLine.length - 1];
 		if (!lastWord.contains("@")) {
 			//  6:20:35 (parteklm) IN: "base" weipingchen@DK8R1A11PC31  (SHUTDOWN)

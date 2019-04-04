@@ -13,7 +13,7 @@ public class LastDayOnFile {
 	 * @throws ParseException if line has the wrong format
 	 */
 	public static long checkLastDayOnFile(String filePath) throws ParseException {
-		String last200Lines = Tail.tail(new File(filePath), 50);
+		String last200Lines = Tail.tail(new File(filePath), 100);
 		long timeStampInMillis = 0;
 		if (last200Lines != null && last200Lines.contains("TIMESTAMP")) {
 			String[] lines = last200Lines.split(System.getProperty("line.separator"));
