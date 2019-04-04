@@ -49,7 +49,7 @@ class SimpleUserActionsCounter {
 
 		// initialize variables
 		List<String> allLines = ParserHelper.getAllLinesFromFile(filePath);
-		String outputFileName = "output";
+		String outputFileName = "simple_user_actions";
 		// check for file name existence
 		if (new File(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION).exists()) {
 			outputFileName = outputFileName + "_" + System.currentTimeMillis();

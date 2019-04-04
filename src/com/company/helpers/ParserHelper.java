@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 
 public class ParserHelper {
-	public static final String OUTPUT_FILE_EXTENSION = ".csv";
+	public static final String OUTPUT_FILE_EXTENSION = ".tsv";
 	public static final String DATE_AND_TIME_PATTERN = "E MMM dd yyyy HH:mm:ss";
 
 	public static List<String> getAllLinesFromFile(String arg) {

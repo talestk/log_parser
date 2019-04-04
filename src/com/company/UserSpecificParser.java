@@ -37,7 +37,7 @@ class UserSpecificParser {
 		}
 
 		List<String> allLines = ParserHelper.getAllLinesFromFile(filePath);
-		String outputFileName = "output";
+		String outputFileName = "user_specific";
 		// check for file name existence
 		if (new File(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION).exists()) {
 			outputFileName = outputFileName + "_" + System.currentTimeMillis();
@@ -97,7 +97,8 @@ class UserSpecificParser {
 
 		// now we can start parsing
 		if (line.contains("parteklm") &&
-				(line.contains("\"flow") || line.contains("base\"") || line.contains("infr\"") || line.contains("pathway_base\""))) {
+				(line.contains("\"flow") || line.contains("base\"") || line.contains("pathway_base\""))) {
+//			(line.contains("\"flow") || line.contains("base\"") || line.contains("infr\"") || line.contains("pathway_base\""))) {
 			if (!line.contains("DENIED")) {
 				formatDateAndPrintLine(line, registrars, duplicateRegistries, datePieces, writer);
 			}
@@ -121,6 +122,7 @@ class UserSpecificParser {
 			writer.write(license.getUser() + "\t");
 			long total = 0;
 			printTotalUsageString(total, writer);
+			registrars.remove(license);
 		}
 		registrars.clear();
 	}
@@ -154,7 +156,7 @@ class UserSpecificParser {
 		}
 	}
 
-	private static void removeFromRegistry(List<LicenseRegistrar> registrars, String[] datePieces, Writer writer, String user, LicenseRegistrar newCheckIn) throws IOException, ParseException {
+	private static void removeFromRegistry(List<LicenseRegistrar> registrars, String[] datePieces, Writer writer, String user, LicenseRegistrar newCheckIn) throws IOException {
 		writer.write(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + "\t");
 		writer.write(user + "\t");
 		long total = newCheckIn.getCheckOutTime().getTime() - registrars.get(registrars.indexOf(newCheckIn)).getCheckOutTime().getTime();
@@ -162,8 +164,10 @@ class UserSpecificParser {
 		if (total < 0) {
 			total += 24 * 60 * 60 * 1000;
 		}
+		// if customer asks for specific features
+//		writer.write("\t" + newCheckIn.getFeature());
 		printTotalUsageString(total, writer);
-		registrars.remove(newCheckIn);
+//		registrars.remove(newCheckIn);
 	}
 
 	private static void addCheckOutToRegistry(List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries, String[] datePieces, String[] wordsInLine) throws ParseException {
