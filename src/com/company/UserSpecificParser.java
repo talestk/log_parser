@@ -63,8 +63,10 @@ class UserSpecificParser {
 				}
 			}
 		}
+		UserSpecificPrettify.sumTotalHoursPerDay(outputFileName + ParserHelper.OUTPUT_FILE_EXTENSION);
 		System.out.println("Done!");
 	}
+
 
 	private static String[] parseLine(Writer writer, String[] datePieces, List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries,
 									  String line) throws ParseException, IOException {
@@ -91,7 +93,7 @@ class UserSpecificParser {
 		// 1:17:41 (parteklm) TIMESTAMP 4/8/2015
 		// 1:32:49 (parteklm) IN: "base" mikamiy@NIAMS01677357M
 		// unfortunately we have to deal with situations like the above where the date changes but we dont get the regular log message
-		if (line.contains("TIMESTAMP") && line.contains("lmgrd")) {
+		if (line.contains("TIMESTAMP") && line.contains("parteklm")) {
 			datePieces = ParserHelper.getDatePiecesFromTimeStamp(line);
 		}
 
@@ -122,7 +124,6 @@ class UserSpecificParser {
 			writer.write(license.getUser() + "\t");
 			long total = 0;
 			printTotalUsageString(total, writer);
-			registrars.remove(license);
 		}
 		registrars.clear();
 	}
@@ -146,6 +147,7 @@ class UserSpecificParser {
 			lastWord = wordsInLine[wordsInLine.length - 3];
 		}
 		String[] userHost = lastWord.split("@");
+
 		Date dateCheckIn = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 				.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + wordsInLine[0] + "\t");
 		LicenseRegistrar newCheckIn = new LicenseRegistrar(dateCheckIn, userHost[0], userHost[1], wordsInLine[3]);
@@ -167,7 +169,7 @@ class UserSpecificParser {
 		// if customer asks for specific features
 //		writer.write("\t" + newCheckIn.getFeature());
 		printTotalUsageString(total, writer);
-//		registrars.remove(newCheckIn);
+		registrars.remove(newCheckIn);
 	}
 
 	private static void addCheckOutToRegistry(List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries, String[] datePieces, String[] wordsInLine) throws ParseException {
@@ -176,7 +178,8 @@ class UserSpecificParser {
 		Date dateCheckOut = new SimpleDateFormat(ParserHelper.DATE_AND_TIME_PATTERN)
 				.parse(datePieces[0] + " " + datePieces[1] + " " + datePieces[2] + " " + datePieces[3] + " " + wordsInLine[0]);
 		LicenseRegistrar newRegistry = new LicenseRegistrar(dateCheckOut, userHost[0], userHost[1], wordsInLine[3]);
-		checkForDuplicateEntry(registrars, duplicateRegistries, newRegistry);
+//		checkForDuplicateEntry(registrars, duplicateRegistries, newRegistry);
+		registrars.add(newRegistry);
 	}
 
 	private static void checkForDuplicateEntry(List<LicenseRegistrar> registrars, List<LicenseRegistrar> duplicateRegistries, LicenseRegistrar newRegistry) {

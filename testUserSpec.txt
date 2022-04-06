@@ -1,0 +1,117 @@
+ 2:26:35 (parteklm) (@parteklm-SLOG@) Time: Thu Mar 18 2021 02:29:16 Eastern Daylight Time
+ 2:29:19 (parteklm) IN: "base" dzutseva@NCI-02195278-ML
+ 2:29:19 (parteklm) IN: "infr" dzutseva@NCI-02195278-ML
+ 2:29:19 (parteklm) IN: "matk" dzutseva@NCI-02195278-ML
+ 3:26:35 (parteklm) (@parteklm-SLOG@) ===============================================
+ 3:26:35 (parteklm) (@parteklm-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+ 3:26:35 (parteklm) (@parteklm-SLOG@) Time: Thu Mar 18 2021 03:26:35 Eastern Daylight Time
+ 3:26:35 (parteklm) (@parteklm-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000000 ms at  3:25:15(3/18/2021),#3,(3036K),(,,572)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000000 ms at  3:25:15(3/18/2021),#3,(3036K),(,,572)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000000 ms at  3:23:05(3/18/2021),#3,(3036K),(user,host,572)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000000 ms at  3:23:04(3/18/2021),#3,(3036K),(user,host,572)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000000 ms at  3:23:04(3/18/2021),#3,(3036K),(user,host,572)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000000 ms at  3:23:04(3/18/2021),#3,(3036K),(user,host,572)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000000 ms at  3:23:04(3/18/2021),#3,(3036K),(user,host,572)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000000 ms at  3:23:04(3/18/2021),#3,(3036K),(user,host,572)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000000 ms at  3:23:04(3/18/2021),#3,(3036K),(user,host,572)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000000 ms at  3:15:15(3/18/2021),#3,(2984K),(,,420)
+ 3:26:35 (parteklm) (@parteklm-SLOG@)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+ 3:26:35 (parteklm) (@parteklm-SLOG@) Time: Thu Mar 18 2021 03:26:35 Eastern Daylight Time
+ 3:26:35 (parteklm) (@parteklm-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000203 ms at  4:42:39(3/18/2021),#5,(3040K),(user,host,412)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000047 ms at 12:00:52(3/18/2021),#6,(2832K),(cuburun,NCI-02090212-ML,444)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000031 ms at 15:51:37(3/18/2021),#4,(2312K),(user,host,444)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000031 ms at 15:46:39(3/18/2021),#3,(2104K),(dzutseva,NCI-02195278-ML,568)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000016 ms at  7:21:36(3/18/2021),#3,(2132K),(,,412)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000016 ms at  6:31:35(3/18/2021),#3,(2132K),(,,412)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000016 ms at  9:41:36(3/18/2021),#3,(2080K),(user,host,568)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000016 ms at 10:01:36(3/18/2021),#3,(2080K),(user,host,568)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000016 ms at 10:31:36(3/18/2021),#3,(2080K),(user,host,568)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) 00000016 ms at  7:31:36(3/18/2021),#3,(2136K),(user,host,412)
+ 3:26:35 (parteklm) (@parteklm-SLOG@)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+ 3:26:35 (parteklm) (@parteklm-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+ 3:26:35 (parteklm) (@parteklm-SLOG@) Time: Thu Mar 18 2021 03:26:35 Eastern Daylight Time
+ 3:26:35 (parteklm) (@parteklm-SLOG@) In-house operation time, when, #concurrent clients
+ 3:26:35 (parteklm) (@parteklm-SLOG@)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) === Active Connections Info ===
+ 3:26:35 (parteklm) (@parteklm-SLOG@) Peak active connections #10 attempted at Fri Feb 26 2021 14:02:00 Eastern Standard Time
+ 3:26:35 (parteklm) (@parteklm-SLOG@)
+ 3:26:35 (parteklm) (@parteklm-SLOG@) === Memory Usage Info ===
+ 3:26:35 (parteklm) (@parteklm-SLOG@) Peak private bytes 3080K attempted at Sat Mar 06 2021 15:22:31 Eastern Standard Time
+ 3:26:35 (parteklm) (@parteklm-SLOG@) ===============================================
+ 3:55:35 (parteklm) TIMESTAMP 3/18/2021
+ 8:17:15 (parteklm) OUT: "base" dzutseva@NCI-02195278-ML
+ 8:17:15 (parteklm) OUT: "matk" dzutseva@NCI-02195278-ML
+ 8:17:15 (parteklm) OUT: "infr" dzutseva@NCI-02195278-ML
+ 9:48:55 (parteklm) OUT: "base" wangyong@NCI-02195306-ML
+ 9:48:55 (parteklm) OUT: "matk" wangyong@NCI-02195306-ML
+ 9:48:55 (parteklm) OUT: "disc" wangyong@NCI-02195306-ML
+10:00:35 (parteklm) TIMESTAMP 3/18/2021
+16:05:37 (parteklm) TIMESTAMP 3/18/2021
+16:32:33 (parteklm) OUT: "base" zhangl28@NCI-02150204-L
+16:32:33 (parteklm) OUT: "matk" zhangl28@NCI-02150204-L
+16:52:02 (parteklm) OUT: "base" zhangl28@NCI-02150204-L
+16:52:02 (parteklm) OUT: "matk" zhangl28@NCI-02150204-L
+18:46:13 (parteklm) IN: "base" zhangl28@NCI-02150204-L
+18:46:13 (parteklm) IN: "matk" zhangl28@NCI-02150204-L
+18:52:13 (parteklm) IN: "base" zhangl28@NCI-02150204-L
+18:52:13 (parteklm) IN: "matk" zhangl28@NCI-02150204-L
+19:52:58 (parteklm) IN: "base" dzutseva@NCI-02195278-ML
+19:52:58 (parteklm) IN: "infr" dzutseva@NCI-02195278-ML
+19:52:58 (parteklm) IN: "matk" dzutseva@NCI-02195278-ML
+22:06:27 (parteklm) OUT: "base" dzutseva@NCI-02195278-ML
+22:06:27 (parteklm) OUT: "matk" dzutseva@NCI-02195278-ML
+22:06:27 (parteklm) OUT: "infr" dzutseva@NCI-02195278-ML
+22:10:37 (parteklm) TIMESTAMP 3/18/2021
+23:09:23 (parteklm) IN: "base" wangyong@NCI-02195306-ML
+23:09:23 (parteklm) IN: "disc" wangyong@NCI-02195306-ML
+23:09:23 (parteklm) IN: "matk" wangyong@NCI-02195306-ML
+ 1:29:46 (parteklm) IN: "base" dzutseva@NCI-02195278-ML
+ 1:29:46 (parteklm) IN: "infr" dzutseva@NCI-02195278-ML
+ 1:29:46 (parteklm) IN: "matk" dzutseva@NCI-02195278-ML
+  4:15:39 (parteklm) TIMESTAMP 3/19/2021
+  9:30:58 (parteklm) OUT: "base" dzutseva@NCI-02195278-ML
+  9:30:58 (parteklm) OUT: "matk" dzutseva@NCI-02195278-ML
+  9:30:58 (parteklm) OUT: "infr" dzutseva@NCI-02195278-ML
+  9:43:14 (parteklm) OUT: "base" zhangl28@NCI-02150204-L
+  9:43:14 (parteklm) OUT: "matk" zhangl28@NCI-02150204-L
+ 10:08:25 (parteklm) OUT: "base" wangyong@NCI-02195306-ML
+ 10:08:25 (parteklm) OUT: "matk" wangyong@NCI-02195306-ML
+ 10:08:25 (parteklm) OUT: "disc" wangyong@NCI-02195306-ML
+ 10:20:43 (parteklm) TIMESTAMP 3/19/2021
+ 11:07:38 (parteklm) OUT: "infr" wangyong@NCI-02195306-ML
+ 11:23:10 (parteklm) IN: "base" wangyong@NCI-02195306-ML
+ 11:23:10 (parteklm) IN: "disc" wangyong@NCI-02195306-ML
+ 11:23:10 (parteklm) IN: "infr" wangyong@NCI-02195306-ML
+ 11:23:10 (parteklm) IN: "matk" wangyong@NCI-02195306-ML
+ 11:24:30 (parteklm) OUT: "base" wangyong@NCI-02195306-ML
+ 11:24:30 (parteklm) OUT: "matk" wangyong@NCI-02195306-ML
+ 11:29:44 (parteklm) OUT: "base" zhangl28@NCI-02150204-L
+ 11:29:44 (parteklm) OUT: "matk" zhangl28@NCI-02150204-L
+ 11:30:45 (parteklm) IN: "base" wangyong@NCI-02195306-ML
+ 11:30:45 (parteklm) IN: "matk" wangyong@NCI-02195306-ML
+ 11:49:35 (parteklm) OUT: "base" wangyong@NCI-02195306-ML
+ 11:49:35 (parteklm) OUT: "matk" wangyong@NCI-02195306-ML
+ 12:46:08 (parteklm) IN: "base" dzutseva@NCI-02195278-ML
+ 12:46:08 (parteklm) IN: "infr" dzutseva@NCI-02195278-ML
+ 12:46:08 (parteklm) IN: "matk" dzutseva@NCI-02195278-ML
+ 13:11:28 (parteklm) OUT: "base" dzutseva@NCI-02195278-ML
+ 13:11:28 (parteklm) OUT: "matk" dzutseva@NCI-02195278-ML
+ 13:11:28 (parteklm) OUT: "infr" dzutseva@NCI-02195278-ML
+ 13:28:24 (parteklm) IN: "base" zhangl28@NCI-02150204-L
+ 13:28:24 (parteklm) IN: "matk" zhangl28@NCI-02150204-L
+ 13:51:03 (parteklm) OUT: "disc" wangyong@NCI-02195306-ML
+ 15:04:52 (parteklm) IN: "base" wangyong@NCI-02195306-ML
+ 15:04:52 (parteklm) IN: "disc" wangyong@NCI-02195306-ML
+ 15:04:52 (parteklm) IN: "matk" wangyong@NCI-02195306-ML
+ 16:22:16 (parteklm) OUT: "base" wangyong@NCI-02195306-ML
+ 16:22:16 (parteklm) OUT: "matk" wangyong@NCI-02195306-ML
+ 16:25:46 (parteklm) TIMESTAMP 3/19/2021
+ 17:51:31 (parteklm) IN: "base" zhangl28@NCI-02150204-L
+ 17:51:31 (parteklm) IN: "matk" zhangl28@NCI-02150204-L
+ 21:34:24 (parteklm) IN: "base" wangyong@NCI-02195306-ML
+ 21:34:24 (parteklm) IN: "matk" wangyong@NCI-02195306-ML
+ 22:30:50 (parteklm) TIMESTAMP 3/19/2021

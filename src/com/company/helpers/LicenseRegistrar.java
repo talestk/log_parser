@@ -34,7 +34,7 @@ public class LicenseRegistrar {
 
 	@Override
 	public boolean equals(Object o2) {
-		if (o2 != null && o2 instanceof LicenseRegistrar) {
+		if (o2 instanceof LicenseRegistrar) {
 			LicenseRegistrar object2 = (LicenseRegistrar) o2;
 			return this.user.equals(object2.user) && this.host.equals(object2.host);
 			// TODO: if customer asks for specific features
