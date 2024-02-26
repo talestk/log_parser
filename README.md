@@ -10,6 +10,11 @@ Usage: log_parser <command> </path/to/logfile>
 <commands>
 	-a	Overall daily parser, will print a daily resume
 	-u	User specific parser, will print a resume based on user usage
+	-s	Simple user actions
+	-d	<months>	Define the number of months to parse. eg. -d 12
+	-fo	Parse output files provided by this program
+	-fa	Read all files that starts with the given pattern, overall parser
+	-fu	Read all files that starts with the given pattern, user specific parser
 ```
 A tab delimited file -output.csv- will be created and the program will output a resume of the run, which looks like:
 ```
@@ -29,3 +34,4 @@ A tab delimited file -output.csv- will be created and the program will output a 
  weekend denies: 0.0
 ============================
 ```
+You can also run from the tests if managed to get the project correctly setup on your prefferred IDE

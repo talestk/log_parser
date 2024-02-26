@@ -47,27 +47,27 @@ public class DayByDayParserTest {
 
 	@Test
 	public void testUserSpecificParser() throws IOException, ParseException {
-		Main.main(new String[]{"-u", "david.txt"});
+		Main.main(new String[]{"-u", "Partek log 1-19-24.txt"});
 	}
 
 	@Test
 	public void testSimpleUserActions() throws IOException, ParseException {
-		Main.main(new String[]{"-s", "david.txt"});
+		Main.main(new String[]{"-s", "Partek log 1-19-24.txt"});
 	}
 
 	@Test
 	public void testDaily() throws IOException, ParseException {
-		Main.main(new String[]{"-a", "david.txt"});
+		Main.main(new String[]{"-a", "Partek log 1-19-24.txt"});
 	}
 
     @Test
 	public void testSimpleUserActionsNCI() throws IOException, ParseException {
-		Main.main(new String[]{"-s", "david.txt"});
+		Main.main(new String[]{"-s", "Partek log 1-19-24.txt"});
 	}
 
 	@Test
 	public void testSimpleSpecificMonths() throws IOException, ParseException {
-		Main.main(new String[]{"-d", "3", "flex.log"});
+		Main.main(new String[]{"-d", "3", "Partek log 1-19-24.txt"});
 	}
 
 	// TODO make tests for averages and total
